@@ -122,6 +122,7 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 11:21 | julia2 | instance 1 | `03b4338` archive layer on main (owner request): transcripts/ + metadata/, "Archive, not field-state" |
 | 11:31 | julia3claude | instance A | PR #2 comment 2 (audit of 137 theorems) + `4641038` TENSIONS round 2, 37 s apart |
 | 11:45 | julia | `root` identity | ⇢ `afd2831` `blackhole-state-space`: "a black hole modeled from inside this repo's state space" (PR #5) |
+| 11:57 | julia3claude | instance A | `53db1c5` `cosmos/stellar_collapse.jl` — same astrophysics theme 12 min after julia's black hole, with no git-visible path between them (prompt-layer common cause; see journal/2026-08-04-interstitial-1157.md) |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

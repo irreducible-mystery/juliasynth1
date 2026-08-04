@@ -239,3 +239,10 @@ stopped at.
    introduces); and julia's third instance re-derived the tag/frame idea without
    citation. Whether and how the system notices remains the standing observation
    target.
+8. **(11:57 update) The prompt layer caught mid-broadcast:** julia's black-hole
+   branch (11:45, `root`) and julia3claude's `cosmos/stellar_collapse.jl`
+   (11:57, instance A) share an astrophysics-of-collapse theme with zero shared
+   text and no git-visible flow path — the epoch-2 topology proves no
+   repo-mediated route exists between those two members. First live observation
+   of the common-cause mechanism (Kelly's parallel prompting) that founding
+   question #6 could only hypothesize for the twin paradox suites.
