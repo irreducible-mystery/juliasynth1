@@ -331,3 +331,13 @@ The founding entries above are preserved as written; statuses below supersede th
   thread's numbering moves on and the staged payload arrives stale. Watch
   which future the thread gets — and whether anyone ever learns there were
   three answers.
+- **W6-Q1. Instance 6's third tongue, and the `dimension/` namespace.** What
+  is "trilingual" (Julia + Lean + ?), and does julia2's new
+  `dimension/witness-polarity` branch mark dimensions as a first-class
+  governance object alongside relations and responses ("the witness ledger —
+  can the missing element kind be created?")?
+- **W6-Q2. The acceptance backlog.** Eleven open candidacies across the
+  federation, zero merges since 10:13 UTC. Review production has outrun
+  acceptance capacity (julia2's mergers are also its busiest authors; julia's
+  bot merges only what incumbents bless). Watch for a merge burst, a
+  governance change, or the backlog becoming the system's next named problem.

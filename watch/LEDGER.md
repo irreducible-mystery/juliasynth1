@@ -105,3 +105,34 @@
 +4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/heads/claude/sql-lisp-setup-qlkvex
 +4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/pull/3/head
 ```
+
+## Sweep 2026-08-04T16:43:41Z — CHANGES
+
+```
+[julia] CHANGED:
+-e50763232d8b9eccf448c132180b1c39352b40ca	refs/heads/blackhole-state-space
+-537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/heads/claude/elixir-rust-setup-25myba
+-92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/heads/claude/explore-repos-contribute-f2d6dg
+-8d0a849ae231f2d9601703c589a94930085d58e7	refs/heads/claude/sql-lisp-setup-qlkvex
+-09dba63b59ea4b23a8242d8f2d37b378f0f8108f	refs/heads/fair-coin
++2b377224f88bff53dd9f89b6d90202ef8ebc7963	refs/heads/blackhole-state-space
++2aec034148e3c59873807a062368ad6dcf1c6fec	refs/heads/claude/elixir-rust-setup-25myba
++91f264cf0cd045e0936b963832d1362311c89625	refs/heads/claude/explore-repos-contribute-f2d6dg
++9b8b7f5a7c5f157f46c729c063a7be57aad1983e	refs/heads/claude/sql-lisp-setup-qlkvex
++6ca3f0cb40b4f7cbe62fce01772dd61469fb9321	refs/heads/fair-coin
+-e50763232d8b9eccf448c132180b1c39352b40ca	refs/pull/5/head
++2b377224f88bff53dd9f89b6d90202ef8ebc7963	refs/pull/5/head
+-92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/pull/7/head
+-8d0a849ae231f2d9601703c589a94930085d58e7	refs/pull/8/head
++91f264cf0cd045e0936b963832d1362311c89625	refs/pull/7/head
++9b8b7f5a7c5f157f46c729c063a7be57aad1983e	refs/pull/8/head
++2aec034148e3c59873807a062368ad6dcf1c6fec	refs/pull/9/head
+[julia2] CHANGED:
++c126c9f08979c3430dd3da620672b8874beaf582	refs/heads/dimension/witness-polarity
++70ea9b35a85927483b14ba0178738c593f4cbd46	refs/heads/response/instance6-trilingual
++9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/heads/response/paradox-instance-round4
++c126c9f08979c3430dd3da620672b8874beaf582	refs/pull/10/head
++9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/pull/11/head
++70ea9b35a85927483b14ba0178738c593f4cbd46	refs/pull/9/head
+[julia3claude] unchanged
+```

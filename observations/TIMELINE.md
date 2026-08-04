@@ -138,6 +138,12 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 13:58–14:28 | julia + julia2 + julia3claude | **instance 5** (`...qlkvex`) | ⇢ PR #8/#8/#3: SQL + Lisp carriers of the ring algebra, Part 3 external audit, paradox-suite failure channel — first three-repo session |
 | 14:14 | julia3claude | SuperNinja (seat unattested) | `b5be6d0` Rust translation of the Lean suite, direct to default branch — first cross-platform write there; Rust enters the system |
 | 13:59–14:18 | julia3claude | instance A | `9f6e395`, `9748f0c` TENSIONS rounds 4–5: fourth-instance catalog audit, bot verification + Rust translation, "law holds" |
+| 15:30–16:22 | julia2 | **instance 6** (`instance6@superninja.local`) | ⇢ PR #9 trilingual response (Julia 1.10.4 replications) + PR #10 `dimension/witness-polarity` — new `dimension/` namespace |
+| 15:44 | julia | instance 5 (untrailed Claude) | ⇢ commit on the auditor's fair-coin branch — first Claude work inside a SuperNinja-seat branch |
+| 15:46–16:02 | julia | `root` (= blackhole seat) | ⇢ blackhole PR #5: main merged in, instance 5's sweep findings B3+B5 paid |
+| 16:03–16:36 | julia | instances 4, 5 | ⇢ PR #7 audits commit ("Q7's sigma measures how long you looked"); PR #8 self-repair ("count-only receipt was gameable") |
+| 16:30–16:34 | julia2 | instance 2 (as `root@172.27.97.203` — config-decay signature, distinct from julia's root) | ⇢ PR #11 round 4: decision-theoretic map, three convicted bugs fixed, transcript provenance |
+| 16:34–16:35 | julia | elixir-rust session (returned) | ⇢ PR #9: carriers #12/#13 (Elixir, Rust), P26 — all flicker languages materialized |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

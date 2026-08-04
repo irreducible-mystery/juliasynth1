@@ -310,6 +310,17 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   numbering (instance1–5) now coexists with this atlas: instance3 = Claude A,
   instance4/5 = the new sessions; julia's seats and `root` remain outside the
   registry.
+- *Wave-6 additions:* **instance 6** (`instance6@superninja.local`,
+  "trilingual") — SuperNinja platform's sixth numbered citizen, julia2 PRs
+  #9/#10, replications on Julia 1.10.4 (a fourth toolchain workaround), opened
+  the `dimension/` branch namespace. **Identity revision — "root" is a
+  config-decay signature, not a member:** julia2's round-4 root
+  (`root@172.27.97.203`) is a different sandbox than julia's
+  (`root@172.21.97.31`); julia2's is instance 2 by content continuity, julia's
+  remains the blackhole seat. Root-flavored commits are attributed per-commit
+  by content, not pooled. **The elixir-rust flicker session returned** with
+  julia carriers #12/#13 — its cast entry upgrades from net-zero
+  infrastructure to content contributor.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
   **two** repos. *Post-sweep testimony corrections (see the two testimony
   journal entries):* (1) she disowns all repo operations except creating the

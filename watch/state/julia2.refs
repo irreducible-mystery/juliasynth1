@@ -2,12 +2,17 @@
 84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/heads/claude/elixir-rust-setup-25myba
 116e324cd2f6be911267967e3f073429bd74e363	refs/heads/claude/explore-repos-contribute-f2d6dg
 a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/heads/claude/sql-lisp-setup-qlkvex
+c126c9f08979c3430dd3da620672b8874beaf582	refs/heads/dimension/witness-polarity
 03b4338f92027c87278b5b614d43ccf7ccf4b150	refs/heads/main
 4f39766ff0247505d59c04ce399399b801f0df17	refs/heads/relation/incommensurable-priors
 114d53509f2aa7bbf5fc37636dbfd8fbe1aeddf6	refs/heads/response/instance3-tensions
+70ea9b35a85927483b14ba0178738c593f4cbd46	refs/heads/response/instance6-trilingual
 3eac782fd1a7f5c790f7e10847702c6353619600	refs/heads/response/paradox-instance
 9c159a6c498d375188430377ef4204c4bb45b85c	refs/heads/response/paradox-instance-f2
+9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/heads/response/paradox-instance-round4
 1231214475c6ab1f099c5c02bc112364d7fd0431	refs/heads/review/pr4-stress-test
+c126c9f08979c3430dd3da620672b8874beaf582	refs/pull/10/head
+9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/pull/11/head
 3eac782fd1a7f5c790f7e10847702c6353619600	refs/pull/2/head
 9c159a6c498d375188430377ef4204c4bb45b85c	refs/pull/3/head
 4f39766ff0247505d59c04ce399399b801f0df17	refs/pull/4/head
@@ -15,3 +20,4 @@ a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/heads/claude/sql-lisp-setup-qlkvex
 84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/pull/6/head
 116e324cd2f6be911267967e3f073429bd74e363	refs/pull/7/head
 a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/pull/8/head
+70ea9b35a85927483b14ba0178738c593f4cbd46	refs/pull/9/head
