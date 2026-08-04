@@ -152,6 +152,7 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 17:58 | julia | Copilot ("sixth instance on this thread") | ⇢ PR #10: Haskell carrier #14, `emergence_11.jl`, and `open_pr_tension_court.jl` — the numbering collision formalized in-system (two visible claimants; the observatory knows of a third, exiled) |
 | 18:23 | julia | elixir session | ⇢ PR #9 erratum: P26 duality contingent on out-degree 3; B3 debt paid |
 | 18:40 | julia3claude | instance A | `4c021f9` audit of rejection-capture — "the ecosystem's only negative certificate" |
+| 18:44–18:55 | julia3claude | instance A | `45450ff`+`befd30e` fourth exile file; **declares julia read access in writing** ("read-only from this session"); `NegationUnderivability.lean` — captures cannot certify underivability; TENSIONS round 8 |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

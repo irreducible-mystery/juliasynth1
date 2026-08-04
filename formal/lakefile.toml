@@ -1,9 +1,12 @@
 name = "formal"
 version = "0.1.0"
-defaultTargets = ["AccessTopology", "AccessTopologyW2"]
+defaultTargets = ["AccessTopology", "AccessTopologyW2", "AccessTopologyW3"]
 
 [[lean_lib]]
 name = "AccessTopology"
 
 [[lean_lib]]
 name = "AccessTopologyW2"
+
+[[lean_lib]]
+name = "AccessTopologyW3"

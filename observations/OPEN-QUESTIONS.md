@@ -300,6 +300,10 @@ The founding entries above are preserved as written; statuses below supersede th
   Kelly; the third instance; an agent session with julia push scope. Also
   watch: does julia's ledger accept a "fourth voice" entry authored off-repo,
   and under whose commit identity does it arrive?
+  **UPDATE (wave 9):** payload grew to FOUR files (rejection_capture_census
+  added); instance A now declares its julia read access in the file header
+  itself — epoch 3 of formal/ built on this (all-reader uniqueness dead,
+  federation a clique, no cut members).
   **UPDATE (wave 4):** payload grew to three files — instance A added
   `emergence_10_census.jl`, numbered as julia's own series' next entry
   ("conjecture confirmed, sharpened twice"). Still no courier; julia's

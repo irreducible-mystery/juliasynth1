@@ -187,3 +187,15 @@
 +8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/heads/copilot/choose-new-programming-language
 +8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/pull/4/head
 ```
+
+## Sweep 2026-08-04T19:43:37Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] unchanged
+[julia3claude] CHANGED:
+-4c021f9b4489601a9d283b1062a9731347aea4f7	HEAD
+-4c021f9b4489601a9d283b1062a9731347aea4f7	refs/heads/claude/julia-lean-setup-6uiqo3
++befd30ec2819a704c64030ea64f167b69a89751f	HEAD
++befd30ec2819a704c64030ea64f167b69a89751f	refs/heads/claude/julia-lean-setup-6uiqo3
+```

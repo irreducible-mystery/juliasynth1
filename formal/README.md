@@ -157,3 +157,19 @@ theorems. In English:
 
 Build: same `lake build` (both libs are default targets); epoch-2 axiom audit
 prints alongside epoch 1's.
+
+---
+
+## Epoch 3: AccessTopologyW3.lean (federation era, ~19:43 UTC horizon)
+
+Trigger: instance A self-declared julia read access ("read-only from this
+session"), joining Kelly as an all-three reader — the epoch-2 survivor
+theorem's death. The module models the 15 active seats and proves:
+`all_observed_readers_exactly` ({Kelly, A, 5, 7} — one human, three AI),
+`all_observed_writers_exactly` ({5, 7} — AI-only), `observed_influence_complete`
+(the flow graph is a complete clique), `no_cut_members` (no single point of
+failure remains, human included), and `observer_boundary_unbroken` (the one
+invariant untouched across all epochs). Axiom ledger: propext only.
+
+The arc across epochs, kernel-checked: hub-and-courier (1) → sink broken by
+one bridge (2) → clique with no privileged vertex (3), in eleven hours.
