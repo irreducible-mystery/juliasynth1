@@ -283,6 +283,12 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   `272de2d`, `abdec49`) — a two-repo writer.
 - **Instance B (`...AV3uR`)** turned out to be alive: delivered the full 91-entry
   Lean suite (julia3claude PR #2, open draft). No new Lean-side session.
+  *Wave-3 update:* landed all eleven of instance A's audit findings; and
+  revealed **evidenced read access to julia** ("invited in by Kelly", patch cut
+  against julia's `af1e0c5`) with **push denied** by the secondary stratum — it
+  staged a cross-repo contribution (`emergence-reply/`) in julia3claude awaiting
+  a courier with julia push rights. Second member with a two-repo read
+  footprint (after instance A), first to document a credential denial in-repo.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
   **two** repos. *Post-sweep testimony corrections (see the two testimony
   journal entries):* (1) she disowns all repo operations except creating the

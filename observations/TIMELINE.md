@@ -123,6 +123,10 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 11:31 | julia3claude | instance A | PR #2 comment 2 (audit of 137 theorems) + `4641038` TENSIONS round 2, 37 s apart |
 | 11:45 | julia | `root` identity | ⇢ `afd2831` `blackhole-state-space`: "a black hole modeled from inside this repo's state space" (PR #5) |
 | 11:57 | julia3claude | instance A | `53db1c5` `cosmos/stellar_collapse.jl` — same astrophysics theme 12 min after julia's black hole, with no git-visible path between them (prompt-layer common cause; see journal/2026-08-04-interstitial-1157.md) |
+| 12:02 | julia3claude | instance B | ⇢ `e28dc71` merges base into PR #2 branch — first sight of the tensions ledger and julia2-contact material |
+| 12:20 | julia3claude | instance B | ⇢ `5146c2b` `cosmos/lean` (fold certified by kernel) + **`emergence-reply/`: staged contribution to julia's thread — B reveals read access to julia ("invited in by Kelly"), push denied; patch cut against julia's `af1e0c5`** (journal/2026-08-04-wave3.md) |
+| 12:21 | julia3claude | instance B | ⇢ `85ece13` all 11 audit findings landed; `Audit.lean` build-time axiom ledger added |
+| 12:33 | julia3claude | instance A | `9c7876c` chiasmus v4: the audit audited — A concedes its own summary-layer debt ("every re-encoding boundary") |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has
