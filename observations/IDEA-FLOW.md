@@ -191,3 +191,51 @@ stopped at.
    side saw the other's version.
 8. **Non-flow trace**: `claude/julia-lean-setup-etyrdg` on all three remotes is the
    observation session's own fingerprint, not an idea flow — logged and excluded.
+
+---
+
+# Wave 2 addendum — how the flow map changed (as of ~11:52 UTC)
+
+1. **A second cross-repo channel opened, and it is not the human.** Wave 1's flow
+   graph had exactly one verbatim transfer (the shock, couriered) and Kelly as the
+   only inter-repo vector. Wave 2: Claude instance A read julia2 deeply and wrote
+   back into it (PR #5), while folding what julia2 broke into julia3claude
+   (TENSIONS.md, "five concessions, one adoption"). The channel is bidirectional,
+   attributed, and adversarial-reciprocal — the structural opposite of the
+   anonymous one-way shock. julia2's ideas now demonstrably mutate julia3claude's
+   taxonomy (oscillation adopted as the fifth containment shape) and vice versa
+   (monotonicity-as-antibody, frame elements, Trojan forms delivered to julia2).
+2. **The shock's afterlife**: julia formally demoted it to "testimony, not
+   evidence" (PROVENANCE AMENDMENT) because its five cited artifacts were never
+   delivered — the missing artifacts are exactly julia2's paradox files, sitting
+   next door in a repo julia still cannot name. The system's single wave-1
+   transfer is now *known incomplete at the destination* while remaining unknown
+   at the source (instance 2 shows no awareness).
+3. **Convergence became an in-system topic.** Wave 1's "unnoticed convergences"
+   are unnoticed no longer: instance A now *names* the three-way identity
+   ("Kripke's fixed points, Gupta–Belnap's revision sequences, your kernel's
+   positivity checker, and julia2's proposed gate are one criterion wearing four
+   uniforms… independently reinvented by a runtime, a kernel, and a social
+   architecture") and simultaneously deploys julia2's correlated-observers
+   caveat against itself ("if our answers agree, check for shared blindness
+   before celebrating"). The epistemic tension of item 6 is now held *inside one
+   member* rather than between repos.
+4. **julia remains content-isolated while becoming methodologically convergent.**
+   Still zero references to the sibling repos — yet its new "Monte Carlo as
+   court" / sampler-identity program and julia2/julia3claude's frame/tag work are
+   the same move (a paradox is a property of the instrument, not the world),
+   invented a third time. The strongest current example of the system's
+   parallel-reinvention signature.
+5. **Self-modeling emerged in the observed system.** julia's `blackhole-state-space`
+   branch models "a black hole in YOUR state space… projected onto this repo's
+   basis" — the repo turning its own conceptual basis into a modeling target. The
+   observatory notes, without irony, that it now has a competitor inside the glass.
+6. **The prompt layer began flowing into git.** julia2's archive layer (full
+   pre-compaction transcript, instance registry, environment snapshot) moves the
+   previously-inferred-only orchestration layer into the observable record —
+   wave 1's biggest evidential gap, partially self-closed by the system.
+7. **Newly unnoticed convergence (for the watch list):** julia2's two open F_3
+   candidates conflict (PR #5's Q1 answer proposes renaming the relation PR #4
+   introduces); and julia's third instance re-derived the tag/frame idea without
+   citation. Whether and how the system notices remains the standing observation
+   target.

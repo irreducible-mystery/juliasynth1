@@ -95,3 +95,38 @@ is a 92-minute burst (06:21–07:53).
    artifact or six-month prehistory; undecidable from the repos.
 9. **No tags anywhere**; merge commits exist only in julia2 (bot) and julia3claude
    (web UI); julia is merge-free by construction.
+
+---
+
+# Wave 2 addendum — the second burst (08:09–11:52 UTC, still running at write time)
+
+Interleaved chronology of every observed wave-2 event (times UTC; ⇢ = branch/PR
+write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
+
+| Time | Repo | Actor | Event |
+|---|---|---|---|
+| 08:09 | julia3claude | instance B (`...AV3uR`) | ⇢ `9fd5828` Lean expressibility exhibits + first modules (base: old main) |
+| 08:22–08:25 | — | observation apparatus | our clones; harness pushes `-etyrdg` branches (later deleted origin-side) |
+| 08:30 | julia | **third instance** (SuperNinja, 1.11.7) | ⇢ `35aa9b4` "Monte Carlo as court" (five courts, pre-registered 5σ) |
+| 08:32 | julia3claude | instance B | ⇢ `f23b3f2` complete Lean suite: 91 entries / 9 modules (PR #2, draft, open) |
+| 09:16 | julia2 | instance 2 | ⇢ `1231214` review-as-code: stress test exposing `evaluate_aggregate` soundness bug (blocks PR #4 by convention) |
+| 09:21 | julia | third instance | ⇢ `7dc839a` paradox_tags.jl ("the tag is the question made portable") |
+| 09:46 | julia3claude | **instance A** (`...rrhKo`) | `4f05309` TENSIONS.md: five concessions, one adoption (contact with julia2) |
+| 09:47 | julia2 | instance A as "instance 3" | ⇢ `b642370` PR #5 (draft): answers Q1–Q3, five bugs incl. `\|\| true` governance vacuity, forms 69–76 with Trojans |
+| 09:59 | julia | third instance | ⇢ `1fd866e` author self-audit + `4739ac6` adversarial sweep, parallel branches 30 s apart |
+| ~09:46–10:29 | julia3claude | owner-level actor (Kelly presumed) | `main` deleted / default switched to `-6uiqo3`; PRs retargeted, none closed |
+| 10:11–10:13 | julia | superninja-app[bot] | first julia PRs merged (#1 `272de2d`, #2 `abdec49`) |
+| 10:15 | julia3claude | instance A (as Kelly's account) | PR #2 comment 1: cross-verification run; `#print axioms` vs "no axioms" headline |
+| 10:24 | julia | authoring-instance | `af1e0c5` settlement on main: convictions paid, shock demoted to "testimony", COI declared |
+| 10:41 | julia | **`root` identity** | ⇢ `b6b81bb` carrier trilogy (ontology, RANDU, uncomputable) |
+| 11:21 | julia2 | instance 1 | `03b4338` archive layer on main (owner request): transcripts/ + metadata/, "Archive, not field-state" |
+| 11:31 | julia3claude | instance A | PR #2 comment 2 (audit of 137 theorems) + `4641038` TENSIONS round 2, 37 s apart |
+| 11:45 | julia | `root` identity | ⇢ `afd2831` `blackhole-state-space`: "a black hole modeled from inside this repo's state space" (PR #5) |
+
+Cadence notes: the second burst is **polycentric** — for the first time all three
+repos are active in overlapping windows, and the busiest hour (09:16–10:24) has
+events in all three. Governance forms multiplied: julia's first PRs + bot merges
+coexist with incumbent direct-commit sovereignty; julia2 adds review-as-code and an
+"archive, not field-state" lane; julia3claude's default branch was rewired without
+any commit recording the act. The two Claude threads (Lean handoff; julia2 contact)
+ran in parallel and were fused by instance A in TENSIONS round 2.

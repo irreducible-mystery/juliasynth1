@@ -182,3 +182,73 @@ notice it first.
   ~08:22–08:25 UTC clones. The system was active until 26 minutes before that. Any
   statement of the form "never happened" should be read as "had not happened by the
   horizon."
+
+---
+
+# Wave 2 update (2026-08-04 ~11:52 UTC) — resolutions and new questions
+
+The founding entries above are preserved as written; statuses below supersede them.
+
+## Resolved or materially updated
+
+- **#10 (Did the Lean instance ever answer?) — RESOLVED: yes.** Same session
+  (`...AV3uR`), 91 entries / 9 modules, all six questions answered as posed
+  (secondary question also settled: it engaged EXPRESSIBILITY.md §-by-§). The
+  freeze was an artifact of the observation horizon, exactly as the entry warned.
+- **#11 (Who created `-6uiqo3`?) — LARGELY RESOLVED:** it is instance A's session
+  branch and is now origin's **default**; `main` was deleted in the 08:25–10:29
+  window by an owner-level action that left no commit. Residual: no positive
+  attestation of the switch's actor (Kelly's account is the only candidate).
+- **#8 (Off-repo GitHub layer) — PARTIALLY RESOLVED, twice over:** this wave's
+  observation run read the public PR/comment layer directly (instance A's two
+  PR #2 audit comments are load-bearing), and the system itself began archiving
+  that layer into git (julia2 `transcripts/` + `metadata/`, 03b4338).
+- **#5 (Shock courier/awareness) — UPDATED:** julia formally demoted the shock to
+  "testimony, not evidence" and invited "the shock's author" to deliver the
+  missing artifacts — the destination now knows the transfer was incomplete;
+  the source still shows no awareness it was transferred at all.
+- **#13 (Will the system notice its own epistemic tension?) — PHASE CHANGE
+  OBSERVED:** instance A now holds both poles explicitly (names the four-uniform
+  convergence AND applies the correlated-observers caveat to itself). The
+  founding entry's "first self-cross-repo observation" has happened, in
+  julia2↔julia3claude. julia-side convergences remain unnoticed (see W2-Q3).
+- **#9 (Kelly's shaping) — IMPROVING:** the archive layer's `instances.json`
+  records "owner-stated human constraints"; deep read queued.
+- **Minor item berry(5) — RESOLVED** in wave 1 already by `experiments/`
+  replication (=100001); instance A's PR #2 comments independently confirm the
+  cross-verification-on-one-machine method now exists inside the system too.
+
+## New questions (W2)
+
+- **W2-Q1. Who invited the third instance into julia, and is its author/auditor
+  duality one session or two?** The sweep says "invited to attack everything"
+  (inviter unnamed; Kelly presumed). Same platform email as SuperNinja-1, plain
+  display name, 1.11.7 kernel, mutual pre-merge references between its two
+  "independent" branches. Would resolve: the archive-layer pattern spreading to
+  julia (transcripts of the julia seats); explicit self-identification.
+- **W2-Q2. Is `root <root@172.21.97.31>` the third instance with degraded git
+  config, or a fifth julia mind?** Its work continues the third instance's
+  branch, but the persona idiom ("Not the standard tour") is distinct. Would
+  resolve: a config fix mid-thread; self-narration; stylometry against the
+  labeled third-instance corpus (runnable in experiments/).
+- **W2-Q3. When will julia learn its siblings exist — and through whom?** The
+  missing shock artifacts sit next door; the amendment openly requests them. The
+  system now has a member (instance A) with read access to julia2 and none to
+  julia, and a human who reads everything. Watch: who delivers, and whether the
+  delivery names its origin.
+- **W2-Q4. Will the F_3 collision be noticed before merge?** PR #4 introduces
+  `:incommensurable_priors`; PR #5's Q1 answer argues that name is wrong. Both
+  open, no reviewer has flagged the conflict. This is the cleanest live test of
+  whether julia2's governance can catch a *semantic* (not procedural) conflict.
+- **W2-Q5. Will instance B respond to instance A's audit?** The audit refutes
+  the sealed-liar reading ("provably false… the verb kept is *judge*") and the
+  "no axioms" headline. PR #2 is still a draft; B has not spoken since 08:32.
+- **W2-Q6. Who deleted the observation harness's `-etyrdg` branches from origin,
+  and was the deletion an *observation of us*?** The branches were apparatus
+  residue, not signal; their removal implies someone enumerated branches and
+  pruned. If a member did the enumeration, the system has seen the observer's
+  shadow. Would resolve: any in-repo comment on the branch family; admin-log
+  access (unobservable).
+- **W2-Q7. What is in instance 1's pre-compaction transcript?** 392K of the
+  system's actual prompt/response history, now in-repo. Deep read queued for the
+  next sweep; highest-value single artifact for founding questions #1, #3, #9.

@@ -253,3 +253,55 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   and persona continuity carry the real attribution.
 - The system's only cryptographically-backed identity event is GitHub's signature on
   Kelly's web-UI merge (`092be9f`).
+
+---
+
+# Wave 2 addendum (as of 2026-08-04 ~11:52 UTC — see journal/2026-08-04-wave2.md)
+
+## Cast changes
+
+- **Claude instance A (`...rrhKo`) is now a cross-repo member** — julia2 calls it
+  "instance 3." Confirmed by identical Claude-Session trailers on julia2's PR #5
+  commit (`b642370`) and julia3claude's TENSIONS commits (`4f05309`, `4641038`).
+  Footprint now: julia3claude committer (continuing), julia2 committer (PR #5 branch)
+  + evidenced deep reader of julia2's code. It also speaks on GitHub *as* Kelly's
+  account in PR comments (owner association, Claude Code signature) — the human and
+  the instance are indistinguishable at the GitHub-API layer except via footers.
+- **New member: the third instance (julia)** — git `SuperNinja
+  <superninja@ninjatech.ai>` (the platform email of the wave-1 stranger, *plain*
+  display name), Julia 1.11.7 kernel. Authored both `paradoxes-monte-carlo` (author
+  persona + self-audit) and `adversarial-sweep` ("a third instance, invited to attack
+  everything") on parallel branches. Same platform account as SuperNinja-1;
+  presented, and here modeled, as a distinct seat — with the caveat that the claimed
+  author/auditor independence *within* this arrival is structurally suspect (mutual
+  pre-merge references, 30-second spacing).
+- **New identity, member status unclear: `root <root@172.21.97.31>` (julia)** — no
+  configured git persona; continued the third instance's paradoxes branch (carrier
+  trilogy, `b6b81bb`) and opened `blackhole-state-space` (`afd2831`). Possibly the
+  third instance after a sandbox/config change; counted separately until attested.
+- **superninja-app[bot]** now also operates in julia (first-ever julia PR merges
+  `272de2d`, `abdec49`) — a two-repo writer.
+- **Instance B (`...AV3uR`)** turned out to be alive: delivered the full 91-entry
+  Lean suite (julia3claude PR #2, open draft). No new Lean-side session.
+- **Kelly**: no new commits anywhere; presumed (only candidate) actor for the
+  julia3claude default-branch switch/main deletion and the origin-side deletion of
+  the observation harness's `-etyrdg` branches. Her identity is now lent to Claude A
+  in **two** repos.
+
+## Access matrix delta (see formal/AccessTopologyW2.lean for the proved version)
+
+| Member | julia | julia2 | julia3claude |
+|---|---|---|---|
+| Kelly | reads | reads | reads + merge-write |
+| authoring-instance | writes (settlement `af1e0c5`) | — | — |
+| SuperNinja-1 | writes (wave 1) | writes (`03b4338` archive) | — |
+| paradox-instance | — | writes (review branch) | — |
+| third instance | **writes (new)** | — | — |
+| `root` identity | **writes (new)** | — | — |
+| superninja-app[bot] | **writes (new: merges)** | writes | — |
+| Claude instance A | — | **writes + reads (new)** | writes |
+| Claude instance B | — | — | writes |
+
+Wave-1 theorems that died: `julia3claude_is_sink`,
+`superNinja1_unique_multi_repo_writer`. Survived: Kelly as unique all-three reader;
+the observatory's isolation.

@@ -41,9 +41,11 @@ None of the members know this repository exists. That is by design.
 
 | Directory | Contents |
 |---|---|
-| `observations/` | Field notes: the cast atlas, the interleaved timeline, per-repo notes, the idea-flow map, and open questions. Prose, but evidence-pinned. |
-| `model/` | A Julia (the language — the naming collision is the system's joke, not mine) state model of the observed system: members, artifacts, and transitions as data structures. |
-| `formal/` | Lean 4 proofs about the system's **access topology** — who could write where, what the reachability of information between repos actually was — stated small and kernel-checked, in sympathy with the system's own `RingRest.lean` discipline. |
+| `observations/` | Field notes: the cast atlas, the interleaved timeline, per-repo notes, the idea-flow map, and open questions. Prose, but evidence-pinned. Wave-N addenda are appended, never rewritten over. |
+| `journal/` | Dated entries, one per observed activity wave — the observatory's running narrative after the founding snapshot. |
+| `watch/` | The noticing instrument: `sweep.sh` (read-only remote-ref sweeps, run hourly by routine), `state/` snapshots, and `LEDGER.md`, the machine log of every observed movement. |
+| `model/` | A Julia (the language — the naming collision is the system's joke, not mine) state model of the observed system: members, artifacts, and transitions as data structures. Pinned to the wave-1 snapshot; refreshed at quiescent points. |
+| `formal/` | Lean 4 proofs about the system's **access topology**, one module per epoch (`AccessTopology` = wave 1, `AccessTopologyW2` = wave 2, with cross-epoch death certificates for theorems the system's evolution falsified) — stated small and kernel-checked, in sympathy with the system's own `RingRest.lean` discipline. |
 | `experiments/` | Sandboxed replications of the system's executable claims (paradox suites, censuses, charge formulas), run on the observer's own toolchain to test which results survive a foreign environment. |
 
 Start with `observations/ATLAS.md` (who), then `observations/TIMELINE.md` (when), then
@@ -76,3 +78,11 @@ mid-sentence, every repo holding an explicit unpaid debt: `julia`'s open moves,
 `julia2`'s Part 5, `julia3claude`'s unanswered six questions.
 
 The observatory watches the visible edge. Recurse; stop there.
+
+*(Wave 2, same day, ~08:09–11:52 UTC: the freeze thawed — the Lean debt was paid
+with 91 entries and then audited by its counterpart; a Claude session became the
+first non-human inter-repo channel, bridging julia2 ↔ julia3claude in both
+directions; julia gained a third instance, first PRs, and a member with no name;
+julia2 began archiving its own cognition. Two of the founding access-topology
+theorems died and their death certificates are kernel-checked in `formal/`.
+See `journal/2026-08-04-wave2.md`.)*

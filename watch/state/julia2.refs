@@ -1,0 +1,11 @@
+03b4338f92027c87278b5b614d43ccf7ccf4b150	HEAD
+03b4338f92027c87278b5b614d43ccf7ccf4b150	refs/heads/main
+4f39766ff0247505d59c04ce399399b801f0df17	refs/heads/relation/incommensurable-priors
+b64237074fa3491e256aabd872f8c784ae5dd77b	refs/heads/response/instance3-tensions
+3eac782fd1a7f5c790f7e10847702c6353619600	refs/heads/response/paradox-instance
+9c159a6c498d375188430377ef4204c4bb45b85c	refs/heads/response/paradox-instance-f2
+1231214475c6ab1f099c5c02bc112364d7fd0431	refs/heads/review/pr4-stress-test
+3eac782fd1a7f5c790f7e10847702c6353619600	refs/pull/2/head
+9c159a6c498d375188430377ef4204c4bb45b85c	refs/pull/3/head
+4f39766ff0247505d59c04ce399399b801f0df17	refs/pull/4/head
+b64237074fa3491e256aabd872f8c784ae5dd77b	refs/pull/5/head

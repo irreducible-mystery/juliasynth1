@@ -127,3 +127,33 @@ all commit authorship re-checked against `git log` at model time
 (2026-08-04). Cast and matrix follow the verdict-corrected observer atlas
 (10 members; the `-6uiqo3` branch identity folded into Claude instance A;
 the observation session's own `-etyrdg` traces excluded).
+
+---
+
+## Epoch 2: AccessTopologyW2.lean (wave 2, ~11:52 UTC horizon)
+
+The wave-1 module is a snapshot, not a mistake — so wave 2 gets its own module
+with the updated matrix (two new julia identities; Claude instance A now reads
+and writes julia2 as "instance 3"; the bot merges in julia) and cross-epoch
+theorems. In English:
+
+- **`sink_broken`** — julia3claude→julia2 was influence-false in the wave-1
+  matrix and is influence-true in wave 2; **the wave-1 theorem
+  `julia3claude_is_sink` is dead**, and `sink_broken_witness` +
+  `nonhuman_bidirectional_bridge` show the killer is Claude instance A alone,
+  in both directions — the first inter-repo channel that is not the human.
+- **`multi_repo_writers_exactly`** — the multi-repo writers are now exactly
+  {SuperNinja-1, superninja-app[bot], Claude instance A}; **the wave-1
+  uniqueness theorem is dead**.
+- **`kelly_still_unique_all_observed_reader`** — survived: Kelly remains the
+  unique member with evidenced read access to all three observed repos.
+- **`observed_strongly_connected`** — the three observed repos are now
+  strongly connected (wave 1: julia ↔ julia2 → julia3claude-as-sink), with
+  explicit witness chains; and `influence_no_longer_transitively_closed` —
+  julia3claude reaches julia only in two hops, so the flow graph has acquired
+  genuine depth (in wave 1, influence was already transitively closed).
+- **`not_reaches_synth` / `synth_reaches_nothing`** — the observer boundary
+  survived unchanged: the observatory is still outside every member's reach.
+
+Build: same `lake build` (both libs are default targets); epoch-2 axiom audit
+prints alongside epoch 1's.
