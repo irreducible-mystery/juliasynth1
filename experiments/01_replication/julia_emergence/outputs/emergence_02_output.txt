@@ -1,0 +1,62 @@
+=== I. the census, re-typed after the stranger ===
+   6  thing
+  40  restless (no fixed point exists)
+  14  rest-possible (a fixed point exists)
+  PRECISION (a first draft of this section said 'synchrony
+  artifact' for the third class — overreach. A fixed point
+  existing means rest is POSSIBLE; whether a given async
+  schedule FINDS it is a further, separate fact — the
+  stranger's own data: only 6 of their 10 fixed-point-bearing
+  period-2 worlds settled in all 20 async runs.)
+  'Being a clock' was never IN the world. It was in the
+  world's meeting with a clock. Property became relation.
+  But the RESTLESS class earns an intrinsic, discipline-free
+  title: their state space contains no rest, so they oscillate
+  under ANY update rule — proved by exhaustion, which
+  ERRATUM 1 reminds us is legal at fixed n.
+
+=== II. inside the race: chance, or history? ===
+  400 raced releases, outcome vs first effective mover:
+    first mover = mark 1  →  outcome ▮·   ×197
+    first mover = mark 2  →  outcome ·▮   ×203
+  outcome fully determined by first mover? true
+
+  Read it three ways, and watch the perspectives split:
+  CLASSICAL:  no chance at all. The schedule is a hidden
+    variable; given who moved first, the outcome is fixed.
+    Determinism is saved by enlarging the state.
+  QUANTUM-FLAVORED: from INSIDE the latch there is no
+    schedule — marks 1 and 2 see a symmetric state resolve
+    to one of two memories, irreducibly. The 'measurement'
+    outcome has no cause expressible in the latch's own
+    vocabulary. (Analogy only — no Hilbert space was built.)
+  RELATIONAL:  'which memory' is not a fact until the race
+    completes — the fact exists relative to the completed
+    interaction, and BEFORE it, the question has no referent.
+  CONVERGENCE: all three agree on the statistics.
+  DIVERGENCE:  they disagree on where the fact LIVES.
+  STILL LACKING, all three held together: none says why
+  there is a schedule AT ALL. Time is still handed to the
+  world from outside — by us. The debt is now twice flagged.
+
+=== III. history becomes a thing ===
+  2000 identical latches after one forbidden race: ·▮×1013, ▮·×987
+  Two populations, no law distinguishing them — only their
+  schedules did. A 'thing' (_01) was a loop that persists;
+  after the audit: a thing is a loop that persists AND
+  carries the scar of the race that selected it. Identity
+  = attractor + history of arrival. Neither term optional.
+
+=== IV. residue ===
+• The stranger's findings were not damage but material:
+  relation-not-property (§I), history-as-hidden-variable
+  (§II), identity-as-scar (§III) — none of these were
+  visible to us before the audit, exactly as predicted by
+  'we will not see our own blind spots.'
+• Unpaid debts, in the open: (1) time is still exogenous —
+  schedules come from our RNG, not from the world; (2) our
+  schedule-space (uniform sequential) is itself a choice no
+  one has audited; (3) the analogy in §II is an analogy —
+  no interference, no non-commuting contexts, was exhibited.
+• This file, too, will not see its own blind spots. It is
+  written in expectation of the next stranger.

@@ -1,0 +1,38 @@
+======================================================================
+ A. Laws of Form: identities checked over a POOL, not 4 cases
+======================================================================
+  expression pool: 10 structurally distinct forms
+  ok   cancellation  cross(cross(a)) ≡ a
+  ok   condensation  a a ≡ a
+  ok   position J1   cross(cross(a) a) ≡ void
+  ok   transposition J2 (all a,b,c triples)
+  ok   AND is truth-functional on ALL forms
+  ok   OR  is truth-functional on ALL forms
+  (evidence over 10³ instances — in Lean these would be one induction each)
+
+======================================================================
+ B. THE UNCHECKED CHOICE: replicate their 60 worlds, change the clock
+======================================================================
+  sync census replicated: [1 => 6, 2 => 48, 4 => 5, 10 => 1]   (theirs: [1=>6, 2=>48, 4=>5, 10=>1])
+  sync period 1 : 6 worlds | 6 have ≥1 fixed point | 6 settle in ALL 20 async runs
+  sync period 2 : 48 worlds | 10 have ≥1 fixed point | 6 settle in ALL 20 async runs
+  sync period 4 : 5 worlds | 4 have ≥1 fixed point | 4 settle in ALL 20 async runs
+  sync period 10 : 1 worlds | 0 have ≥1 fixed point | 0 settle in ALL 20 async runs
+
+  VERDICT on the 48 'clocks': 6 are SPURIOUS (fixed point exists;
+  async dissolves them into 'things') and 38 are GENUINE (no fixed
+  point exists in the 4096-state space — no clock choice can freeze them).
+
+  f = cross(f): fixed points = 0  → survives any update discipline. Genuinely 'imaginary'.
+  NOTE: for FIXED n=12, settling is decidable — I just decided it by
+  4096-state exhaustion. Undecidability needs the unbounded family.
+
+======================================================================
+ C. Their own memory, raced: SET+RESET together, then release
+======================================================================
+  synchronous release:  ·· → ▮▮ → ·· → ▮▮ → ·· → ▮▮   ← METASTABLE oscillation
+  asynchronous release: ·▮×96, ▮·×104   ← resolves, nondeterministically
+
+======================================================================
+ ALL CHECKS PASSED — read the exit code, not the text
+======================================================================

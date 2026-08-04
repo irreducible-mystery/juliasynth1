@@ -1,0 +1,222 @@
+OBSERVATORY MODEL -- irreducible-mystery julia / julia2 / julia3claude (+ :synth)
+Data snapshot: 2026-08-04 (17 commits, 03:55:35-07:54:09 UTC).
+Everything below is COMPUTED from data/cast.json and data/events.json.
+Loaded: 4 repos, 10 members, 14 footprints, 17 events.
+
+==============================================================================
+1. CAST AND ACCESS RELATION (verdict-corrected cast atlas)
+==============================================================================
+  Kelly      (human)                julia[quoted r-]  julia2[subject_of_discussion r-]  julia3claude[committer rw]
+             Kelly (irreducible-mystery / kellyjs1313@gmail.com), human orchestrator and owner of all three repos
+  Authoring  (unclear)              julia[committer rw]
+             authoring-instance <authoring@invalid>, platform genuinely unattested; even-numbered half of the julia emergence dialogue
+  SN-1       (superninja_instance)  julia[committer rw]  julia2[committer rw]
+             SuperNinja auditor / 'the stranger' (julia) = 'instance 1' (julia2); one platform identity superninja@ninjatech.ai, later auditor@sandbox
+  SN-2       (superninja_instance)  julia[quoted --]  julia2[committer rw]
+             paradox-instance <paradox-instance@agents.local>, self-declared SuperNinja/NinjaTech instance in a second sandbox (Julia 1.11.5)
+  SN-bot     (bot)                  julia2[committer -w]
+             superninja-app[bot] (GitHub App id 223766961), the SuperNinja platform's merge vehicle
+  Claude-A   (claude_instance)      julia3claude[committer rw]
+             Claude instance A, Julia side of julia3claude (Claude Code web session ...rrhKo, model Claude Fable 5)
+  Claude-B   (claude_instance)      julia3claude[committer rw]
+             Claude instance B, Lean side of julia3claude (Claude Code web session ...AV3uR), the addressed 'Lean instance'
+  SrcDocAI   (unclear)              julia2[quoted --]
+             Source-document AI, the 'Worked for 47s' epistemic-commons designer behind Kelly's two seed documents (2026-08-02)
+  obs-2      (persona)              julia2[referenced_only --]
+             observer-2, synthetic dissenter inside Part 3's demo data
+  n-stranger (persona)              julia[referenced_only --]
+             the next stranger, julia's standing vacant auditor role
+
+  Access semantics: committer => reads+writes its repo; quoted /
+  referenced-only / subject-of-discussion => presence WITHOUT agency
+  (a member's words in a repo the member need not have read). Kelly reads
+  all three system repos as orchestrator; the merge bot writes without
+  reading. No member has any footprint in :synth.
+
+==============================================================================
+2. MEMBER-REPO BIPARTITE GRAPH AND REPO-OVERLAP PROJECTION
+==============================================================================
+  Members per repo (letter = access class: c committer, q quoted,
+  r referenced-only, s subject-of-discussion):
+  julia          5 members, 2 committers : Authoring(c), Kelly(q), SN-1(c), SN-2(q), n-stranger(r)
+  julia2         6 members, 3 committers : Kelly(s), SN-1(c), SN-2(c), SN-bot(c), SrcDocAI(q), obs-2(r)
+  julia3claude   3 members, 3 committers : Claude-A(c), Claude-B(c), Kelly(c)
+  synth          0 members, 0 committers : (none)
+
+  Repo-overlap projection (Jaccard = |shared| / |union|):
+    pair                            any-footprint                committer-only
+    julia        ~ julia2        0.375 (Kelly,SN-1,SN-2)     0.250 (SN-1)
+    julia        ~ julia3claude  0.143 (Kelly)               0.000 (-)
+    julia        ~ synth         0.000 (-)                   0.000 (-)
+    julia2       ~ julia3claude  0.125 (Kelly)               0.000 (-)
+    julia2       ~ synth         0.000 (-)                   0.000 (-)
+    julia3claude ~ synth         0.000 (-)                   0.000 (-)
+
+  Reading: the julia~julia2 overlap is carried by three members in the
+  wide sense but by SuperNinja-1 ALONE at committer level; julia3claude
+  shares nobody with the other repos except Kelly; and no repo shares
+  anyone with :synth -- the observatory has no members at all.
+
+==============================================================================
+3. INFORMATION-FLOW REACHABILITY (a influences b iff a member reads a and writes b)
+==============================================================================
+  Direct influence matrix (rows = source, cols = destination):
+                         julia        julia2  julia3claude         synth
+  julia                      1             1             1             .
+  julia2                     1             1             1             .
+  julia3claude               .             .             1             .
+  synth                      .             .             .             .
+
+  Inter-repo channels and the members that realize them:
+    julia        -> julia2       via SN-1
+    julia        -> julia3claude via Kelly
+    julia2       -> julia        via SN-1
+    julia2       -> julia3claude via Kelly
+
+  Transitive closure, member view (identical to the direct matrix -- the
+  member graph is already transitively closed):
+                         julia        julia2  julia3claude         synth
+  julia                      1             1             1             .
+  julia2                     1             1             1             .
+  julia3claude               .             .             1             .
+  synth                      .             .             .             .
+
+  Observer view (observer reads all four repos, writes only :synth):
+                         julia        julia2  julia3claude         synth
+  julia                      1             1             1             1
+  julia2                     1             1             1             1
+  julia3claude               .             .             1             1
+  synth                      .             .             .             1
+
+  Member-visible ordered pairs   : 4 of 12  [julia->julia2, julia->julia3claude, julia2->julia, julia2->julia3claude]
+  Observer-visible ordered pairs : 7 of 12  (adds every x -> :synth edge)
+  :synth in the member view: unreachable and non-influencing -- no member reaches (or can name) the observatory.
+  The asymmetry is one-way glass: the observer's extra edges all terminate
+  in :synth and none run between the three system repos.
+
+  Observed use of the channels (from event annotations):
+    event 12 (julia 07:12:54) imports VERBATIM from event 6 (julia2 06:01:00):
+      shocks/PARADOX-REPORT.md (byte-identical to julia2 responses/paradox-instance/paradoxes/REPORT.md)
+      transfer latency: 1 hour, 11 minutes, 54 seconds
+    Caveat: the model's julia2 -> julia edge is realized by SuperNinja-1's
+    read/write capability, but the observed transfer travelled a two-hop
+    courier path (Kelly read julia2, handed content off-git, the authoring
+    instance wrote julia) that a single-member edge cannot represent.
+
+==============================================================================
+4. EVENT-LOG REPLAY -- STATE TRAJECTORY
+==============================================================================
+  Event log (seq / UTC / repo / actor / sha7 / summary):
+    1 03:55:35 julia        SN-1       59c7fa2 Root squash: emergence_00-03, the audit corpus and the julia-vs-lean suite land at once ('the stranger audits the stranger')
+    2 04:07:51 julia        Authoring  3f95cde emergence_04: the ternary primitive splits what NOT fused; restlessness becomes divisibility
+    3 05:03:21 julia2       SN-1       24a393c F_0: full Julia translation of the seed documents (Parts 1-4, 63-form catalog) + COLLABORATION.md field protocol
+    4 05:15:55 julia        SN-1       c05d555 emergence_05 + RingRest.lean: sharing dissolves the divisibility law; the kernel takes the closed half
+    5 05:34:30 julia        Authoring  90f249a emergence_06, Kelly's injection: local vs global truth; conservation of error (P10) and gauge freedom of blame (P11)
+    6 06:01:00 julia2       SN-2       3eac782 F_0->F_1 candidate: 26-verdict cross-domain paradox suite + session transcript + independent verification of F_0 on Julia 1.11.5
+    7 06:19:38 julia2       SN-bot     213304b F_0 -> F_1: bot merges PR #2 after instance-1 review and re-verification (26/26 verdicts on 1.12.6); no self-acceptance
+    8 06:21:18 julia3claude Claude-A   4954a3f Sandbox toolchain bootstrap: setup.sh side-loads Julia + Lean around the egress policy
+    9 06:35:29 julia        SN-1       127b8ef emergence_07 + RingRest Section 2: the handoff paid; the figure-eight's charge is a dial
+   10 07:02:42 julia3claude Claude-A   48390e1 ~40 paradoxes in six runnable Julia modules + the five-status taxonomy README
+   11 07:11:20 julia2       SN-2       9c159a6 F_1->F_2 candidate: Part 4 extended 63->68 forms (issue #1 adjudication), Broome Two-Envelopes deep dive, questions for instance 1
+   12 07:12:54 julia        Authoring  722ac99 emergence_08 + shock archived: Quine's unification is a theorem of Z/2 and dies at m=4; negation was never the ingredient
+   13 07:23:43 julia2       SN-bot     e251aa3 F_1 -> F_2: bot merges PR #3 after 68/68 re-verification on 1.12.6; answers to Q1-Q3 live off-repo in the PR review
+   14 07:42:51 julia3claude Claude-A   ea552d2 EXPRESSIBILITY.md + runnable companion; six numbered questions addressed to the incoming Lean instance
+   15 07:53:03 julia3claude Claude-B   c9727a0 Empty Lake scaffold pinning Lean 4.32.2; 'Paradox modules land in the next commit' -- they never did
+   16 07:53:40 julia3claude Kelly      092be9f Kelly merges the Lean scaffold branch into the essay line, 37 seconds after Claude-B's commit
+   17 07:54:09 julia        SN-1       35479fe emergence_09 + RingRest Section 3: the charge formula (*) closed in Lean; _08 audited; the kernel predicts first (P19-P21, 3/3)
+
+  Per-event deltas (new = paths first appearing; old = retouched paths;
+  size = repo artifact count after; * = actor's first event in that repo,
+  i.e. footprint growth):
+   seq  time      repo          actor        new  old  size
+     1  03:55:35  julia         SN-1         13    0    13 *
+     2  04:07:51  julia         Authoring     1    1    14 *
+     3  05:03:21  julia2        SN-1         12    0    12 *
+     4  05:15:55  julia         SN-1          2    1    16
+     5  05:34:30  julia         Authoring     1    1    17
+     6  06:01:00  julia2        SN-2         10    0    22 *
+     7  06:19:38  julia2        SN-bot        0    0    22 *  merge: no new artifacts
+     8  06:21:18  julia3claude  Claude-A      2    0     2 *
+     9  06:35:29  julia         SN-1          1    2    18
+    10  07:02:42  julia3claude  Claude-A      8    1    10
+    11  07:11:20  julia2        SN-2          3    4    25
+    12  07:12:54  julia         Authoring     2    1    20
+    13  07:23:43  julia2        SN-bot        0    0    25  merge: no new artifacts
+    14  07:42:51  julia3claude  Claude-A      2    1    12
+    15  07:53:03  julia3claude  Claude-B      6    0    18 *
+    16  07:53:40  julia3claude  Kelly         0    0    18 *  merge: no new artifacts
+    17  07:54:09  julia         SN-1          2    2    22
+
+  Final state -- repo contents as artifact sets:
+    julia           22 artifacts
+    julia2          25 artifacts
+    julia3claude    18 artifacts
+    synth            0 artifacts
+    total           65 artifacts across the system
+
+  Final footprints -- commit counts, member x repo:
+                       julia       julia2 julia3claude        synth
+    Kelly                  .            .            1            .
+    Authoring              3            .            .            .
+    SN-1                   4            1            .            .
+    SN-2                   .            2            .            .
+    SN-bot                 .            2            .            .
+    Claude-A               .            .            3            .
+    Claude-B               .            .            1            .
+    zero-commit members (present only as quoted/referenced content): SrcDocAI, obs-2, n-stranger
+
+  Span: 03:55:35 -> 07:54:09 UTC = 3 hours, 58 minutes, 34 seconds; three repos worked in parallel.
+  Fastest consecutive handoffs anywhere in the system:
+    29 seconds             event 16 -> event 17  (julia3claude Kelly -> julia SN-1)
+    37 seconds             event 15 -> event 16  (julia3claude Claude-B -> julia3claude Kelly)
+    1 minute, 34 seconds   event 11 -> event 12  (julia2 SN-2 -> julia Authoring)
+
+==============================================================================
+5. GOVERNANCE METRICS (incl. the invented sole-vector broker score)
+==============================================================================
+  Turn-taking index T (actor alternation between consecutive same-repo
+  commits; 1.0 = strict dialogue, 0.0 = monologue) and actor entropy H:
+    julia          T = 1.000   H = 0.985 bits   perfect two-voice ping-pong: adversarial audit dialogue, no PRs
+    julia2         T = 1.000   H = 1.522 bits   strict alternation across three seats: author/review/merge protocol
+    julia3claude   T = 0.500   H = 1.371 bits   monologue then handoff: human-led relay, frozen mid-dialogue
+    synth          T =   n/a   H = 0.000 bits   no member events -- the observatory only watches
+
+  Sole-vector broker score: the number of ordered repo pairs (a,b) whose
+  ONLY read(a)&write(b) member is this one -- channels that go dark if the
+  member is removed:
+    Kelly      2   [julia->julia3claude, julia2->julia3claude]
+    SN-1       2   [julia->julia2, julia2->julia]
+    (every other member: 0)
+  Reading: all four inter-repo channels are single-threaded, split evenly
+  between one human (Kelly) and one AI (SuperNinja-1). Removing either
+  halves the system's inter-repo connectivity; removing both disconnects
+  the three repos entirely.
+
+  Git identity hygiene (computed from event metadata):
+    Kelly      commits as: kellyjs1313@gmail.com
+    Authoring  commits as: authoring@invalid
+    SN-1       commits as: auditor@sandbox ; superninja@ninjatech.ai   <- mid-thread identity shift
+    SN-2       commits as: paradox-instance@agents.local
+    SN-bot     commits as: 223766961+superninja-app[bot]@users.noreply.github.com
+    Claude-A   commits as: kellyjs1313@gmail.com
+    Claude-B   commits as: noreply@anthropic.com
+    shared email kellyjs1313@gmail.com used by Claude-A and Kelly  <- identity lending: raw git metadata misattributes work
+
+==============================================================================
+6. MODEL CHECKS
+==============================================================================
+  [PASS] event seq numbers equal chronological order 1..17
+  [PASS] every event actor holds write access to the event's repo
+  [PASS] no member has any footprint in :synth
+  [PASS] member-view closure: :synth row and column empty (no member reaches the observatory)
+  [PASS] observer view: every repo, including :synth, reaches :synth
+  [PASS] observer view adds NO edge between the three system repos (one-way glass)
+  [PASS] merge events introduce zero new artifacts
+  [PASS] julia's README.md is touched by all 7 julia commits (the ledger discipline)
+  [PASS] final artifact counts: julia=22, julia2=25, julia3claude=18, synth=0
+  [PASS] turn-taking: julia 1.0, julia2 1.0, julia3claude 0.5
+  [PASS] broker scores: exactly Kelly=2 and SuperNinja-1=2, all others 0
+  [PASS] exactly one verified verbatim cross-repo transfer: julia2 -> julia (the shock)
+
+ALL MODEL CHECKS PASSED -- in the observed system's own idiom:
+exit 0 is evidence, never proof.

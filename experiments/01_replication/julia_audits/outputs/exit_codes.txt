@@ -1,0 +1,2 @@
+audit_08_by_stranger.jl exit=0
+emergence_checks_by_stranger.jl exit=0

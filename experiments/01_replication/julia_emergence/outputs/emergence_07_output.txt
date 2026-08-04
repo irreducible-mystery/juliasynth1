@@ -1,0 +1,63 @@
+=== I. the out-degree formula (★), exhausted ===
+  (★) holds on every state of every tested world, m ∈ 2..4: 0 violations
+  control (mutated ★, −n dropped): fires 81× — instrument can say no
+
+=== II. who is listened to exactly once ===
+  world            outdeg profile      charge values seen (m=3)
+  two_rings(2,3)   [1, 1, 1, 1, 1]     [1]   (permutation → conserved)
+  two_rings(3,3)   [1, 1, 1, 1, 1, 1]  [0]   (permutation → conserved)
+  fig8(2,3)        [2, 1, 1, 1]        [0, 1, 2]   (outdeg≠1 at shared mark → dial)
+  fig8(3,4)        [2, 1, 1, 1, 1, 1]  [0, 1, 2]   (outdeg≠1 at shared mark → dial)
+  P12 holds. Conservation was never topology-worship: it is the
+  statement that every mark is heard exactly once. Break that at
+  ONE mark and the 'topological invariant' becomes a knob.
+
+=== III. the charge of a figure-eight ===
+  (m, L1, L2)   charge law −(s₁+n)?   all m values attained?   zero at s₁ ≡ −n?
+  (2,2,3)        true                  true                    true
+  (3,2,3)        true                  true                    true
+  (3,3,4)        true                  true                    true
+  (4,2,3)        true                  true                    true
+  (3,2,2)        true                  true                    true
+  (5,2,3)        true                  true                    true
+  P13 holds. The figure-eight's charge neither splits nor cancels —
+  it DELOCALIZES onto the shared mark and becomes state-tunable:
+  charge ≡ −(s₁ + n) mod m, every class reachable, zero exactly at
+  s₁ ≡ −n — the very value _05's paper algebra pinned for the rest
+  state. P6 (fig-eight always rests) is the zero-fiber of this dial.
+  Sharing converts a conserved obstruction into a controllable one.
+
+=== IV. disjoint loops: the charge splits ===
+  (m=3, 2⊔3): conserved total −(L1+L2)? true   per-loop −L₁, −L₂ each conserved? true
+  (m=3, 3⊔3): conserved total −(L1+L2)? true   per-loop −L₁, −L₂ each conserved? true
+  (m=2, 2⊔3): conserved total −(L1+L2)? true   per-loop −L₁, −L₂ each conserved? true
+  (m=4, 2⊔3): conserved total −(L1+L2)? true   per-loop −L₁, −L₂ each conserved? true
+  P14 holds. Disjoint charges are additive and separately conserved —
+  each summand is an instance of the kernel's defect_sum_invariant.
+
+=== V. residue ===
+• The named handoff is PAID: defect_sum_invariant, defect_gauge,
+  rest_iff_charge_zero live in lean/RingRest.lean, ledger
+  propext + Quot.sound, choice-free, mutant-rejected. The kernel
+  proved it over states Julia cannot even enumerate (all of ℤ).
+• Kelly's figure-eight question, answered: the charge does not
+  split, does not cancel, and is not combiner-owned — it
+  DELOCALIZES. Sharing one mark turns the conserved error into
+  a dial read off that mark: charge ≡ −(s₁+n). Conservation is
+  revealed as an out-degree property (P12), not a loop property.
+  Errors as information, sharpened: on rings the error total is
+  a fact you cannot touch; add one shared mark and it becomes a
+  fact you can SET. The boundary between invariant and control
+  is one edge wide.
+• NEW CLOSABLE STATEMENT, left named on the board: (★), the
+  graph-general charge formula — one telescoping sum over any
+  finite wiring under the sum-combiner. defect_sum_invariant is
+  its permutation case. It belongs to the kernel; either court
+  may take it.
+• Debts standing: the tick (six files now); the combiner survey;
+  the Galois question. Max-combiner charge has NO (★) — max is
+  not algebra (P7's lesson) — and remains genuinely open.
+• Exit 0 is evidence, never proof; where a statement closes,
+  hand it to the kernel; where it breaks, look — and now a
+  fourth clause, this file's: WHERE IT IS SHARED, MEASURE —
+  the seam is where invariants become instruments.

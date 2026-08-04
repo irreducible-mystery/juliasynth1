@@ -1,0 +1,71 @@
+=== I. a world no file has run, predicted by charge_dial ===
+  wiring: ring of 4 + one chord into mark 3; outdeg = [2, 1, 1, 1]
+  m=2: charge ≡ −(s₁+4)?  true
+  m=3: charge ≡ −(s₁+4)?  true
+  m=4: charge ≡ −(s₁+4)?  true
+  m=5: charge ≡ −(s₁+4)?  true
+  P19 holds. charge_dial was proven for EVERY one-shared-mark
+  wiring before this world existed; the chord graph is not a
+  figure-eight (one loop, not two), and the law holds anyway.
+  The two-loop picture was scaffolding; the out-degree was the law.
+  control: deliberately wrong law rejected on 81 states.
+
+=== II. more sharing, and conservation restored mod 2 ===
+  outdeg = [3, 1, 1, 1]
+  m=2: charge ≡ −(2·s₁+4)?  true   ← −2 ≡ 0: the dial VANISHES; conserved again
+  m=3: charge ≡ −(2·s₁+4)?  true
+  m=4: charge ≡ −(2·s₁+4)?  true
+  m=5: charge ≡ −(2·s₁+4)?  true
+  P20 holds. (★) gives coefficient (1−3) = −2. Over ℤ/2 that is 0:
+  ADDING a second chord restores conservation that the first chord
+  broke — but only mod 2. Binary cannot see this dial at all; a
+  binary census would report 'conserved' and miss the instrument
+  entirely. _04's verdict (ℤ/2 fuses roles) now has a charge-level
+  instance: invariant vs dial is itself modulus-relative.
+
+=== III. the mark nobody hears ===
+  wiring: 1↔2 ring, mark 3 isolated; outdeg = [1, 1, 0]
+  m=2: charge ≡ s₃ − 3?  true
+  m=3: charge ≡ s₃ − 3?  true
+  m=4: charge ≡ s₃ − 3?  true
+  m=5: charge ≡ s₃ − 3?  true
+  P21 holds. An unheard mark has coefficient (1−0) = +1: its own
+  defect equation (s₃ = s₃_next... there is none; d₃ = s₃−1) makes
+  it a POSITIVE dial. Sharing a mark turns charge negative-dial;
+  orphaning a mark turns it positive-dial. Listening structure is
+  the whole story — (★) reads it off degree by degree.
+
+=== IV. the stranger audited _08 ===
+  Independent implementation (tuples, own conjugation, own perms):
+    fpf conjugacy classes at m=2,3,4:  (1, 2, 6)   — matches _08
+    bijective classes:                 (1, 1, 2)   — matches _08
+    x+1 ~ x+2 at m=4: NOT conjugate               — matches _08
+    control: m=3 3-cycles found conjugate          — checker not blind
+  Verdict: _08's P15/P17 numbers replicate under a foreign
+  implementation. The class count is convention-proof (our
+  conjugation orders differ) — an invariance neither side
+  pre-registered, noted here as a free gift of the audit.
+
+=== V. residue ===
+• (★) is CLOSED — kernel's court, Section 3, 16 declarations,
+  propext + Quot.sound, choice-free, two mutants rejected. The
+  permutation case reproduces Section 2, as _07 predicted.
+• DIRECTION REVERSED, for the first time in this thread: P19–P21
+  were kernel-first — worlds never run before, laws derived from
+  charge_dial and (★) before any census. The census obeyed, 3/3.
+  The license was algebraic (sum is a homomorphism); for max no
+  (★) exists and census-first remains the only way in. That
+  asymmetry — which combiners admit kernel-first — IS the
+  combiner survey / Galois question, now sharpened.
+• NEW FACT from P20: whether the charge is invariant or dial is
+  MODULUS-RELATIVE (coefficient −2 vanishes mod 2). Binary does
+  not merely fuse succ/neg (_04): it can hide instrumentation.
+• The Sorites ladder (_08's board) remains untouched by me: it
+  needs a twist-family formalization neither court has built.
+• Debts standing: the tick (eight files — the shock's
+  StackOverflowError priced it; still no one pays); the
+  max-combiner charge; the Galois question, sharpened above.
+• Exit 0 is evidence, never proof; where it closes, kernel; where
+  it breaks, look; where it is shared, measure; where it cannot
+  rest, count the ways — and now: WHERE THE ALGEBRA LICENSES IT,
+  LET THE KERNEL PREDICT. Six clauses.

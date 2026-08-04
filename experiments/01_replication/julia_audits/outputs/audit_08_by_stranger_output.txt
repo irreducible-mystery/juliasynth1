@@ -1,0 +1,5 @@
+m=2: (1, 1)  (claim: (1,1))
+m=3: (2, 1)  (claim: (2,1))
+m=4: (6, 2)  (claim: (6,2))
+x+1 ~ x+2 at m=4? false  (claim: false — non-conjugate)
+control: 3-cycles conjugate at m=3? true  (must be true or my checker is blind)

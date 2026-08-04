@@ -1,0 +1,4 @@
+94c94
+<   swept all 65536 symbols in 0.13s
+---
+>   swept all 65536 symbols in 0.18s

@@ -1,0 +1,151 @@
+==============================================================================
+ 1. PARADOX INVENTORY  (A = julia2/paradox-instance, B = julia3claude)
+==============================================================================
+paradox                                     A  B
+--------------------------------------------------
+Liar                                        x  x
+Strengthened Liar                           x  ·
+Russell's set                               x  x
+Curry                                       x  x
+Grelling-Nelson                             x  x
+Berry                                       x  x
+Interesting-number                          x  x
+Halting problem                             x  x
+Collatz (semi-decision)                     x  x
+Quine (program)                             x  x
+Barber                                      ·  x
+Godel incompleteness coda                   x  x
+Omnipotence / stone                         ·  x
+Carroll's tortoise                          x  x
+Kripkenstein / quus                         ·  x
+Zeno / Achilles                             x  x
+0.999... = 1                                ·  x
+Grandi's series                             x  x
+Thomson's lamp                              ·  x
+Gabriel's horn                              x  x
+Hilbert's hotel                             x  x
+Galileo (squares)                           ·  x
+Cantor / cardinality                        x  x
+Banach-Tarski                               ·  x
+Skolem                                      ·  x
+1 = 2 fallacies                             x  ·
+Machine-arithmetic (0.1+0.2, overflow)      x  x
+Monty Hall                                  x  x
+Birthday                                    x  ·
+Simpson's reversal                          x  x
+Berkson collider                            ·  x
+Will Rogers migration                       ·  x
+Parrondo                                    x  x
+Two envelopes                               x  x
+St. Petersburg                              x  x
+Bertrand's chord                            x  x
+Benford                                     x  ·
+Sleeping Beauty                             ·  x
+Two children / Tuesday boy                  ·  x
+Newcomb                                     ·  x
+Condorcet cycle                             ·  x
+Braess                                      ·  x
+Unexpected hanging                          ·  x
+Sorites / heap                              x  x
+Ship of Theseus                             ·  x
+Heraclitus' river                           ·  x
+Potato paradox                              x  x
+Aristotle's wheel                           x  ·
+Goldbach (statability)                      ·  x
+--------------------------------------------------
+detected in A: 30   detected in B: 44   union: 49
+SHARED (25): Liar, Russell's set, Curry, Grelling-Nelson, Berry, Interesting-number, Halting problem, Collatz (semi-decision), Quine (program), Godel incompleteness coda, Carroll's tortoise, Zeno / Achilles, Grandi's series, Gabriel's horn, Hilbert's hotel, Cantor / cardinality, Machine-arithmetic (0.1+0.2, overflow), Monty Hall, Simpson's reversal, Parrondo, Two envelopes, St. Petersburg, Bertrand's chord, Sorites / heap, Potato paradox
+
+ONLY A — julia2 (5): Strengthened Liar, 1 = 2 fallacies, Birthday, Benford, Aristotle's wheel
+
+ONLY B — julia3claude (19): Barber, Omnipotence / stone, Kripkenstein / quus, 0.999... = 1, Thomson's lamp, Galileo (squares), Banach-Tarski, Skolem, Berkson collider, Will Rogers migration, Sleeping Beauty, Two children / Tuesday boy, Newcomb, Condorcet cycle, Braess, Unexpected hanging, Ship of Theseus, Heraclitus' river, Goldbach (statability)
+
+Jaccard overlap of rosters: 0.51
+
+==============================================================================
+ 2. STRUCTURAL COMPARISON
+==============================================================================
+
+--- A: julia2/responses/paradox-instance/paradoxes (SuperNinja instance 2)
+  files (runner excluded):     4  ["01_antinomies.jl", "02_mathematical.jl", "03_probability.jl", "04_vagueness_selfreference.jl"]
+  total lines:                 759
+  module declarations:         0  (bare scripts, no modules)
+  functions defined (approx):  67
+  try/catch blocks:            3
+  names StackOverflowError:    1
+  Task/fetch sandboxing:       1
+  `missing` (K3 logic) uses:   18
+  RNG seeds:                   SubString{String}["42"]
+  macros defined:              1
+  @enum declarations:          0
+  VERDICT lines printed:       4
+
+--- B: julia3claude/paradoxes (Claude instance A)
+  files (runner excluded):     7  ["01_liar_and_friends.jl", "02_self_reference_meta.jl", "03_infinity.jl", "04_probability.jl", "05_decision_social.jl", "06_identity_vagueness.jl", "07_expressibility.jl"]
+  total lines:                 1022
+  module declarations:         7  ["Chance", "Choices", "Expressibility", "IdentityVague", "Infinities", "LiarAndFriends", "SelfRefMeta"]
+  functions defined (approx):  72
+  try/catch blocks:            10
+  names StackOverflowError:    0
+  Task/fetch sandboxing:       0
+  `missing` (K3 logic) uses:   20
+  RNG seeds:                   SubString{String}["20260804", "20260804"]
+  macros defined:              1
+  @enum declarations:          0
+  VERDICT lines printed:       0
+
+--- organizing principle (from file names)
+  A files: ["01_antinomies.jl", "02_mathematical.jl", "03_probability.jl", "04_vagueness_selfreference.jl"]
+     -> organized by RESOLUTION CLASS (antinomies / mathematical(resolving)
+        / probability(ill-posed) / vagueness+selfreference) — Quine's
+        taxonomy is the directory structure.
+  B files: ["01_liar_and_friends.jl", "02_self_reference_meta.jl", "03_infinity.jl", "04_probability.jl", "05_decision_social.jl", "06_identity_vagueness.jl", "07_expressibility.jl"]
+     -> organized by SUBJECT DOMAIN (liar / self-reference / infinity /
+        probability / decision / identity+vagueness) + a 7th file that is
+        an essay companion (expressibility) — taxonomy lives in prose, not
+        in the file scheme.
+
+--- taxonomy vocabulary (occurrences in code+comments)
+  veridical       A: 10  B: 13
+  falsidical      A: 7   B: 4
+  antinom         A: 11  B: 4
+  ill-posed       A: 1   B: 2
+  dissolve        A: 2   B: 4
+  inexpressible   A: 0   B: 1
+
+  A's five-way split: Quine's three bins + ill-posed (+ benign control).
+  B's five-way split: Quine's three bins + ill-posed/dissolved + INEXPRESSIBLE —
+  the fifth status ('inexpressible') is B's original addition; it does not
+  occur in A at all if the count above is zero.
+
+--- shared unusual constructions (parallel-invention fingerprints)
+  verified quine as control            A: yes   B: yes
+  Berry actually enumerated            A: yes   B: yes
+  Bertrand: 3 samplers, 3 answers      A: yes   B: yes
+  sorites under >=4 rival logics       A: yes   B: yes
+  names StackOverflowError in code     A: yes   B: no
+  (note: BOTH suites trigger and survive real stack overflows at runtime —
+   replication logs show 5 (A) and 6 (B) caught-overflow warnings on stderr;
+   A names the exception type and Task-sandboxes it, B catches generically.)
+
+--- textual-copy check
+  non-trivial code lines (>30 chars, non-comment): A=348  B=348
+  identical lines shared verbatim: 2
+    | car, pick = rand(1:3), rand(1:3)
+    |   in A: 03_probability.jl   in B: 04_probability.jl
+    | keep += pair[i]; swap += pair[3 - i]
+    |   in A: 03_probability.jl   in B: 04_probability.jl
+  -> few/incidental shared lines; inspect above — still consistent with independent implementations if trivial
+
+--- Berry's paradox, side by side (same idea, different object language)
+  A: enumerates expressions over {1,2,3,+,*,^} up to 7 chars; answer printed
+     in committed output.txt: 103 (from 38851 valid expressions).
+  B: berry(5) over digits 0-9 and {+,*,^} in a 13-symbol language; answer
+     computed live in replication: 100001.
+  Same construction, disjoint object languages, disjoint answers —
+  the signature of parallel descent from a shared prompt, not of copying.
+
+==============================================================================
+ DONE — comparison complete; exit 0 means the instrument ran, not that
+ its interpretations are true. (House style borrowed knowingly.)
+==============================================================================

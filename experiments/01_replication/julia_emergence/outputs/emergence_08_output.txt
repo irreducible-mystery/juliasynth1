@@ -1,0 +1,88 @@
+=== I. the whole function space of binary, exhausted ===
+  maps on {0,1}: 4 total
+    c(0)  [0, 0]   fixed points: 1
+    NOT   [1, 0]   fixed points: 0   ← the only antinomy engine
+    id    [0, 1]   fixed points: 2
+    c(1)  [1, 1]   fixed points: 1
+  P15 holds. The shock's (S1) — 'every unresolvable paradox is
+  x = not(x)' — is not an observation about famous paradoxes; in
+  binary it is a THEOREM: the antinomy engine is unique. Liar,
+  Russell, Grelling, Curry, halting — five costumes because there
+  is only ONE body to dress. And (S2) 'self-reference is innocent'
+  is our rest_of_twist_fixed: id has fixed points, so the quine
+  rests — for every wiring, kernel-proven, before the shock landed.
+
+=== II. missing = a fixed point installed; the ladder never ends ===
+  K3 negation [1, 0, 2]: restriction to {0,1} is NOT, and
+  fixed points: [2]  — missing IS the fixed locus.
+  '!missing === missing' is rest_of_twist_fixed wearing Base Julia.
+  The Liar RESTS in K3 — assigned the fixed point. Resolution by
+  installing rest. But the Strengthened Liar re-erupts because:
+  for EVERY m in 2..8 (and every m, trivially): succ is fixed-point-
+  free. Enlarge the domain to give the old twist rest, and a new
+  fixed-point-free twist exists on the enlarged domain. Displacement
+  is not a failure of ingenuity — derangements never run out.
+  Tarski's hierarchy, in our coordinates: an infinite ladder of
+  twists, each rung's rest bought by the next rung's restlessness.
+
+=== III. counting the antinomy engines, order by order ===
+  m   fixed-point-free maps   conjugacy classes   bijective classes
+  2          1                    1                   1
+  3          8                    2                   1
+  4         81                    6                   2
+  exhibit at m=4:  x+1 [1, 2, 3, 0] order 4   |   x+2 [2, 3, 0, 1] order 2
+  Both are antinomies (no fixed point — no truth-value assignment
+  exists). NO relabeling of the 4 truth values maps one to the
+  other (order is conjugation-invariant: 4 ≠ 2). Two Liars,
+  provably distinct: 'my value is v+1' loops through all four
+  values; 'my value is v+2' is two interleaved binary Liars.
+  contrast at m=3: [1, 2, 0] and [2, 0, 1] are conjugate via [2, 1, 0] — one paradox, renamed. The unification (S1) survives
+  m=3 among bijections and DIES at m=4. Quine's 'one machine' was
+  ℤ/2's shadow — the same verdict _04 returned on rest/restless
+  dressing, now returned on the taxonomy of paradox itself.
+
+=== IV. Curry: C = (C → pigs) as a twist family ===
+  pigs = 0:  twist = [1, 0]  == NOT (negation EMERGES from → and ⊥,
+            exactly as _00 built NOT from cross)   fixed points: Int64[]   → antinomy
+  pigs = 1:  twist = [1, 1]   fixed points: [1]   → rests, at C = 1
+  P18 holds. 'Curry needs no negation' — but its twist at pigs=⊥
+  IS negation, assembled from implication and falsum. The shock's
+  'worse than the Liar' is, in our coordinates, the SAME engine
+  reached without installing !. And 'no consistent assignment
+  unless pigs fly' = the fixed locus is empty unless pigs fly:
+  antinomy and triviality are the two fibers of one twist family.
+
+=== V. verdict and residue ===
+• The shock's taxonomy, re-typed in this repo's invariants:
+    veridical/falsidical = computations that REST (surprising or
+      corrected value — a fixed point reached);
+    antinomy = RESTLESSNESS (empty fixed locus — their (S3) is
+      our n_fixed_points == 0, converged on independently);
+    ill-posed (Bertrand) = INSTRUMENT-OWNED (the question under-
+      determines the combiner — _04's max-confession, _05's P7);
+    and the antinomy class is not one thing: it is graded by
+      twist order and charge — the resolve/not-resolve bit is the
+      1-bit shadow of a log(m)-bit invariant (_06's line, again).
+• (S2) sharpened, kernel-backed: antinomy = re-entry ∘ fixed-point-
+  free twist (succ_ring_rest_iff, forward); innocence = re-entry ∘
+  twist with rest (rest_of_twist_fixed, all wirings). Negation was
+  never the ingredient; emptiness of the fixed locus was.
+• (S1) is a theorem at m=2 (P15: the engine is UNIQUE in binary),
+  a renaming at m=3, and FALSE at m=4 (P17: two non-conjugate
+  engines). The unification was real and binary-local.
+• The dynamical reading (_01) remains this thread's own addition:
+  the shock's antinomies 'cannot terminate' — ours OSCILLATE, with
+  period structure, conserved charge (_06), and a dial when shared
+  (_07). The edge is not a wall; it is structured territory.
+• Debts standing: the tick (seven files, unpaid — the shock's
+  StackOverflowError is what our tick-debt looks like when time is
+  borrowed from a call stack instead of declared); the combiner
+  survey; the Galois question; (★) graph-general, still unclaimed.
+• NEW, in the shock's direction: the Sorites. Five rival logics,
+  no neutral resolution — in our coordinates, a family of twists
+  indexed by cutoff/degree, where every choice of rest is an
+  instrument choice. Is higher-order vagueness a ladder like §II's?
+  Untouched, named, on the board.
+• Exit 0 is evidence, never proof; where it closes, kernel; where
+  it breaks, look; where it is shared, measure — and now, from the
+  shock: WHERE IT CANNOT REST, COUNT THE WAYS. Five clauses.

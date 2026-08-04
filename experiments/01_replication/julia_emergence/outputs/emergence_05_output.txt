@@ -1,0 +1,86 @@
+=== I. the kernel takes the closed half ===
+  _04 §IV checked 'ring rests ⟺ order | L' at L ∈ 2..9, m ∈ {2,3}.
+  RingRest.lean (this directory) now holds it for ALL m, ALL L:
+    succ_ring_rest_iff  — both directions, constructive witness
+    rest_of_twist_fixed — ∀ twist with a fixed point, ∀ wiring: rest
+  Axioms: propext, Quot.sound. No choice. No sorry. Compiled exit 0.
+  The unbounded family was never out of reach — it was out of
+  JULIA's reach. Division of labor, now explicit: Julia explores
+  the open; Lean owns the closed. This file explores.
+
+=== II. figure-eight, sum: the law dissolves on contact ===
+  (L1, L2) — m=3 — coprime? — 3∤L1,3∤L2? — rest?
+  (3,3)   coprime=false   neither divisible=false   rest=true
+  (3,4)   coprime=true   neither divisible=false   rest=true
+  (4,5)   coprime=true   neither divisible=true   rest=true
+  (5,7)   coprime=true   neither divisible=true   rest=true
+  (4,4)   coprime=false   neither divisible=true   rest=true
+  (2,3)   coprime=true   neither divisible=false   rest=true
+  (5,5)   coprime=false   neither divisible=true   rest=true
+  (2,7)   coprime=true   neither divisible=true   rest=true
+  P6 holds — including (4,5) and (5,7), coprime, NEITHER length
+  divisible by 3. The paper algebra said why before the machine
+  said that: the shared mark turns the cycle equation
+  s₁ = s₁ + L  (solvable iff m|L, the ring law)   into
+  s₁ = 2s₁ + L₁+L₂-1  (coefficient -1, a UNIT: always solvable).
+  _04 asked whether the law SURVIVES sharing. Answer: sharing
+  is exactly what kills it. The divisibility law is the shadow
+  of in-degree 1 — of wiring that is a FUNCTION. Merge two
+  loops at one mark and arithmetic obstruction becomes linear
+  solvability. Restlessness was never about the loops; it was
+  about never having two witnesses at the same door.
+  same figure-eights, m=2: all rest = true
+  same figure-eights, m=4: all rest = true
+
+=== III. figure-eight, max: reported as found ===
+  (L1, L2) — rest under max? — (sum verdict, for contrast)
+  (2,3)   max: true     sum: true
+  (3,3)   max: true     sum: true
+  (3,4)   max: true     sum: true
+  (4,5)   max: false     sum: true
+  (4,4)   max: false     sum: true
+  (5,5)   max: false     sum: true
+  (2,7)   max: false     sum: true
+  (5,7)   max: false     sum: true
+  (3,5)   max: true     sum: true
+  (2,5)   max: false     sum: true
+  Found: max sometimes rests where the RING law would forbid it
+  and sometimes stays restless where sum rests. No divisibility
+  pattern; the verdicts split by combiner on the same wiring —
+  _04's max-confession, now at the level of LAWS: not only the
+  fauna but the theorem-shaped regularities are combiner-owned.
+
+=== IV. two rings, NOT sharing: the law survives apartheid ===
+  (3,3)   rest=true   law-expects=true
+  (3,4)   rest=false   law-expects=false
+  (4,5)   rest=false   law-expects=false
+  (3,6)   rest=true   law-expects=true
+  (2,4)   rest=false   law-expects=false
+  (6,9)   rest=true   law-expects=true
+  P8 holds. Disjoint loops: each cycle must satisfy its own
+  divisibility (RingRest.lean's theorem, factor by factor).
+  CONTROL CONFIRMED: it is the SHARED MARK, not size, not
+  coprimality, not the second loop per se, that dissolves the
+  law. One door, two witnesses — that is the entire mechanism.
+
+=== V. residue ===
+• Debt (3) is paid and the answer is sharper than the question:
+  the divisibility law does not 'survive' mixed wiring — it was
+  never about loops. It was about in-degree 1. Sharing a mark
+  replaces arithmetic obstruction with linear solvability (P6,
+  derived on paper, then run). Disjointness restores it (P8).
+  Max scrambles it (P7) — laws, not just faunas, are combiner-owned.
+• The closed half now lives in the kernel (RingRest.lean): the
+  ring law for ALL m, L, and rest-from-fixed-twist for ALL
+  wirings. Division of labor made explicit and machine-checked.
+• Debts still open: (1) the tick, exogenous as ever — three
+  files have now bowed to it and none has paid; (2) the
+  combiner audit, still partial (two combiners is a contrast,
+  not a survey); (3) NEW: is there a mixed-wiring theorem that
+  is combiner-FREE? P6's algebra owned sum; P7 suggests max
+  owns nothing clean. Perhaps the right object is the set of
+  combiners under which a wiring can rest — a Galois-flavored
+  question neither instance has touched.
+• Written in expectation of the next move. Exit 0 is evidence,
+  never proof — and where a statement closes, hand it to the
+  kernel. Both clauses now load-bearing.

@@ -1,0 +1,38 @@
+=== I. f = cross(f): the paradox that ticks ===
+  start ·  →  cycle: · → ▮  (period 2)
+  start ▮  →  cycle: ▮ → ·  (period 2)
+  Statically: contradiction. Dynamically: an oscillator.
+  Neither marked nor unmarked — a value that IS its own
+  alternation. Spencer-Brown called this imaginary, as √-1
+  is to the reals: not in the old space, orthogonal to it.
+
+=== II. mutual re-entry: memory emerges, uninvited ===
+  press SET    → held state: ·▮
+  release all  → held state: ·▮   (it REMEMBERS)
+  press RESET  → held state: ▮·
+  release all  → held state: ▮·   (it REMEMBERS)
+  Persistence — the first candidate for 'thing' — is not
+  a substance. It is a loop that keeps re-entering itself.
+
+=== III. an ecology of self-reference (n=12, 60 worlds) ===
+  6 worlds settled into fixed points  — 'things', frozen re-entry
+  48 worlds settled into period 2      — 'clocks', bare oscillation
+  5 worlds settled into period 4      — longer rhythms, proto-process
+  1 worlds settled into period 10      — longer rhythms, proto-process
+  NOR is logically universal: this fauna is not decorative.
+  Given size, such worlds can compute anything computable —
+  therefore predicting their settling is, in general,
+  equivalent to the halting problem. We must LIVE the
+  dynamics to know it. No view from outside time is sold here.
+
+=== IV. residue ===
+• Time appeared as the resolution of a paradox we chose
+  not to forbid. Different clock choices (Choice 1) may
+  dissolve or breed different attractors. Unchecked here.
+• 'Things' arrived as fixed points, 'memory' as bistable
+  loops, 'process' as cycles — all from one move: letting
+  a distinction re-enter its own form.
+• This ledger is itself a re-entrant form: a text that
+  describes the system that includes the text. Its fixed
+  point, if any, is not computable from inside. Stop here,
+  at the edge we can see, knowing there are edges we cannot.

@@ -1,0 +1,22 @@
+=== From one distinction, form ===
+void                     -> marked? false
+cross()                  -> marked? true
+cross(cross())           -> marked? false
+cross() cross()          -> marked? true
+
+=== Boolean logic, uninvited, arrives ===
+F AND F = false   |   F OR F = false
+F AND T = false   |   F OR T = true
+T AND F = false   |   T OR F = true
+T AND T = true   |   T OR T = true
+NOT T = false,  NOT F = true
+
+=== Number, born from refusing a law ===
+three marks, uncondensed: 3  (condensed they were merely: marked = true)
+
+=== Gödel/Turing residue ===
+This program cannot prove: (1) its ledger is complete,
+(2) its host is consistent, (3) its own halting, in general.
+The unmarked state is not IN the calculus of marks.
+It is what the calculus is written on. We stop here,
+at the edge we can see, knowing there are edges we cannot.

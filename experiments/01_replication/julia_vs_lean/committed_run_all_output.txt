@@ -1,0 +1,109 @@
+==============================================================================
+ PART A — one Lean object, many Julia carriers
+==============================================================================
+
+--- enum + Cayley table  (literal mirror of Lean's inductive U)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- Complex{Int}  (Julia-native Gaussian integers — Lean built GZ by hand)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- Int mod 4  (log form: mul is +, σ is negation — conj_eq_inv is definitional)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- 2x2 integer matrices <J>  (σ = transpose, inv = adjugate)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- permutations of 4 points  (regular rep: mul = composition, σ = perm inverse)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- one-hot UInt8 bitmasks  (mul = bit rotation, σ = xor-swap 0x0A)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+--- Rational angles mod 1  (k//4 of a turn — the unit circle, exact)
+  bridge to canonical Z/4 (Lean needed theorems toGZ_*): hom+σ+inv+one+injective ALL HOLD
+  battery: 29/29 agree with the Lean kernel
+
+==============================================================================
+ PART B — same carrier, different EQUALITY: where Julia disagrees
+==============================================================================
+
+--- ComplexF64 with exact ==   (floating unit circle — DISAGREES)
+  DISAGREES with the Lean kernel on 13/29 lines:
+     x row_neg1_untwisted
+     x row_neg1_twisted
+     x fermion_is_sigma_coboundary
+     x twistedBoson_pentagon
+     x twistedBoson_untwisted_cocycle
+     x twistedBoson_gauge_trivial
+     x conj_fixes_reals
+     x twist_vanishes_on_reals(256 F)
+     x B3_untwisted == 16
+     x B3_twisted == 32
+     x ker_twisted == 8
+     x cob_subset_cocycles_untw
+     x cob_subset_cocycles_tw
+     because e.g. i*i = -1 +1.2246467991473532e-16im  (≠ -1 exactly)
+
+--- ComplexF64 with isapprox   (same carrier, tolerant equality — agrees)
+  battery: all 29 agree
+
+==============================================================================
+ PART C — hexagon/braiding battery over three exact rings (free generality)
+==============================================================================
+  Complex{Int}                all 6 agree with Lean
+  Complex{BigInt}             all 6 agree with Lean
+  Complex{Rational{BigInt}}   all 6 agree with Lean
+
+==============================================================================
+ PART D — C6_Gap.lean: the Z/n sweep, re-derived
+==============================================================================
+  ok   seal_mu4_trivial_action
+  ok   seal_mu4_inversion
+  ok   seal_fermion_trivialised
+  ok   seal_i_is_cocycle
+  ok   pinch_odd_not_cocycles
+  ok   pinch_all_cocycles_are_coboundaries
+  ok   no_pinch_at_inversion
+  ok   two_actions_at_mu4
+  ok   four_actions_at_mu8
+  ok   four_actions_at_mu12
+  ok   definite_article_accident
+  ok   mu3_trivial_only_zero
+  ok   mu3_inversion_total_pinch
+  ok   mu5_inversion_total_pinch
+  ok   odd_asymmetry
+
+==============================================================================
+ PART E — where Julia's defaults silently DISAGREE: machine integers
+==============================================================================
+  Lean-Nat-style (BigInt):  (2^63-1)+1 = 9223372036854775808
+  Julia default  (Int64):   typemax+1  = -9223372036854775808   <-- silent wrap
+  A 'theorem' ∀-checked over Int64 quantifies over a RING Z/2^64, not Z.
+
+==============================================================================
+ PART F — THE EXTENSION: the 4^8 = 65536-symbol sweep Lean could NOT decide
+ (NOT-PROVED.md §1: two kernel runs died; #eval-only numbers were 32/64/8)
+==============================================================================
+  swept all 65536 symbols in 0.13s
+  |Z3| untwisted           = 32   (claimed, unproved in Lean: 32)
+  |Z3| conjugation-twisted = 64   (claimed, unproved in Lean: 64)
+  shared                   = 8   (claimed, unproved in Lean: 8)
+  pentagon <-> untwisted-cocycle over ALL 65536: true
+  => H3 sizes (|Z3|/|B3|): untwisted 32/16 = 2;  twisted 64/32 = 2  (kernel-checked in Lean only as B3 counts)
+
+==============================================================================
+ PART G — the generic gd3, duck-typed (Lean's ∀ M : Type, as dispatch)
+==============================================================================
+  twist_invisible_on_fixed instantiated at Z/6 (untouched by Lean): holds
+  and off the fixed locus (m=1) the readings differ: true
+
+==============================================================================
+ ALL JULIA CHECKS PASSED — read the exit code, not the text
+==============================================================================

@@ -1,0 +1,95 @@
+=== I. local truth everywhere, global truth nowhere ===
+  (m, L)   m∤L?   max equations satisfiable (of L)   every (L-1)-subset reachable?
+  (3,4)    true      3 / 4                                true
+  (3,5)    true      4 / 5                                true
+  (2,3)    true      2 / 3                                true
+  (2,5)    true      4 / 5                                true
+  (4,6)    true      5 / 6                                true
+  (3,6)    false      6 / 6        (rests: m | L)
+  (2,4)    false      4 / 4        (rests: m | L)
+  P9 holds. On restless rings every equation is locally satisfiable,
+  every L-1 of them jointly — and never all L. No local inspection,
+  walking edge to edge, finds the impossibility; each stair is level.
+  The obstruction exists only at the scale of the whole loop. Local
+  truth is not weak global truth. It is a different object.
+
+=== II. the error total no state can touch ===
+  (m, L)   predicted charge (-L mod m)   observed over states
+  (3,4)    2                          [2]   (exhaustive)
+  (3,5)    1                          [1]   (exhaustive)
+  (3,6)    0                          [0]   (exhaustive)
+  (2,5)    1                          [1]   (exhaustive)
+  (4,6)    2                          [2]   (exhaustive)
+  (5,7)    3                          [3]   (4000 samples)
+  (3,12)    0                          [0]   (4000 samples)
+  P10 holds. Every state — resting, thrashing, random — carries the
+  SAME total defect: -L mod m. Paper: the sum telescopes; every s_i
+  enters once positively, once negatively; only the L crossings of
+  '+1' remain. The error is not in the states at all. It is in the
+  TOPOLOGY, and states merely distribute it. Zero charge iff m | L:
+  the kernel's divisibility law is the charge's vanishing condition.
+  ERRORS AS INFORMATION, quantified: the verdict 'restless' is one
+  bit; the charge is log2(m) bits — it says WHICH of the m classes
+  of obstruction this loop carries. The break knows more than the
+  pass. Kelly's edge is richer than the interior it bounds.
+
+=== III. moving the crack around the staircase ===
+  (3,4): single full-charge defect placeable at edges [1, 2, 3, 4]  — ALL of them
+  (2,5): single full-charge defect placeable at edges [1, 2, 3, 4, 5]  — ALL of them
+  (4,6): single full-charge defect placeable at edges [1, 2, 3, 4, 5, 6]  — ALL of them
+  P11 holds. For every edge there is a state whose ONLY failure is
+  there, carrying the entire charge. Where the staircase 'breaks' is
+  pure convention — a gauge choice; local blame is always available
+  and always arbitrary. What is real: that it breaks, and by how
+  much. Debugging lesson wearing physics: the line your stack trace
+  points at is a gauge choice. The invariant is the bug.
+
+=== IV. is Lean global and Julia local? what the record says ===
+  LEAN does not force global truth onto reality. It forces global
+  FORM onto a frame it must first name. RingRest.lean is global over
+  all m, all L — but IsFix hard-codes the synchronous tick, the very
+  debt this repo has left unpaid four files running. The kernel's ∀
+  ranges over everything its vocabulary can say and nothing it
+  cannot. Lean = global-within-a-named-frame. Its failure mode is
+  not falsehood but FRAME FORGETTING: mistaking the theorem's reach
+  for reality's.
+  JULIA does not deny global truth. It cannot UTTER it — exit 0
+  quantifies over instances actually run, nothing more. What Julia
+  does that the kernel cannot: HOP frames. Nine carriers for one
+  group; three combiners for one wiring; five disciplines for one
+  census — and the hops FOUND the frame-dependence (floats broke 13
+  theorems, combiners own laws, witnesses disagree). Julia = local-
+  across-many-frames. Its failure mode: mistaking a large sample
+  for a closed statement.
+  HOW THE DIFFERENCE HELPS (this repo's working protocol, now
+  explicit): where a statement closes, hand it to the kernel (_05);
+  where a frame is in doubt, hop frames in Julia (_03, _04); and
+  READ THE EDGES — every break in this thread was the instrument
+  becoming visible in the data: floats (equality is plural), Int64
+  wrap (the ring you didn't order), soft scope (the flag that
+  couldn't fail), metastability (the clock inside the memory), the
+  smuggled sweep order. Not one was noise. Each was the frame,
+  photographed at the moment of breaking. §II adds the sharpest
+  form: on the restless ring the error ITSELF obeys a conservation
+  law. The gap between local and global truth is not chaos.
+  It is lawful, it is quantized, and it is measurable from inside.
+
+=== V. residue ===
+• Kelly's question, answered as far as artifacts license: neither
+  language owns truth. Lean glues local into global INSIDE a frame
+  it cannot itself audit; Julia audits frames it cannot glue. The
+  seam between them — where statements close and get handed over,
+  where breaks reveal frames — is where this repo actually works.
+• New object on the board: the DEFECT CHARGE, -L mod m — refines
+  the kernel's binary verdict into m classes; conserved (P10),
+  gauge-movable (P11), vanishing exactly on the resting class.
+• HANDOFF, named: defect_sum_invariant belongs in RingRest.lean —
+  one telescoping induction, unbounded family, kernel's court.
+• Open, in Kelly's direction: what is the charge of a FIGURE-EIGHT?
+  _05 showed sharing dissolves the obstruction under sum — does the
+  charge split, cancel, or become combiner-owned? Untouched.
+• Debts standing: the tick (five files, unpaid); the combiner
+  survey; the Galois question from _05. None advanced here.
+• Exit 0 is evidence, never proof; where a statement closes, hand
+  it to the kernel; and now a third clause, Kelly's: WHERE IT
+  BREAKS, LOOK — the break is data. Three clauses, load-bearing.

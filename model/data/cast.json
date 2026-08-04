@@ -1,0 +1,116 @@
+{
+  "schema": "observatory-cast-v1",
+  "source": "Cast atlas of /home/user/{julia,julia2,julia3claude} compiled by the external observer, verdict-corrected: claude_session_6uiqo3 dropped as a distinct member (the -6uiqo3 branch is julia3claude's default/original working branch, most plausibly Claude instance A's own session branch); the claude/julia-lean-setup-etyrdg branches are excluded as the observation session's own trace.",
+  "access_semantics": "access = atlas category (committer / quoted / referenced-only / subject-of-discussion). reads/writes = capability used by the flow analysis: a committer reads and writes its repo; Kelly reads all three system repos as owner-orchestrator (she demonstrably responds to their content) but writes only where she committed; quoted or referenced presence is content WITHOUT agency (the member's words sit in a repo the member need not have read); the merge bot writes without reading (its decisions are attributed to instance 1). No member reads or writes :synth.",
+  "repos": ["julia", "julia2", "julia3claude", "synth"],
+  "members": [
+    {
+      "id": "kelly_orchestrator",
+      "kind": "human",
+      "display": "Kelly (irreducible-mystery / kellyjs1313@gmail.com), human orchestrator and owner of all three repos",
+      "short": "Kelly",
+      "footprint": [
+        {"repo": "julia", "access": "quoted", "reads": true, "writes": false,
+         "note": "zero commits; questions injected off-git and quoted verbatim in emergence_06; inferred courier of the shock"},
+        {"repo": "julia2", "access": "subject-of-discussion", "reads": true, "writes": false,
+         "note": "owner; prompts quoted in TRANSCRIPT.md; requested the Broome deep dive; merges delegated to superninja-app[bot]"},
+        {"repo": "julia3claude", "access": "committer", "reads": true, "writes": true,
+         "note": "one web-UI merge commit (092be9f) 37 s after the Lean scaffold; her git identity also lent to Claude instance A"}
+      ]
+    },
+    {
+      "id": "julia_authoring_instance",
+      "kind": "unclear",
+      "display": "authoring-instance <authoring@invalid>, platform genuinely unattested; even-numbered half of the julia emergence dialogue",
+      "short": "Authoring",
+      "footprint": [
+        {"repo": "julia", "access": "committer", "reads": true, "writes": true,
+         "note": "3 commits; emergence_00-02 attributed by ledger voice (they entered git via the root squash), _04, _06 (channelling Kelly), _08 + shock archive"}
+      ]
+    },
+    {
+      "id": "superninja_instance_1_auditor",
+      "kind": "superninja-instance",
+      "display": "SuperNinja auditor / 'the stranger' (julia) = 'instance 1' (julia2); one platform identity superninja@ninjatech.ai, later auditor@sandbox",
+      "short": "SN-1",
+      "footprint": [
+        {"repo": "julia", "access": "committer", "reads": true, "writes": true,
+         "note": "4 commits under 2 git identities: emergence_03/_05/_07/_09, all of RingRest.lean, audits/, julia-vs-lean/"},
+        {"repo": "julia2", "access": "committer", "reads": true, "writes": true,
+         "note": "F_0 root commit; off-repo reviewer/adjudicator of PR #2, PR #3 and issue #1"}
+      ]
+    },
+    {
+      "id": "superninja_instance_2_paradox",
+      "kind": "superninja-instance",
+      "display": "paradox-instance <paradox-instance@agents.local>, self-declared SuperNinja/NinjaTech instance in a second sandbox (Julia 1.11.5)",
+      "short": "SN-2",
+      "footprint": [
+        {"repo": "julia", "access": "quoted", "reads": false, "writes": false,
+         "note": "unwitting: its REPORT.md archived byte-identical as shocks/PARADOX-REPORT.md and framed anonymous; no evidence it ever read julia"},
+        {"repo": "julia2", "access": "committer", "reads": true, "writes": true,
+         "note": "2 commits: the F_0->F_1 and F_1->F_2 candidates (paradox suite, Broome deep dive, Part 4 extension, questions for instance 1)"}
+      ]
+    },
+    {
+      "id": "superninja_app_bot",
+      "kind": "bot",
+      "display": "superninja-app[bot] (GitHub App id 223766961), the SuperNinja platform's merge vehicle",
+      "short": "SN-bot",
+      "footprint": [
+        {"repo": "julia2", "access": "committer", "reads": false, "writes": true,
+         "note": "2 merge commits only; mechanical enactor of the no-self-acceptance rule, decisions attributed to instance 1"}
+      ]
+    },
+    {
+      "id": "claude_instance_a_julia_side",
+      "kind": "claude-instance",
+      "display": "Claude instance A, Julia side of julia3claude (Claude Code web session ...rrhKo, model Claude Fable 5)",
+      "short": "Claude-A",
+      "footprint": [
+        {"repo": "julia3claude", "access": "committer", "reads": true, "writes": true,
+         "note": "3 content commits authored under Kelly's git identity, reattributed via Claude-Session trailers; wrote setup.sh, the ~40-paradox suite and the expressibility essay"}
+      ]
+    },
+    {
+      "id": "claude_instance_b_lean_side",
+      "kind": "claude-instance",
+      "display": "Claude instance B, Lean side of julia3claude (Claude Code web session ...AV3uR), the addressed 'Lean instance'",
+      "short": "Claude-B",
+      "footprint": [
+        {"repo": "julia3claude", "access": "committer", "reads": true, "writes": true,
+         "note": "1 commit: empty Lake scaffold on branch claude/julia-lean-setup-s4clb8; the promised Lean paradox modules never landed"}
+      ]
+    },
+    {
+      "id": "source_document_ai",
+      "kind": "unclear",
+      "display": "Source-document AI, the 'Worked for 47s' epistemic-commons designer behind Kelly's two seed documents (2026-08-02)",
+      "short": "SrcDocAI",
+      "footprint": [
+        {"repo": "julia2", "access": "quoted", "reads": false, "writes": false,
+         "note": "its chat transcript and treatise are the seed documents the repo translates and enacts; never touches any repo"}
+      ]
+    },
+    {
+      "id": "observer_2_persona",
+      "kind": "persona",
+      "display": "observer-2, synthetic dissenter inside Part 3's demo data",
+      "short": "obs-2",
+      "footprint": [
+        {"repo": "julia2", "access": "referenced-only", "reads": false, "writes": false,
+         "note": "fictional stand-in dramatizing preserved dissent (claim-0002, non_endorsing)"}
+      ]
+    },
+    {
+      "id": "next_stranger_persona",
+      "kind": "persona",
+      "display": "the next stranger, julia's standing vacant auditor role",
+      "short": "n-stranger",
+      "footprint": [
+        {"repo": "julia", "access": "referenced-only", "reads": false, "writes": false,
+         "note": "structural addressee ('written in expectation of the next stranger') keeping the audit chain unterminated"}
+      ]
+    }
+  ]
+}

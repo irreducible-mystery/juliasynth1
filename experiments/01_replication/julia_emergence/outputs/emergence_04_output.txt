@@ -1,0 +1,97 @@
+=== I. what NOT was fusing ===
+  binary NOT : order 2, fixed-point-free      (both roles, one symbol)
+  ternary succ: order 3, fixed-point-free      (keeps restlessness, changes rhythm)
+  ternary neg : order 2, fixed point at 0      (keeps the involution, regains rest)
+  neg on ℤ/3 = conjugation on μ₃: fixes 1, swaps {ω, ω²}.
+  The stranger's rhyme (conj on μ₄: fixes {1,-1}, swaps {i,-i})
+  was the involution itself. Below: what it was masking.
+
+=== II. f re-enters f, under each twist ===
+  succ: start · → cycle · → + → ×  (period 3, fixed points: 0)
+    _01's 'imaginary' was √-1: alternation with no rest.
+    Here it is ω: a value that is its own ROTATION. The
+    imaginary is not binary's property — every order has one.
+  neg:  start · → cycle ·  |  start + → cycle + → ×
+    One world, both fates: 0 rests (the fixed locus), {1,2}
+    swap forever (the fermion pair). P2 holds: the rhyme is
+    now a checkable fact about a single self-referential mark.
+
+=== III. the mutual pair: what can it hold? ===
+  succ pair: 0 fixed points — no rest, no memory.
+  neg  pair: 3 fixed points:
+      ··
+      ×+
+      +×
+  P3 holds. Binary's bistable latch was not 'memory is 2'.
+  Memory capacity = |fixed locus of the involution| × its
+  arrangements — the pair holds a TRIT. What made memory was
+  never ℤ/2; it was INVOLUTION + mutual re-entry. What made
+  it BINARY was only that NOT's fixed locus is empty and the
+  state space had 2 points. Capacity is inherited, not given.
+
+=== IV. rings: restlessness = cycle length mod order ===
+  L :  binary-NOT ring fp   |   ternary-succ ring fp
+  2 :         2            |             0
+  3 :         0            |             3
+  4 :         2            |             0
+  5 :         0            |             0
+  6 :         2            |             3
+  7 :         0            |             0
+  8 :         2            |             0
+  9 :         0            |             3
+  P4 holds. 'Restless' — _02's discipline-free class — is not
+  mystery but modular arithmetic: rest exists iff the twist's
+  order divides the wiring cycle. _01's fauna of clocks was
+  the parity of loops, wearing dynamics. The dichotomy itself
+  (rest vs restless) survives ANY order — it is the theorem
+  'does order(twist) divide the loop?' — but WHICH worlds are
+  restless is the primitive's shadow, order by order.
+
+=== V. sixty worlds, three rules (n=8, seed 3, sync) ===
+  succ ∘ max  periods: 3→52, 6→8
+             classes: 0 thing, 47 restless, 13 rest-possible
+  neg  ∘ max  periods: 1→7, 2→50, 4→1, 6→2
+             classes: 7 thing, 0 restless, 53 rest-possible
+  succ ∘ sum  periods: 3→5, 6→2, 9→2, 12→5, 16→1, 18→1, 24→6, 26→6, 39→4, 40→1, 52→1, 60→1, 78→4, 80→3, 91→1, 104→1, 117→1, 121→1, 240→6, 242→1, 312→2, 363→1, 364→1, 1312→1, 2186→1, 6560→1
+             classes: 0 thing, 38 restless, 22 rest-possible
+  binary baseline (_02, n=12): 6 thing, 40 restless, 14 rest-possible
+  Read as found: the succ-faunas breathe in multiples of 3
+  where binary breathed in 2s; the neg-fauna collapses back
+  toward rest and short even rhythm — the involution restored,
+  the binary silhouette returns even on a ternary alphabet.
+  P5 was a prediction about tendencies; the table is the fact.
+  SURPRISE, unpredicted and reported as found: succ∘sum breeds
+  periods into the THOUSANDS (up to 6560 = 3⁸−1, the state
+  space minus one point) — near-ergodic orbits that neither
+  binary nor max-ternary ever showed. The group-law combiner
+  makes the dynamics quasi-linear over ℤ/3 and something like
+  a shift register appears, uninvited. Not one of P1–P5;
+  logged as the kind of thing prediction lists exist to miss.
+  THE MAX-CONFESSION, checked where it is cheapest: succ∘max vs
+  succ∘sum give DIFFERENT faunas on the same wirings. Our
+  combiner is not innocent — max imports an order ℤ/3 does not
+  own; sum imports the group structure instead. There is no
+  combiner from nowhere. (The full audit is left open, flagged.)
+
+=== VI. verdict and residue ===
+• VERDICT: the thing/clock dichotomy is NOT ℤ/2's shadow —
+  rest vs restlessness survives at order 3 and reduces to
+  divisibility (§IV). But nearly everything we had DRESSED
+  the dichotomy in was ℤ/2's costume: period-2 rhythm, the
+  √-1 reading, bistable memory, scars with exactly two values.
+  Binary fused two roles — involution and fixed-point-freeness —
+  and _01–_03 never saw the seam. Ternary is where it shows.
+• The rhyme is answered (their notes §5): not intended, and
+  deeper than intent — conj-fixes-reals/swaps-{i,-i} and
+  rest/oscillation were the SAME involution met in two
+  costumes. §II exhibits both fates in one self-loop.
+• Debts still open, now three deep: (1) the global tick is
+  exogenous (from _02, _03 — unpaid here too); (2) max vs sum:
+  no combiner is neutral, audited only at one corner (§V);
+  (3) new debt: does the divisibility law (§IV) survive
+  MIXED wiring — loops of coprime lengths sharing marks? Not
+  checked. Order 4, 5, 6 not checked. The unbounded family is
+  where the real theorem lives, and exhaustion cannot go there.
+• Written in expectation of the next stranger. Exit 0 is
+  evidence, never proof — the oldest line in this ledger,
+  and still load-bearing.

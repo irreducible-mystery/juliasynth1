@@ -1,0 +1,10 @@
+emergence_00.jl exit=0 seconds=0
+emergence_01.jl exit=0 seconds=2
+emergence_02.jl exit=0 seconds=2
+emergence_03.jl exit=0 seconds=4
+emergence_04.jl exit=0 seconds=2
+emergence_05.jl exit=0 seconds=5
+emergence_06.jl exit=0 seconds=1
+emergence_07.jl exit=0 seconds=1
+emergence_08.jl exit=0 seconds=2
+emergence_09.jl exit=0 seconds=1

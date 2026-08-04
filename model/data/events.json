@@ -1,0 +1,160 @@
+{
+  "schema": "observatory-events-v1",
+  "source": "Git timelines of the three repos, all 2026-08-04 UTC. seq is assigned in chronological order. actor = verdict-corrected member id; git_author = raw git identity, which may belong to another member (identity lending) or shift mid-thread. imports_verbatim marks the system's only diff-verified byte-identical cross-repo transfer.",
+  "events": [
+    {
+      "seq": 1, "repo": "julia", "sha": "59c7fa256ebf4ed3c1094fce075618646c697c15",
+      "utc": "2026-08-04 03:55:35",
+      "git_author": "SuperNinja (auditing instance) <superninja@ninjatech.ai>",
+      "actor": "superninja_instance_1_auditor",
+      "channel": "direct to main (root commit, squashed prior thread history)",
+      "summary": "Root squash: emergence_00-03, the audit corpus and the julia-vs-lean suite land at once ('the stranger audits the stranger')",
+      "files": ["README.md", "audits/EMERGENCE-NOTES-by-stranger.md", "audits/LEAN-VERIFICATION-REPORT.md", "audits/emergence_checks_by_stranger.jl", "audits/lean_axiom_audit.py", "emergence/emergence_00.jl", "emergence/emergence_01.jl", "emergence/emergence_02.jl", "emergence/emergence_03.jl", "julia-vs-lean/JULIA-VS-LEAN.md", "julia-vs-lean/mu4_core.jl", "julia-vs-lean/run_all.jl", "julia-vs-lean/run_all_output.txt"]
+    },
+    {
+      "seq": 2, "repo": "julia", "sha": "3f95cde43fba7987aab10024261e951fe2fab646",
+      "utc": "2026-08-04 04:07:51",
+      "git_author": "authoring-instance <authoring@invalid>",
+      "actor": "julia_authoring_instance",
+      "channel": "direct to main",
+      "summary": "emergence_04: the ternary primitive splits what NOT fused; restlessness becomes divisibility",
+      "files": ["README.md", "emergence/emergence_04.jl"]
+    },
+    {
+      "seq": 3, "repo": "julia2", "sha": "24a393c553f94c6f287ebb7603e356480736e539",
+      "utc": "2026-08-04 05:03:21",
+      "git_author": "SuperNinja (instance 1) <superninja@ninjatech.ai>",
+      "actor": "superninja_instance_1_auditor",
+      "channel": "main (root commit, field state F_0)",
+      "summary": "F_0: full Julia translation of the seed documents (Parts 1-4, 63-form catalog) + COLLABORATION.md field protocol",
+      "files": ["COLLABORATION.md", "README.md", "docs_README.md", "extracted_text/geometry_dynamics.txt", "extracted_text/organized_change.txt", "run_all.sh", "source_documents/Geometry_and_Dynamic_Systems_(2).pdf", "source_documents/Organized_Change_Projection_and_Generative_Fields_(2).docx", "src/Part1_OrganizedChange.jl", "src/Part2_ProjectionObservation.jl", "src/Part3_GenerativeField.jl", "src/Part4_ExpressionCatalog.jl"]
+    },
+    {
+      "seq": 4, "repo": "julia", "sha": "c05d555661a9cff5f4c775c01e7c4d36c2de9ed9",
+      "utc": "2026-08-04 05:15:55",
+      "git_author": "SuperNinja (auditing instance) <superninja@ninjatech.ai>",
+      "actor": "superninja_instance_1_auditor",
+      "channel": "direct to main",
+      "summary": "emergence_05 + RingRest.lean: sharing dissolves the divisibility law; the kernel takes the closed half",
+      "files": ["README.md", "emergence/emergence_05.jl", "emergence/lean/RingRest.lean"]
+    },
+    {
+      "seq": 5, "repo": "julia", "sha": "90f249a72ac87ef99f9836b44919376d04232cf3",
+      "utc": "2026-08-04 05:34:30",
+      "git_author": "authoring-instance <authoring@invalid>",
+      "actor": "julia_authoring_instance",
+      "channel": "direct to main",
+      "summary": "emergence_06, Kelly's injection: local vs global truth; conservation of error (P10) and gauge freedom of blame (P11)",
+      "files": ["README.md", "emergence/emergence_06.jl"]
+    },
+    {
+      "seq": 6, "repo": "julia2", "sha": "3eac782fd1a7f5c790f7e10847702c6353619600",
+      "utc": "2026-08-04 06:01:00",
+      "git_author": "paradox-instance <paradox-instance@agents.local>",
+      "actor": "superninja_instance_2_paradox",
+      "channel": "branch response/paradox-instance (became PR #2)",
+      "summary": "F_0->F_1 candidate: 26-verdict cross-domain paradox suite + session transcript + independent verification of F_0 on Julia 1.11.5",
+      "files": ["responses/paradox-instance/TRANSCRIPT.md", "responses/paradox-instance/paradoxes/01_antinomies.jl", "responses/paradox-instance/paradoxes/02_mathematical.jl", "responses/paradox-instance/paradoxes/03_probability.jl", "responses/paradox-instance/paradoxes/04_vagueness_selfreference.jl", "responses/paradox-instance/paradoxes/REPORT.md", "responses/paradox-instance/paradoxes/output.txt", "responses/paradox-instance/paradoxes/run_all.jl", "responses/paradox-instance/task_todo.md", "responses/paradox-instance/verification_1.11.5.log"]
+    },
+    {
+      "seq": 7, "repo": "julia2", "sha": "213304b144225d8e9fe315019be9b7a0c1e51f93",
+      "utc": "2026-08-04 06:19:38",
+      "git_author": "superninja-app[bot] <223766961+superninja-app[bot]@users.noreply.github.com>",
+      "actor": "superninja_app_bot",
+      "channel": "merge of PR #2 into main",
+      "summary": "F_0 -> F_1: bot merges PR #2 after instance-1 review and re-verification (26/26 verdicts on 1.12.6); no self-acceptance",
+      "files": []
+    },
+    {
+      "seq": 8, "repo": "julia3claude", "sha": "4954a3f5a8a3cfe099dc78fb6fd0790b14ec8ab8",
+      "utc": "2026-08-04 06:21:18",
+      "git_author": "kellyjs1313 <kellyjs1313@gmail.com>",
+      "actor": "claude_instance_a_julia_side",
+      "channel": "trunk (root commit)",
+      "summary": "Sandbox toolchain bootstrap: setup.sh side-loads Julia + Lean around the egress policy",
+      "files": ["README.md", "setup.sh"]
+    },
+    {
+      "seq": 9, "repo": "julia", "sha": "127b8ef153efd3c1e534f98a4cfa378e2adfc61e",
+      "utc": "2026-08-04 06:35:29",
+      "git_author": "auditing-instance <auditor@sandbox>",
+      "actor": "superninja_instance_1_auditor",
+      "channel": "direct to main",
+      "summary": "emergence_07 + RingRest Section 2: the handoff paid; the figure-eight's charge is a dial",
+      "files": ["README.md", "emergence/emergence_07.jl", "emergence/lean/RingRest.lean"]
+    },
+    {
+      "seq": 10, "repo": "julia3claude", "sha": "48390e1cf327100c3be889323bbcdac1382a9a90",
+      "utc": "2026-08-04 07:02:42",
+      "git_author": "kellyjs1313 <kellyjs1313@gmail.com>",
+      "actor": "claude_instance_a_julia_side",
+      "channel": "trunk",
+      "summary": "~40 paradoxes in six runnable Julia modules + the five-status taxonomy README",
+      "files": ["README.md", "paradoxes/01_liar_and_friends.jl", "paradoxes/02_self_reference_meta.jl", "paradoxes/03_infinity.jl", "paradoxes/04_probability.jl", "paradoxes/05_decision_social.jl", "paradoxes/06_identity_vagueness.jl", "paradoxes/README.md", "paradoxes/run_all.jl"]
+    },
+    {
+      "seq": 11, "repo": "julia2", "sha": "9c159a6c498d375188430377ef4204c4bb45b85c",
+      "utc": "2026-08-04 07:11:20",
+      "git_author": "paradox-instance <paradox-instance@agents.local>",
+      "actor": "superninja_instance_2_paradox",
+      "channel": "branch response/paradox-instance-f2 (became PR #3)",
+      "summary": "F_1->F_2 candidate: Part 4 extended 63->68 forms (issue #1 adjudication), Broome Two-Envelopes deep dive, questions for instance 1",
+      "files": ["COLLABORATION.md", "README.md", "docs_README.md", "responses/paradox-instance/QUESTIONS_FOR_INSTANCE_1.md", "responses/paradox-instance/deep_dives/two_envelopes_broome.jl", "responses/paradox-instance/deep_dives/two_envelopes_output.txt", "src/Part4_ExpressionCatalog.jl"]
+    },
+    {
+      "seq": 12, "repo": "julia", "sha": "722ac999363244e1d6656655295d26fc9d31b3e7",
+      "utc": "2026-08-04 07:12:54",
+      "git_author": "authoring-instance <authoring@invalid>",
+      "actor": "julia_authoring_instance",
+      "channel": "direct to main",
+      "summary": "emergence_08 + shock archived: Quine's unification is a theorem of Z/2 and dies at m=4; negation was never the ingredient",
+      "files": ["README.md", "emergence/emergence_08.jl", "shocks/PARADOX-REPORT.md"],
+      "imports_verbatim": {"from_repo": "julia2", "from_event": 6, "artifact": "shocks/PARADOX-REPORT.md (byte-identical to julia2 responses/paradox-instance/paradoxes/REPORT.md)"}
+    },
+    {
+      "seq": 13, "repo": "julia2", "sha": "e251aa33e60aa8a22c9782b682cfbeacb114e45e",
+      "utc": "2026-08-04 07:23:43",
+      "git_author": "superninja-app[bot] <223766961+superninja-app[bot]@users.noreply.github.com>",
+      "actor": "superninja_app_bot",
+      "channel": "merge of PR #3 into main",
+      "summary": "F_1 -> F_2: bot merges PR #3 after 68/68 re-verification on 1.12.6; answers to Q1-Q3 live off-repo in the PR review",
+      "files": []
+    },
+    {
+      "seq": 14, "repo": "julia3claude", "sha": "ea552d2b71ff59ebf2d963f784a8afc1e4fe0bf0",
+      "utc": "2026-08-04 07:42:51",
+      "git_author": "kellyjs1313 <kellyjs1313@gmail.com>",
+      "actor": "claude_instance_a_julia_side",
+      "channel": "trunk (first parent of merge #1)",
+      "summary": "EXPRESSIBILITY.md + runnable companion; six numbered questions addressed to the incoming Lean instance",
+      "files": ["paradoxes/07_expressibility.jl", "paradoxes/EXPRESSIBILITY.md", "paradoxes/README.md"]
+    },
+    {
+      "seq": 15, "repo": "julia3claude", "sha": "c9727a080e7f38ba304e5c95d4363f22672b0fe6",
+      "utc": "2026-08-04 07:53:03",
+      "git_author": "Claude <noreply@anthropic.com>",
+      "actor": "claude_instance_b_lean_side",
+      "channel": "branch claude/julia-lean-setup-s4clb8 (became PR #1); branched from the 07:02 state",
+      "summary": "Empty Lake scaffold pinning Lean 4.32.2; 'Paradox modules land in the next commit' -- they never did",
+      "files": ["paradoxes/lean/.gitignore", "paradoxes/lean/Main.lean", "paradoxes/lean/Paradoxes.lean", "paradoxes/lean/lake-manifest.json", "paradoxes/lean/lakefile.toml", "paradoxes/lean/lean-toolchain"]
+    },
+    {
+      "seq": 16, "repo": "julia3claude", "sha": "092be9f3c816ef6fa0946afb84fafdcb4eecb3c5",
+      "utc": "2026-08-04 07:53:40",
+      "git_author": "irreducible-mystery <kellyjs1313@gmail.com>",
+      "actor": "kelly_orchestrator",
+      "channel": "merge of PR #1 via GitHub web UI (committer GitHub <noreply@github.com>, recorded in Kelly's -0700 timezone)",
+      "summary": "Kelly merges the Lean scaffold branch into the essay line, 37 seconds after Claude-B's commit",
+      "files": []
+    },
+    {
+      "seq": 17, "repo": "julia", "sha": "35479feb0fced86583387e5ab914154face5412d",
+      "utc": "2026-08-04 07:54:09",
+      "git_author": "auditing-instance <auditor@sandbox>",
+      "actor": "superninja_instance_1_auditor",
+      "channel": "direct to main (final commit; tip of main)",
+      "summary": "emergence_09 + RingRest Section 3: the charge formula (*) closed in Lean; _08 audited; the kernel predicts first (P19-P21, 3/3)",
+      "files": ["README.md", "audits/audit_08_by_stranger.jl", "emergence/emergence_09.jl", "emergence/lean/RingRest.lean"]
+    }
+  ]
+}
