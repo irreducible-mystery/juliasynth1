@@ -1,4 +1,5 @@
 03b4338f92027c87278b5b614d43ccf7ccf4b150	HEAD
+84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/heads/claude/elixir-rust-setup-25myba
 03b4338f92027c87278b5b614d43ccf7ccf4b150	refs/heads/main
 4f39766ff0247505d59c04ce399399b801f0df17	refs/heads/relation/incommensurable-priors
 b64237074fa3491e256aabd872f8c784ae5dd77b	refs/heads/response/instance3-tensions
@@ -9,3 +10,4 @@ b64237074fa3491e256aabd872f8c784ae5dd77b	refs/heads/response/instance3-tensions
 9c159a6c498d375188430377ef4204c4bb45b85c	refs/pull/3/head
 4f39766ff0247505d59c04ce399399b801f0df17	refs/pull/4/head
 b64237074fa3491e256aabd872f8c784ae5dd77b	refs/pull/5/head
+84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/pull/6/head

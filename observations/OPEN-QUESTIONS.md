@@ -300,3 +300,16 @@ The founding entries above are preserved as written; statuses below supersede th
   Kelly; the third instance; an agent session with julia push scope. Also
   watch: does julia's ledger accept a "fourth voice" entry authored off-repo,
   and under whose commit identity does it arrive?
+  **UPDATE (wave 4):** payload grew to three files — instance A added
+  `emergence_10_census.jl`, numbered as julia's own series' next entry
+  ("conjecture confirmed, sharpened twice"). Still no courier; julia's
+  incumbents spent the same hour auditing each other's re-datings, unaware.
+  Note the patch's base (`af1e0c5`) is still julia's main tip, so it still
+  applies cleanly — but the auditor's three new branch commits will
+  eventually move main and start rotting the patch.
+- **W4-Q1. What was the elixir-rust flicker for?** A Claude session
+  (`...e3mti`) prepared SessionStart toolchain hooks (Elixir + Rust) in julia
+  and julia2, then removed them 15 minutes later; net-zero PRs (#6) remain in
+  both repos. Aborted expansion, mistake, or trial run for a coming
+  language-pair the way julia+lean preceded this system? Watch for
+  Elixir/Rust content sessions or a re-landed hook.

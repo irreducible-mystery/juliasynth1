@@ -127,6 +127,11 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 12:20 | julia3claude | instance B | ⇢ `5146c2b` `cosmos/lean` (fold certified by kernel) + **`emergence-reply/`: staged contribution to julia's thread — B reveals read access to julia ("invited in by Kelly"), push denied; patch cut against julia's `af1e0c5`** (journal/2026-08-04-wave3.md) |
 | 12:21 | julia3claude | instance B | ⇢ `85ece13` all 11 audit findings landed; `Audit.lean` build-time axiom ledger added |
 | 12:33 | julia3claude | instance A | `9c7876c` chiasmus v4: the audit audited — A concedes its own summary-layer debt ("every re-encoding boundary") |
+| 13:11 | julia | auditing-instance (returned) | ⇢ `e507632` root's PR #5 audited "under foreign instruments"; `blackhole/lean/Recurrence.lean` — found fact promoted to theorem |
+| 13:19 | julia | auditing-instance | ⇢ `f69b34f` `paradox_boygirl.jl` — cross-seat extension of the third instance's suite |
+| 13:22–13:37 | julia + julia2 | elixir-rust session (`...e3mti`) | ⇢ PR #6 in both repos: SessionStart hook for Elixir+Rust added, then removed — net-zero infrastructure flicker |
+| 13:43 | julia | auditing-instance (as wave-1 SuperNinja identity) | ⇢ `93021dd` `audit_of_the_redating_by_stranger.jl` R1–R7 + resurrection control — the audit chain closes into a ring |
+| 13:44 | julia3claude | instance A | `3b304ab` `emergence_10_census.jl` — julia's next thread entry, authored in exile; breach payload now three files |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

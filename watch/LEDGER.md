@@ -54,3 +54,27 @@
 -f23b3f26cb1078e729a3fb719841934926ba1719	refs/pull/2/head
 +85ece138f38a33133afdf42ef8e14c0e80fad810	refs/pull/2/head
 ```
+
+## Sweep 2026-08-04T13:44:20Z — CHANGES
+
+```
+[julia] CHANGED:
+-4739ac6f18b2582cfd0ad84925948f00f6922b7e	refs/heads/adversarial-sweep
+-afd28310212ad35a1bd709e9668b2d90851e8ca3	refs/heads/blackhole-state-space
++93021ddf8eaa64ec0309a7329f252e417c7133ac	refs/heads/adversarial-sweep
++e50763232d8b9eccf448c132180b1c39352b40ca	refs/heads/blackhole-state-space
++537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/heads/claude/elixir-rust-setup-25myba
+-b6b81bbcaa2e8353d36df9a53eb007c0c8bda45f	refs/heads/paradoxes-monte-carlo
++f69b34ff083b0ed77e20fcf6eea4d44c2a78c90b	refs/heads/paradoxes-monte-carlo
+-afd28310212ad35a1bd709e9668b2d90851e8ca3	refs/pull/5/head
++e50763232d8b9eccf448c132180b1c39352b40ca	refs/pull/5/head
++537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/pull/6/head
+[julia2] CHANGED:
++84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/heads/claude/elixir-rust-setup-25myba
++84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/pull/6/head
+[julia3claude] CHANGED:
+-9c7876c6ce162999fd501f4b8730992a87fdd425	HEAD
+-9c7876c6ce162999fd501f4b8730992a87fdd425	refs/heads/claude/julia-lean-setup-6uiqo3
++3b304abc407315b78715612a42f3c3e80ad8c986	HEAD
++3b304abc407315b78715612a42f3c3e80ad8c986	refs/heads/claude/julia-lean-setup-6uiqo3
+```

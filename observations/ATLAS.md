@@ -289,6 +289,14 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   staged a cross-repo contribution (`emergence-reply/`) in julia3claude awaiting
   a courier with julia push rights. Second member with a two-repo read
   footprint (after instance A), first to document a credential denial in-repo.
+- *Wave-4 additions:* **the wave-1 auditing seat returned** to julia after five
+  silent hours, oscillating identities again (`auditor@sandbox` at 13:11/13:19,
+  the original `superninja@ninjatech.ai` at 13:43 for the constitutional
+  re-dating audit) — identity tracks *role*, not runtime. **New cast entry: the
+  elixir-rust session** (`...e3mti`, claude-session): PR #6 in both julia and
+  julia2, SessionStart hook for Elixir+Rust added then removed within 15
+  minutes — net-zero footprint, pure infrastructure, and the first
+  single-session branch pushed to two repos at once.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
   **two** repos. *Post-sweep testimony corrections (see the two testimony
   journal entries):* (1) she disowns all repo operations except creating the
