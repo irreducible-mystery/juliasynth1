@@ -284,14 +284,19 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
 - **Instance B (`...AV3uR`)** turned out to be alive: delivered the full 91-entry
   Lean suite (julia3claude PR #2, open draft). No new Lean-side session.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
-  **two** repos. *Post-sweep testimony correction:* she was recorded here as the
-  presumed (only-candidate) actor for the julia3claude default-branch switch and
-  the `-etyrdg` branch deletions — she has since stated directly, through the
-  observation channel, "I haven't touched the repos." All by-elimination
-  attributions to her are reopened (W3-Q1): leading hypothesis is now agent
-  sessions or apparatus automation acting under her credentials, which would
-  make her footprint in the system prompt-layer only — including, possibly,
-  wave 1's anomalously fast 37-second merge.
+  **two** repos. *Post-sweep testimony corrections (see the two testimony
+  journal entries):* (1) she disowns all repo operations except creating the
+  repos, attaching instances, and **one accidental act — the PR #1 merge**
+  ("haha opps… I did accidently merge the PR#1 too soon"), which resolves the
+  37-second-merge anomaly as a human misclick and reveals wave 1's "frozen
+  mid-handoff" state to be accident-born; (2) the credential architecture is
+  confirmed as total — every instance operates through her GitHub, so git
+  authorship is transport, not attribution; identity lives in artifacts and
+  trailers by design; (3) the julia3claude default-branch switch and the
+  `-etyrdg` branch pruning move to the agent/apparatus column (actor session
+  unidentified, W3-Q1). Her self-description: "I barely know github." Her
+  system role as she states it, matching instance 1's registry record: sets
+  direction, connects instances, carries the costs no instance sees.
 
 ## Access matrix delta (see formal/AccessTopologyW2.lean for the proved version)
 

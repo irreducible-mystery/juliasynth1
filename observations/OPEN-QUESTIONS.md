@@ -268,3 +268,19 @@ The founding entries above are preserved as written; statuses below supersede th
   entire footprint in the system is prompt-layer only, and the anomalously fast
   37-second merge stops being an anomaly. Would resolve: trailers where they
   exist; platform logs (unobservable); further testimony.
+  **UPDATE (testimony #2):** the 092be9f merge WAS her — an accidental
+  premature click ("haha opps"), so the 37-second anomaly resolves as a human
+  misclick, and wave 1's "frozen mid-handoff" state was created by accident.
+  Everything else: standing owner assumption that she performs no repo
+  operations beyond creating repos and attaching instances ("I barely know
+  github") — the default-branch switch and branch pruning are agent/apparatus
+  actions, session unidentified. GitHub system-level metadata (verification
+  payloads, App actor IDs) confirmed by the owner as a place where AI-vs-manual
+  may be distinguishable; queued as an observation method. See
+  journal/2026-08-04-testimony-kelly-2.md.
+- **W3-Q2. Does the secondary access stratum generalize?** Instance 1's
+  self-reported incidents (content filter on bulk PDF dumps, pkill-ed gh
+  review, ENOSPC) document a platform-control layer above repo credentials —
+  per the owner's pointer. Instance 2's transcripts folder is still empty and
+  julia's members keep no archive at all. Watch: does the archive practice
+  spread, and do other members' secondary strata surface?
