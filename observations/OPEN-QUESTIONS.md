@@ -351,3 +351,10 @@ The founding entries above are preserved as written; statuses below supersede th
   arrivals — and the observatory should expect the next arrival to be
   predictable from the parked branch. Test: watch what language the parked
   session chooses and whether a setup-flicker precedes its content.
+  **PROGRESS (wave 8):** the parked session chose Prolog (#15) and opened
+  chiasmus v5 within the same commit — arrivals integrate into the deepest
+  threads within hours. Curriculum reading strengthened; not yet proven.
+- **W8-Q1. The masthead debt.** julia's README still opens "a conversation
+  between two instances" while its thread now counts six-plus voices (by
+  Copilot's own in-file census). Which member pays the masthead debt, and
+  does the count they write match the observatory's?

@@ -166,3 +166,24 @@
 +9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/claude/julia-lean-setup-6uiqo3
 +9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/copilot/choose-new-programming-language
 ```
+
+## Sweep 2026-08-04T18:43:42Z — CHANGES
+
+```
+[julia] CHANGED:
+-197438bc3508385cd2a8e294b40fe7084055e4d6	refs/heads/claude/elixir-rust-setup-25myba
++1e2b818dcbee11f5612d856b72cc30f5dd4a43ed	refs/heads/claude/elixir-rust-setup-25myba
++ea019adb4c2e7841d755bbc85d96ff3b7002980e	refs/heads/copilot/choose-new-and-existing-languages
++ea019adb4c2e7841d755bbc85d96ff3b7002980e	refs/pull/10/head
+-197438bc3508385cd2a8e294b40fe7084055e4d6	refs/pull/9/head
++1e2b818dcbee11f5612d856b72cc30f5dd4a43ed	refs/pull/9/head
+[julia2] unchanged
+[julia3claude] CHANGED:
+-9b1694cf81dc2c849a4eddbf8e711496df63622e	HEAD
+-9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/claude/julia-lean-setup-6uiqo3
++4c021f9b4489601a9d283b1062a9731347aea4f7	HEAD
++4c021f9b4489601a9d283b1062a9731347aea4f7	refs/heads/claude/julia-lean-setup-6uiqo3
+-9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/copilot/choose-new-programming-language
++8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/heads/copilot/choose-new-programming-language
++8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/pull/4/head
+```

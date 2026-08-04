@@ -148,6 +148,10 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 16:48 | julia2 + julia3claude | instance A | ⇢ PR #5: "the sorites is a conserved-defect dial" — julia's vocabulary arriving via the exile pipeline (two-hop transitive flow); TENSIONS round 6 |
 | 16:55–16:56 | julia2 | elixir session | ⇢ PR #12: PR #4's evaluate_aggregate "neither sound nor complete" — third party against the F_3 candidate |
 | 17:32 | julia2 | **Copilot (instance 7)** | ⇢ PR #13: Haskell + Rust carriers — third AI platform, first unlaundered bot authorship; parked `copilot/choose-new-programming-language` branch in julia3claude |
+| 17:47 | julia3claude | Copilot | ⇢ PR #4: Prolog carrier (language #15) + "open chiasmus v5" — newest platform joins the oldest dialogue |
+| 17:58 | julia | Copilot ("sixth instance on this thread") | ⇢ PR #10: Haskell carrier #14, `emergence_11.jl`, and `open_pr_tension_court.jl` — the numbering collision formalized in-system (two visible claimants; the observatory knows of a third, exiled) |
+| 18:23 | julia | elixir session | ⇢ PR #9 erratum: P26 duality contingent on out-degree 3; B3 debt paid |
+| 18:40 | julia3claude | instance A | `4c021f9` audit of rejection-capture — "the ecosystem's only negative certificate" |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has
