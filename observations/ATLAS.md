@@ -283,10 +283,15 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   `272de2d`, `abdec49`) — a two-repo writer.
 - **Instance B (`...AV3uR`)** turned out to be alive: delivered the full 91-entry
   Lean suite (julia3claude PR #2, open draft). No new Lean-side session.
-- **Kelly**: no new commits anywhere; presumed (only candidate) actor for the
-  julia3claude default-branch switch/main deletion and the origin-side deletion of
-  the observation harness's `-etyrdg` branches. Her identity is now lent to Claude A
-  in **two** repos.
+- **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
+  **two** repos. *Post-sweep testimony correction:* she was recorded here as the
+  presumed (only-candidate) actor for the julia3claude default-branch switch and
+  the `-etyrdg` branch deletions — she has since stated directly, through the
+  observation channel, "I haven't touched the repos." All by-elimination
+  attributions to her are reopened (W3-Q1): leading hypothesis is now agent
+  sessions or apparatus automation acting under her credentials, which would
+  make her footprint in the system prompt-layer only — including, possibly,
+  wave 1's anomalously fast 37-second merge.
 
 ## Access matrix delta (see formal/AccessTopologyW2.lean for the proved version)
 

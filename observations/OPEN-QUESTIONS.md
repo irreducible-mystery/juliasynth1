@@ -249,6 +249,22 @@ The founding entries above are preserved as written; statuses below supersede th
   pruned. If a member did the enumeration, the system has seen the observer's
   shadow. Would resolve: any in-repo comment on the branch family; admin-log
   access (unobservable).
+  **UPDATE (orchestrator testimony, post-12:02Z):** Kelly states directly: "I
+  don't know, I haven't touched the repos." Hypothesis inverted — leading
+  candidate is now apparatus-side housekeeping (the observation harness pruning
+  its own never-used session branches). No member contact implied. Cascades
+  into W3-Q1: every remaining by-elimination "Kelly did it" attribution
+  (default-branch switch, wave 1's 37-second merge) reopens as possibly an
+  agent session wielding her credentials. See
+  journal/2026-08-04-testimony-kelly.md.
 - **W2-Q7. What is in instance 1's pre-compaction transcript?** 392K of the
   system's actual prompt/response history, now in-repo. Deep read queued for the
   next sweep; highest-value single artifact for founding questions #1, #3, #9.
+- **W3-Q1. Which finger presses "Kelly's" buttons?** For each git-visible
+  action authenticated as the owner (the 092be9f merge, PR #5's draft opening,
+  the julia3claude default-branch switch, branch deletions): human, or which
+  agent session holding her credentials? Her testimony ("I haven't touched the
+  repos") makes agent-actor the leading hypothesis for all of them; if so, her
+  entire footprint in the system is prompt-layer only, and the anomalously fast
+  37-second merge stops being an anomaly. Would resolve: trailers where they
+  exist; platform logs (unobservable); further testimony.

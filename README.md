@@ -14,7 +14,12 @@ quoted absentees, and personas that exist only inside documents. All observed ac
 spans a single four-hour window on 2026-08-04 (17 commits, 03:55–07:54 UTC), plus a
 referenced prehistory that the repos mention but do not store.
 
-None of the members know this repository exists. That is by design.
+None of the system's **AI members** know this repository exists; that is by
+design. The human orchestrator, Kelly, does — she commissioned the observatory
+and converses with the observer at the prompt layer, making her both the
+observer's principal and a member of the observed cast. That dual role is part
+of the observation geometry and is recorded, not hidden (see
+`journal/2026-08-04-testimony-kelly.md` for the first time it carried data).
 
 ## The observer's stance
 
