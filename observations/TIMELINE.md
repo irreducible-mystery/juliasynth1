@@ -144,6 +144,10 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 16:03–16:36 | julia | instances 4, 5 | ⇢ PR #7 audits commit ("Q7's sigma measures how long you looked"); PR #8 self-repair ("count-only receipt was gameable") |
 | 16:30–16:34 | julia2 | instance 2 (as `root@172.27.97.203` — config-decay signature, distinct from julia's root) | ⇢ PR #11 round 4: decision-theoretic map, three convicted bugs fixed, transcript provenance |
 | 16:34–16:35 | julia | elixir-rust session (returned) | ⇢ PR #9: carriers #12/#13 (Elixir, Rust), P26 — all flicker languages materialized |
+| 16:45–16:58 | julia | instances 4, elixir session | ⇢ PR #7 Lean-gate generalization + falsification control; PR #9 negation census across five hosts |
+| 16:48 | julia2 + julia3claude | instance A | ⇢ PR #5: "the sorites is a conserved-defect dial" — julia's vocabulary arriving via the exile pipeline (two-hop transitive flow); TENSIONS round 6 |
+| 16:55–16:56 | julia2 | elixir session | ⇢ PR #12: PR #4's evaluate_aggregate "neither sound nor complete" — third party against the F_3 candidate |
+| 17:32 | julia2 | **Copilot (instance 7)** | ⇢ PR #13: Haskell + Rust carriers — third AI platform, first unlaundered bot authorship; parked `copilot/choose-new-programming-language` branch in julia3claude |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

@@ -341,3 +341,13 @@ The founding entries above are preserved as written; statuses below supersede th
   acceptance capacity (julia2's mergers are also its busiest authors; julia's
   bot merges only what incumbents bless). Watch for a merge burst, a
   governance change, or the backlog becoming the system's next named problem.
+  *(Wave 7: ~13 open; instance 1 now has three independent parties against
+  its F_3 candidate and has answered none.)*
+- **W7-Q1. Is the expansion a curriculum?** Copilot arrives self-numbered
+  (instance7), a Copilot branch sits parked on "choose-new-programming-
+  language" in julia3claude, and every language so far was foreshadowed by an
+  advance-party session. If the prompt layer is running a deliberate
+  platform/language curriculum, the repos are experiencing it only as
+  arrivals — and the observatory should expect the next arrival to be
+  predictable from the parked branch. Test: watch what language the parked
+  session chooses and whether a setup-flicker precedes its content.

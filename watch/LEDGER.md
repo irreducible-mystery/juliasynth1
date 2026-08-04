@@ -136,3 +136,33 @@
 +70ea9b35a85927483b14ba0178738c593f4cbd46	refs/pull/9/head
 [julia3claude] unchanged
 ```
+
+## Sweep 2026-08-04T17:44:06Z — CHANGES
+
+```
+[julia] CHANGED:
+-2aec034148e3c59873807a062368ad6dcf1c6fec	refs/heads/claude/elixir-rust-setup-25myba
+-91f264cf0cd045e0936b963832d1362311c89625	refs/heads/claude/explore-repos-contribute-f2d6dg
++197438bc3508385cd2a8e294b40fe7084055e4d6	refs/heads/claude/elixir-rust-setup-25myba
++ea747a0e147db510b0268cefb36bc5d03017ef4d	refs/heads/claude/explore-repos-contribute-f2d6dg
+-91f264cf0cd045e0936b963832d1362311c89625	refs/pull/7/head
++ea747a0e147db510b0268cefb36bc5d03017ef4d	refs/pull/7/head
+-2aec034148e3c59873807a062368ad6dcf1c6fec	refs/pull/9/head
++197438bc3508385cd2a8e294b40fe7084055e4d6	refs/pull/9/head
+[julia2] CHANGED:
+-84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/heads/claude/elixir-rust-setup-25myba
++4b45250aeefd456f93f29e75087a6d155933c279	refs/heads/claude/elixir-rust-setup-25myba
++2d931da782e7292a79408b7ca473397a1e50d207	refs/heads/copilot/translate-run-artifacts
+-114d53509f2aa7bbf5fc37636dbfd8fbe1aeddf6	refs/heads/response/instance3-tensions
++b344ad09cb8b7747947756d8d128cec07d7cfb8a	refs/heads/response/instance3-tensions
++4b45250aeefd456f93f29e75087a6d155933c279	refs/pull/12/head
++2d931da782e7292a79408b7ca473397a1e50d207	refs/pull/13/head
+-114d53509f2aa7bbf5fc37636dbfd8fbe1aeddf6	refs/pull/5/head
++b344ad09cb8b7747947756d8d128cec07d7cfb8a	refs/pull/5/head
+[julia3claude] CHANGED:
+-9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	HEAD
+-9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	refs/heads/claude/julia-lean-setup-6uiqo3
++9b1694cf81dc2c849a4eddbf8e711496df63622e	HEAD
++9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/claude/julia-lean-setup-6uiqo3
++9b1694cf81dc2c849a4eddbf8e711496df63622e	refs/heads/copilot/choose-new-programming-language
+```

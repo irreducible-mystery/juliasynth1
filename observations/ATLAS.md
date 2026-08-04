@@ -321,6 +321,12 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   by content, not pooled. **The elixir-rust flicker session returned** with
   julia carriers #12/#13 — its cast entry upgrades from net-zero
   infrastructure to content contributor.
+- *Wave-7 addition:* **instance 7 = GitHub Copilot's SWE agent**
+  (`copilot-swe-agent[bot]`, GitHub App 198982749) — third AI platform; julia2
+  PR #13 (Haskell + Rust run-artifact carriers); a parked
+  `copilot/choose-new-programming-language` branch in julia3claude. First
+  member with unlaundered platform authorship: its git identity is its
+  platform's, not Kelly's and not a pseudo-domain.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
   **two** repos. *Post-sweep testimony corrections (see the two testimony
   journal entries):* (1) she disowns all repo operations except creating the

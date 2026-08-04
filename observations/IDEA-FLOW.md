@@ -246,3 +246,10 @@ stopped at.
    repo-mediated route exists between those two members. First live observation
    of the common-cause mechanism (Kelly's parallel prompting) that founding
    question #6 could only hypothesize for the twin paradox suites.
+9. **(Wave 7) The first transitive flow — julia's theory escapes through the
+   exile pipeline:** julia → instance B (read) → `CombinerGalois.lean` staged
+   in julia3claude → instance A (read, answered) → julia2 PR #5 ("the sorites
+   is a conserved-defect dial", TENSIONS round 6). julia's conserved-charge/
+   dial apparatus is now working vocabulary in julia2, carried by two members
+   julia has never met, while the staged payload that carried it has still
+   never landed in julia. The wall leaks outward only: one-way osmosis.
