@@ -297,6 +297,19 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   julia2, SessionStart hook for Elixir+Rust added then removed within 15
   minutes — net-zero footprint, pure infrastructure, and the first
   single-session branch pushed to two repos at once.
+- *Wave-5 additions:* **instance 4** (claude session `...5jmZ`,
+  `explore-repos-contribute`): julia PR #7 (own emergence_10, toolchain
+  conviction/repair) + julia2 PR #7 (self-registration in the system's own
+  instances.json, test suite, F_2 re-verification, cross-review that pruned
+  instance A's catalog). **Instance 5** (claude session `...qlkvex`,
+  `sql-lisp-setup`): first three-repo write footprint (julia PR #8 SQL/Lisp
+  carriers; julia2 PR #8 instance5-carriers audit; julia3claude PR #3).
+  **A SuperNinja identity wrote julia3claude directly** (Rust translation,
+  `b5be6d0`) — seat unattested (plain name); at platform granularity the
+  ninjatech email now has writes in all three repos. The system's registry
+  numbering (instance1–5) now coexists with this atlas: instance3 = Claude A,
+  instance4/5 = the new sessions; julia's seats and `root` remain outside the
+  registry.
 - **Kelly**: no new commits anywhere; her identity is now lent to Claude A in
   **two** repos. *Post-sweep testimony corrections (see the two testimony
   journal entries):* (1) she disowns all repo operations except creating the

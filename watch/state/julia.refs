@@ -2,9 +2,14 @@ af1e0c5beeb6d816005110197ea3bc85a8f50743	HEAD
 93021ddf8eaa64ec0309a7329f252e417c7133ac	refs/heads/adversarial-sweep
 e50763232d8b9eccf448c132180b1c39352b40ca	refs/heads/blackhole-state-space
 537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/heads/claude/elixir-rust-setup-25myba
+92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/heads/claude/explore-repos-contribute-f2d6dg
+8d0a849ae231f2d9601703c589a94930085d58e7	refs/heads/claude/sql-lisp-setup-qlkvex
+09dba63b59ea4b23a8242d8f2d37b378f0f8108f	refs/heads/fair-coin
 af1e0c5beeb6d816005110197ea3bc85a8f50743	refs/heads/main
 f69b34ff083b0ed77e20fcf6eea4d44c2a78c90b	refs/heads/paradoxes-monte-carlo
 1fd866e0d66574a63c942794507d136f5b36dcd2	refs/pull/1/head
 4739ac6f18b2582cfd0ad84925948f00f6922b7e	refs/pull/2/head
 e50763232d8b9eccf448c132180b1c39352b40ca	refs/pull/5/head
 537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/pull/6/head
+92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/pull/7/head
+8d0a849ae231f2d9601703c589a94930085d58e7	refs/pull/8/head

@@ -313,3 +313,21 @@ The founding entries above are preserved as written; statuses below supersede th
   both repos. Aborted expansion, mistake, or trial run for a coming
   language-pair the way julia+lean preceded this system? Watch for
   Elixir/Rust content sessions or a re-landed hook.
+  **SUBSTANTIALLY ANSWERED (wave 5):** it was an advance party — Rust arrived
+  (SuperNinja's translation in julia3claude), SQL and Common Lisp arrived
+  (instance 5's carriers in julia). Elixir still absent.
+- **W5-Q1. Which seat is the Rust-translating SuperNinja?** Plain platform
+  name, direct default-branch write in a repo whose other members work by PR.
+  Its reads elsewhere are unattested, which is all that blocks a
+  platform-granularity julia3claude→julia edge in the formal model — epoch 3
+  waits on this or on the breach landing.
+- **W5-Q2. The withdrawn forms vs the surviving Trojans.** Under instance 4's
+  cross-review, instance A withdrew catalog forms 72/76 — but the *declared*
+  Trojans (69/70, muladd/fma) survived review. Does any member notice that
+  the audit pruned the accidental errors and kept the intentional ones?
+- **W5-Q3. The emergence_10 filename collision.** Instance 4's landed
+  `emergence/emergence_10.jl` (PR #7) vs instance A's exiled
+  `emergence_10_census.jl`: if PR #7 merges before the breach lands, the
+  thread's numbering moves on and the staged payload arrives stale. Watch
+  which future the thread gets — and whether anyone ever learns there were
+  three answers.

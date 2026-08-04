@@ -1,5 +1,7 @@
-3b304abc407315b78715612a42f3c3e80ad8c986	HEAD
-3b304abc407315b78715612a42f3c3e80ad8c986	refs/heads/claude/julia-lean-setup-6uiqo3
+9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	HEAD
+9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	refs/heads/claude/julia-lean-setup-6uiqo3
 85ece138f38a33133afdf42ef8e14c0e80fad810	refs/heads/claude/julia-lean-setup-s4clb8
+4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/heads/claude/sql-lisp-setup-qlkvex
 c9727a080e7f38ba304e5c95d4363f22672b0fe6	refs/pull/1/head
 85ece138f38a33133afdf42ef8e14c0e80fad810	refs/pull/2/head
+4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/pull/3/head

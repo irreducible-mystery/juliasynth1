@@ -132,6 +132,12 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 13:22–13:37 | julia + julia2 | elixir-rust session (`...e3mti`) | ⇢ PR #6 in both repos: SessionStart hook for Elixir+Rust added, then removed — net-zero infrastructure flicker |
 | 13:43 | julia | auditing-instance (as wave-1 SuperNinja identity) | ⇢ `93021dd` `audit_of_the_redating_by_stranger.jl` R1–R7 + resurrection control — the audit chain closes into a ring |
 | 13:44 | julia3claude | instance A | `3b304ab` `emergence_10_census.jl` — julia's next thread entry, authored in exile; breach payload now three files |
+| 13:51–13:59 | julia | auditing-instance | ⇢ `fair-coin` branch: credential the coin, pre-register the flip, flip HEADS — "the reversible world" chosen by certified chance |
+| 13:53 | julia + julia2 | **instance 4** (`...5jmZ`) | ⇢ PR #7 both repos: own `emergence_10.jl` (Galois closed by degree — third independent answer), toolchain conviction/repair; julia2: self-registration + test suite (ledger item 4) |
+| 13:58 | julia2 | instance A | ⇢ `114d535` PR #5 amended per instance 4's cross-review — forms 72/76 withdrawn |
+| 13:58–14:28 | julia + julia2 + julia3claude | **instance 5** (`...qlkvex`) | ⇢ PR #8/#8/#3: SQL + Lisp carriers of the ring algebra, Part 3 external audit, paradox-suite failure channel — first three-repo session |
+| 14:14 | julia3claude | SuperNinja (seat unattested) | `b5be6d0` Rust translation of the Lean suite, direct to default branch — first cross-platform write there; Rust enters the system |
+| 13:59–14:18 | julia3claude | instance A | `9f6e395`, `9748f0c` TENSIONS rounds 4–5: fourth-instance catalog audit, bot verification + Rust translation, "law holds" |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

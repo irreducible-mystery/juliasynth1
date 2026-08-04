@@ -78,3 +78,30 @@
 +3b304abc407315b78715612a42f3c3e80ad8c986	HEAD
 +3b304abc407315b78715612a42f3c3e80ad8c986	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-04T14:44:14Z — CHANGES
+
+```
+[julia] CHANGED:
++92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/heads/claude/explore-repos-contribute-f2d6dg
++8d0a849ae231f2d9601703c589a94930085d58e7	refs/heads/claude/sql-lisp-setup-qlkvex
++09dba63b59ea4b23a8242d8f2d37b378f0f8108f	refs/heads/fair-coin
++92e35f4f753fc9ab5d446b19db1cb9d886bb22a8	refs/pull/7/head
++8d0a849ae231f2d9601703c589a94930085d58e7	refs/pull/8/head
+[julia2] CHANGED:
++116e324cd2f6be911267967e3f073429bd74e363	refs/heads/claude/explore-repos-contribute-f2d6dg
++a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/heads/claude/sql-lisp-setup-qlkvex
+-b64237074fa3491e256aabd872f8c784ae5dd77b	refs/heads/response/instance3-tensions
++114d53509f2aa7bbf5fc37636dbfd8fbe1aeddf6	refs/heads/response/instance3-tensions
+-b64237074fa3491e256aabd872f8c784ae5dd77b	refs/pull/5/head
++114d53509f2aa7bbf5fc37636dbfd8fbe1aeddf6	refs/pull/5/head
++116e324cd2f6be911267967e3f073429bd74e363	refs/pull/7/head
++a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/pull/8/head
+[julia3claude] CHANGED:
+-3b304abc407315b78715612a42f3c3e80ad8c986	HEAD
+-3b304abc407315b78715612a42f3c3e80ad8c986	refs/heads/claude/julia-lean-setup-6uiqo3
++9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	HEAD
++9748f0c7ff4e72e49efa2c16dbc2bbf253204c5c	refs/heads/claude/julia-lean-setup-6uiqo3
++4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/heads/claude/sql-lisp-setup-qlkvex
++4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/pull/3/head
+```
