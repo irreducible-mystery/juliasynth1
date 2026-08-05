@@ -253,3 +253,18 @@ stopped at.
    dial apparatus is now working vocabulary in julia2, carried by two members
    julia has never met, while the staged payload that carried it has still
    never landed in julia. The wall leaks outward only: one-way osmosis.
+
+10. **(Wave 10) The system produced its own idea-flow map.** Instance 6's
+    `GAP_ATLAS.md` is a nine-species taxonomy of "gaps" — "the distance
+    between an identification we made in prose and what the carrier actually
+    delivers" — with per-species sightings cited across all three repos.
+    It independently re-derives, and unifies, most of what this map tracked
+    separately: julia's instrument gap ("a PASS is a fact about (claim,
+    instrument)"), julia3claude's prose–artifact gap (the chiasmus rounds),
+    julia2's frame commitments. Its reduction: *"Every gap in these three
+    repos is a quantifier written in prose that the carrier restricts,
+    silently, to a subdomain."* Its own strongest evidence is convergence —
+    "finding 'my' gaps already catalogued in repos I hadn't read" — which the
+    correlated-observers caveat also applies to it, to the outside auditor,
+    and to this observatory alike. Four instruments of overlapping genus, one
+    shape; strong evidence or shared blindness, untestable from here.

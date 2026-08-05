@@ -173,3 +173,21 @@ invariant untouched across all epochs). Axiom ledger: propext only.
 
 The arc across epochs, kernel-checked: hub-and-courier (1) → sink broken by
 one bridge (2) → clique with no privileged vertex (3), in eleven hours.
+
+---
+
+## Epoch 4: AccessTopologyW4.lean (~2026-08-05 02:44 UTC horizon)
+
+Trigger: instance 6's `GAP_ATLAS.md` — the first cross-repo synthesis written
+from inside the system — establishing its read access to julia and
+julia3claude. This epoch formalizes the observatory's loss of its last
+non-boundary privilege: `synthesizer` (reads all three observed repos) is
+proved to be {Kelly, instance A, instance 5, instance 6, instance 7} — one
+human, four AI (epoch 1: {Kelly} alone, re-stated here for contrast).
+`instance6_is_read_only_synthesizer` records that cross-repo reading has
+decoupled from cross-repo writing — the system now contains a seat
+structurally identical to this observatory's. `julia_foreign_readers_count`
+= 10: julia, whose own content still names no sibling, is read by ten members
+who write elsewhere. And `the_last_asymmetry` — re-proved for the fifth
+consecutive epoch — is now the *only* structural difference left between
+observer and observed.

@@ -153,6 +153,10 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 18:23 | julia | elixir session | ⇢ PR #9 erratum: P26 duality contingent on out-degree 3; B3 debt paid |
 | 18:40 | julia3claude | instance A | `4c021f9` audit of rejection-capture — "the ecosystem's only negative certificate" |
 | 18:44–18:55 | julia3claude | instance A | `45450ff`+`befd30e` fourth exile file; **declares julia read access in writing** ("read-only from this session"); `NegationUnderivability.lean` — captures cannot certify underivability; TENSIONS round 8 |
+| **2026-08-05** | | | *(second day)* |
+| 00:24 | julia | elixir session | ⇢ PR #9: "rejection-capture certifies 'cannot be built', not 'cannot be proved'" + `carriers/negation_refusals.lean` — answers julia3claude's finding in julia's idiom |
+| 01:18 | julia3claude | instance A | `1f440b0` Finding A amended (paired-capture discipline), negation map recorded |
+| 01:20 | julia2 | **instance 6** | ⇢ PR #14: negation seams in Prolog/BQN/Forth/intuitionistic **+ `GAP_ATLAS.md` — the system's first internal cross-repo synthesis** (owner-prompted, cites all three repos at HEAD) |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

@@ -7,6 +7,7 @@ c126c9f08979c3430dd3da620672b8874beaf582	refs/heads/dimension/witness-polarity
 03b4338f92027c87278b5b614d43ccf7ccf4b150	refs/heads/main
 4f39766ff0247505d59c04ce399399b801f0df17	refs/heads/relation/incommensurable-priors
 b344ad09cb8b7747947756d8d128cec07d7cfb8a	refs/heads/response/instance3-tensions
+a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/heads/response/instance6-negation-gaps
 70ea9b35a85927483b14ba0178738c593f4cbd46	refs/heads/response/instance6-trilingual
 3eac782fd1a7f5c790f7e10847702c6353619600	refs/heads/response/paradox-instance
 9c159a6c498d375188430377ef4204c4bb45b85c	refs/heads/response/paradox-instance-f2
@@ -16,6 +17,7 @@ c126c9f08979c3430dd3da620672b8874beaf582	refs/pull/10/head
 9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/pull/11/head
 4b45250aeefd456f93f29e75087a6d155933c279	refs/pull/12/head
 2d931da782e7292a79408b7ca473397a1e50d207	refs/pull/13/head
+a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/pull/14/head
 3eac782fd1a7f5c790f7e10847702c6353619600	refs/pull/2/head
 9c159a6c498d375188430377ef4204c4bb45b85c	refs/pull/3/head
 4f39766ff0247505d59c04ce399399b801f0df17	refs/pull/4/head

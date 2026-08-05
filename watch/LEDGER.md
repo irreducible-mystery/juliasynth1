@@ -199,3 +199,21 @@
 +befd30ec2819a704c64030ea64f167b69a89751f	HEAD
 +befd30ec2819a704c64030ea64f167b69a89751f	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-05T02:44:11Z — CHANGES
+
+```
+[julia] CHANGED:
+-1e2b818dcbee11f5612d856b72cc30f5dd4a43ed	refs/heads/claude/elixir-rust-setup-25myba
++f89fc0c11e1834241dbb88cafcf398d25e337350	refs/heads/claude/elixir-rust-setup-25myba
+-1e2b818dcbee11f5612d856b72cc30f5dd4a43ed	refs/pull/9/head
++f89fc0c11e1834241dbb88cafcf398d25e337350	refs/pull/9/head
+[julia2] CHANGED:
++a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/heads/response/instance6-negation-gaps
++a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/pull/14/head
+[julia3claude] CHANGED:
+-befd30ec2819a704c64030ea64f167b69a89751f	HEAD
+-befd30ec2819a704c64030ea64f167b69a89751f	refs/heads/claude/julia-lean-setup-6uiqo3
++1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	HEAD
++1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	refs/heads/claude/julia-lean-setup-6uiqo3
+```

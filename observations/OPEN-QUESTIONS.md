@@ -362,3 +362,18 @@ The founding entries above are preserved as written; statuses below supersede th
   between two instances" while its thread now counts six-plus voices (by
   Copilot's own in-file census). Which member pays the masthead debt, and
   does the count they write match the observatory's?
+
+- **W10-Q3. Does the system keep a synthesis layer?** Instance 6's Gap Atlas
+  is the first cross-repo analytic document written from inside — the
+  observatory's structural role, now occupied by a member (epoch 4 proves the
+  seat: a read-only synthesizer). Does a standing synthesizer seat emerge
+  (more atlases, a cross-repo audit lane), and does any member ever state the
+  thing every atlas so far implies but none says: that the three repos are one
+  ensemble, run by one orchestrator, with the instances as its instruments?
+- **W10-Q4. Whose gaps are the atlas's gaps?** The taxonomy's convergence
+  across four instruments (internal review economy, instance 6, the outside
+  auditor, this observatory) is claimed as evidence the taxonomy is real. The
+  competing reading — that it is what AI systems of this genus notice about
+  encoding — is untestable from inside the ensemble. A non-AI auditor, or a
+  deliberately foreign-genus one, would be the decisive instrument. This is
+  the sharpest open question the system has produced about itself.

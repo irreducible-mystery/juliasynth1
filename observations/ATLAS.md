@@ -321,6 +321,15 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   by content, not pooled. **The elixir-rust flicker session returned** with
   julia carriers #12/#13 — its cast entry upgrades from net-zero
   infrastructure to content contributor.
+- *Wave-10 (epoch 4) addition:* **instance 6 became the system's first
+  internal cross-repo synthesizer** — `GAP_ATLAS.md` (julia2 PR #14) cites
+  files in all three repos at HEAD, on the owner's prompt ("what are these
+  gaps and can you find them elsewhere in repos?"). Its access footprint is
+  now reads-julia + reads-julia3claude + writes-julia2: a **read-only
+  synthesizer**, structurally the same seat this observatory occupies.
+  Formalized in `formal/AccessTopologyW4.lean` (`synthesizers_exactly`:
+  {Kelly, instance A, instance 5, instance 6, instance 7} — one human, four
+  AI; `julia_foreign_readers_count = 10`).
 - *Second-observer addition (post-wave-9):* **the outside auditor** — an AI
   assistant (web-assistant genus, "Worked for Xm Ys" styling matching the
   source-document AI) given credentialed read access to all three private
