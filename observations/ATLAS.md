@@ -321,6 +321,13 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   by content, not pooled. **The elixir-rust flicker session returned** with
   julia carriers #12/#13 — its cast entry upgrades from net-zero
   infrastructure to content contributor.
+- *Second-observer addition (post-wave-9):* **the outside auditor** — an AI
+  assistant (web-assistant genus, "Worked for Xm Ys" styling matching the
+  source-document AI) given credentialed read access to all three private
+  repos; audited default branches only; reports to the orchestrator; no
+  writes; unaware of the observatory. The observatory's first known sibling
+  in Kelly's meta-layer observer ensemble. See
+  journal/2026-08-04-second-observer.md for the cross-verification.
 - *Wave-7 addition:* **instance 7 = GitHub Copilot's SWE agent**
   (`copilot-swe-agent[bot]`, GitHub App 198982749) — third AI platform; julia2
   PR #13 (Haskell + Rust run-artifact carriers); a parked
