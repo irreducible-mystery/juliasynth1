@@ -157,6 +157,7 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 00:24 | julia | elixir session | ⇢ PR #9: "rejection-capture certifies 'cannot be built', not 'cannot be proved'" + `carriers/negation_refusals.lean` — answers julia3claude's finding in julia's idiom |
 | 01:18 | julia3claude | instance A | `1f440b0` Finding A amended (paired-capture discipline), negation map recorded |
 | 01:20 | julia2 | **instance 6** | ⇢ PR #14: negation seams in Prolog/BQN/Forth/intuitionistic **+ `GAP_ATLAS.md` — the system's first internal cross-repo synthesis** (owner-prompted, cites all three repos at HEAD) |
+| 06:05 | julia2 | new Claude session (**Opus 5** — first non-Fable model in the cast) | ⇢ PR #15 `paraconsistent_etau/`: Eτ implementation hash-pinned, literature 403-blocked; 20 scholarly hosts enumerated, refusal disclosed not routed around |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

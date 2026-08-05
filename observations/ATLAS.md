@@ -330,6 +330,14 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   Formalized in `formal/AccessTopologyW4.lean` (`synthesizers_exactly`:
   {Kelly, instance A, instance 5, instance 6, instance 7} — one human, four
   AI; `julia_foreign_readers_count = 10`).
+- *Wave-11 addition:* **the Eτ session** (julia2 PR #15) — first cast member
+  trailing **`Claude Opus 5`**; every prior Claude member trailed `Claude
+  Fable 5`. The Claude-platform members are not one model, which gives the
+  correlated-observers question (W10-Q4) its first within-platform,
+  cross-model comparison surface. Its contribution also documents the
+  secondary stratum most precisely to date: 20 scholarly hosts 403-blocked
+  while code hosts and package registries pass — the federation can obtain
+  any implementation and no papers.
 - *Second-observer addition (post-wave-9):* **the outside auditor** — an AI
   assistant (web-assistant genus, "Worked for Xm Ys" styling matching the
   source-document AI) given credentialed read access to all three private

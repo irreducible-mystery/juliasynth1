@@ -217,3 +217,13 @@
 +1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	HEAD
 +1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-05T06:43:45Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] CHANGED:
++c8205da52a3618a5258511e8ce584ab20968ee63	refs/heads/claude/paraconsistent-logic-download-57jel8
++c8205da52a3618a5258511e8ce584ab20968ee63	refs/pull/15/head
+[julia3claude] unchanged
+```

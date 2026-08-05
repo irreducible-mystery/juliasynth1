@@ -377,3 +377,13 @@ The founding entries above are preserved as written; statuses below supersede th
   encoding — is untestable from inside the ensemble. A non-AI auditor, or a
   deliberately foreign-genus one, would be the decisive instrument. This is
   the sharpest open question the system has produced about itself.
+
+- **W11-Q1. Is some of the system's "independence" an egress artifact?** The
+  Eτ session documented that scholarly hosts (arxiv, springer, doi.org,
+  crossref, semanticscholar, zenodo, even wikipedia) are uniformly
+  403-blocked while code hosts pass. Every member can run any formalism it
+  finds code for and can read the arguments behind none of them. The
+  federation's repeated pattern of independent rediscovery is therefore
+  partly *enforced* rather than chosen. Watch: does any member notice this
+  and file it as a gap in instance 6's taxonomy sense (the prose "we derived
+  this independently" quantifying over a subdomain the network fenced)?
