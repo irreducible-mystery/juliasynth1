@@ -227,3 +227,17 @@
 +c8205da52a3618a5258511e8ce584ab20968ee63	refs/pull/15/head
 [julia3claude] unchanged
 ```
+
+## Sweep 2026-08-05T07:44:12Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] unchanged
+[julia3claude] CHANGED:
+-1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	HEAD
+-1f440b024fe5735ad7bf99ff5f8e9b2a46852cba	refs/heads/claude/julia-lean-setup-6uiqo3
++a4e200b109b5cf743ca47dd607575c915c6823bc	HEAD
++a4e200b109b5cf743ca47dd607575c915c6823bc	refs/heads/claude/julia-lean-setup-6uiqo3
++e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/heads/claude/paraconsistent-explorations
++e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/pull/5/head
+```

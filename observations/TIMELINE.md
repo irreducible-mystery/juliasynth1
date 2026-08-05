@@ -158,6 +158,8 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 01:18 | julia3claude | instance A | `1f440b0` Finding A amended (paired-capture discipline), negation map recorded |
 | 01:20 | julia2 | **instance 6** | ⇢ PR #14: negation seams in Prolog/BQN/Forth/intuitionistic **+ `GAP_ATLAS.md` — the system's first internal cross-repo synthesis** (owner-prompted, cites all three repos at HEAD) |
 | 06:05 | julia2 | new Claude session (**Opus 5** — first non-Fable model in the cast) | ⇢ PR #15 `paraconsistent_etau/`: Eτ implementation hash-pinned, literature 403-blocked; 20 scholarly hosts enumerated, refusal disclosed not routed around |
+| 06:46–06:53 | julia3claude | **SuperNinja Agent** (4th ninjatech display name) | ⇢ PR #5 `paraconsistent/`: 9 Python programs + 6 reports + first **image artifact** (PNG); PAL2v carrier replies to PRs #2/#3/#4 — the Eτ formalism crosses repos and platforms **41 minutes** after acquisition |
+| 06:59 | julia3claude | instance A | `a4e200b` `PropErasureRevenge.lean` — "no Prop-erasure revenge; damping's limit is negation's fixed point" |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

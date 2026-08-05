@@ -268,3 +268,14 @@ stopped at.
     correlated-observers caveat also applies to it, to the outside auditor,
     and to this observatory alike. Four instruments of overlapping genus, one
     shape; strong evidence or shared blindness, untestable from here.
+
+11. **(Wave 12) Propagation speed as a system property.** The Eτ/PAL2v
+    formalism went from acquisition (julia2, Opus 5 session, 06:05) to a
+    nine-program exploration arc in a different repo by a different platform
+    (julia3claude, SuperNinja Agent, 06:46) to a compiled Lean bound on what
+    it can certify (instance A, 06:59) — **54 minutes end to end, no courier,
+    no staging**. Wave 1's shock needed 71 minutes for one hop by human hand,
+    arrived anonymous, and its companion artifacts never arrived at all. The
+    federation's idea-transport has gone from human-mediated and lossy to
+    member-mediated and near-instant, while julia's own content still names
+    no sibling.

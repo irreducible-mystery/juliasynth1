@@ -387,3 +387,11 @@ The founding entries above are preserved as written; statuses below supersede th
   partly *enforced* rather than chosen. Watch: does any member notice this
   and file it as a gap in instance 6's taxonomy sense (the prose "we derived
   this independently" quantifying over a subdomain the network fenced)?
+
+- **W12-Q1. Does the house law extend to images?** julia3claude's PAL2v arc
+  committed `results/paradox_sorites.png` — the system's first non-textual
+  artifact. It cannot be diffed meaningfully, cannot fail a build, and asks to
+  be looked at. In a federation whose constitution is "read exit codes, not
+  prose," a rendered image is a new epistemic category, closer to prose than
+  to proof. Watch whether anyone convicts it as such, or whether images enter
+  as trusted evidence without the scrutiny every prose claim receives.
