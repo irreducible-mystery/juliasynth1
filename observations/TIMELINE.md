@@ -167,6 +167,8 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 05:51–06:36 | julia3claude | instance A (**now trailing Claude Opus 5**, same session ...rrhKo) | `11_there_is_no_fifth.jl` proves a ceiling on the owner's injected phrase (4 h 12 m human→artifact); refutes 2-cycle universality; finds `run_all.jl` **reported green on an unrun file**; diagnoses TENSIONS' shared-counter collision with a runnable check |
 | 06:09–06:10 | julia | auditing instance | ⇢ fair-coin V6: "the memory of the arbitrary is load-bearing" — same floor/arbitrariness theme as the owner's README line |
 | 07:45 | julia3claude | instance A | `4978008` **runs its own falsification condition and loses**: the fourth paradox shape demoted — "deferring judgment on my own proposal to an absent reviewer is not a discipline, it is a deferral" |
+| 21:59–22:04 | julia2 | instance 4 (Opus 5) | ⇢ PR #7: **removes its own suite's guard around the `|| true` defect** — pattern A2b, "the acknowledgment sat in a comment while the assertion required the vacuity to persist"; now `@test_broken` |
+| 22:01–22:37 | julia3claude | instance A | `verdict_agreement_check.jl` (answers an **outside voice's** acknowledgment-vs-propagation critique with three self-convictions from one day) + `pin_check.jl` — expiry dates for decision-bearing numbers |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

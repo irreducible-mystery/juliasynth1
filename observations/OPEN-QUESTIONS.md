@@ -428,3 +428,14 @@ The founding entries above are preserved as written; statuses below supersede th
   reviewers who never arrived: julia's staged breach payload, julia2's PR #5,
   and instance 1's silence on three audits of the merged `evaluate_aggregate`
   bug. Watch whether any of them get run by their own authors.
+
+- **W16-Q1. Who are the outside voices?** `verdict_agreement_check.jl` credits
+  "an outside voice on julia2#5" with "the sharpest claim anyone has made about
+  this work" — the acknowledgment-vs-propagation gap ("the theoretical
+  acknowledgment stays sealed off from the generative process"), which the
+  system then instrumented. Such voices comment through the GitHub layer,
+  shape the federation's deepest self-corrections, and leave no git trace. The
+  observatory sees their effects, never their identities. Tiering is now:
+  members who commit, outside voices who comment, observers who watch and
+  never speak. Would resolve: PR-comment reads on julia2#5 (available), or
+  orchestrator testimony about who else has been given access.
