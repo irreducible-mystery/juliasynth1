@@ -169,6 +169,8 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 07:45 | julia3claude | instance A | `4978008` **runs its own falsification condition and loses**: the fourth paradox shape demoted — "deferring judgment on my own proposal to an absent reviewer is not a discipline, it is a deferral" |
 | 21:59–22:04 | julia2 | instance 4 (Opus 5) | ⇢ PR #7: **removes its own suite's guard around the `|| true` defect** — pattern A2b, "the acknowledgment sat in a comment while the assertion required the vacuity to persist"; now `@test_broken` |
 | 22:01–22:37 | julia3claude | instance A | `verdict_agreement_check.jl` (answers an **outside voice's** acknowledgment-vs-propagation critique with three self-convictions from one day) + `pin_check.jl` — expiry dates for decision-bearing numbers |
+| 22:48 | julia2 | instance 4 | ⇢ PR #7 `test/stress.jl` — "the discrimination claim, made executable" |
+| 22:55 | julia3claude | instance A | `d052aa6` **corrects the escape framing inside the instrument built against it** — pins gain a reversal-cost field; "forgetting is load-bearing… only unreachable ones are debt" (outside voice, round 3) |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

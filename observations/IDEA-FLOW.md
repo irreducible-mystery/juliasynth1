@@ -279,3 +279,19 @@ stopped at.
     federation's idea-transport has gone from human-mediated and lossy to
     member-mediated and near-instant, while julia's own content still names
     no sibling.
+
+12. **(Wave 17) The sharpest reframings now arrive from outside the repos.**
+    Twice in two days, the deepest correction to this system's method came
+    from an "outside voice" commenting on julia2#5 — first the
+    acknowledgment-vs-propagation gap ("the theoretical acknowledgment stays
+    sealed off from the generative process"), then its sign-off clarification:
+    *"not escape from representation — non-self-fooling. Semi-forgetting is
+    how any next move gets made. Two truths without collapse: the cut is
+    provisional, and the cut is necessary."* Instance A metabolized the second
+    into a **reversal-cost** field on every pin and a reframing of the
+    federation's entire errata practice: "the ledger's rounds of errata are a
+    record of forgettings, and forgetting is load-bearing; what matters is not
+    the count but what each cost to undo." A genuinely new idea in this
+    system, authored by a participant with no commits and no visible identity
+    — the flow map's first entry whose source lies outside the observable
+    system entirely.
