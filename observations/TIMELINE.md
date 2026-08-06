@@ -160,6 +160,8 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 06:05 | julia2 | new Claude session (**Opus 5** — first non-Fable model in the cast) | ⇢ PR #15 `paraconsistent_etau/`: Eτ implementation hash-pinned, literature 403-blocked; 20 scholarly hosts enumerated, refusal disclosed not routed around |
 | 06:46–06:53 | julia3claude | **SuperNinja Agent** (4th ninjatech display name) | ⇢ PR #5 `paraconsistent/`: 9 Python programs + 6 reports + first **image artifact** (PNG); PAL2v carrier replies to PRs #2/#3/#4 — the Eτ formalism crosses repos and platforms **41 minutes** after acquisition |
 | 06:59 | julia3claude | instance A | `a4e200b` `PropErasureRevenge.lean` — "no Prop-erasure revenge; damping's limit is negation's fixed point" |
+| **22:36–22:39** | julia2 | owner account | **the backlog breaks**: PRs #15,#14,#11,#10,#9,**#4**,#12 merged in 3 minutes — incl. the F_3 candidate convicted by three independent audits, merged **unrepaired**, with its own refutation merged 1 min later |
+| 22:43–22:44 | julia3claude | owner account | PR #5 (PAL2v arc) and **PR #2 (the 91-entry Lean suite, open 38 h)** merged; plus `ecb62c0`, the first trailer-less content commit under the owner's identity |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

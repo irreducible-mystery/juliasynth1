@@ -241,3 +241,23 @@
 +e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/heads/claude/paraconsistent-explorations
 +e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/pull/5/head
 ```
+
+## Sweep 2026-08-06T05:44:31Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] CHANGED:
+-03b4338f92027c87278b5b614d43ccf7ccf4b150	HEAD
++11310a59d0675fbbc965f06a6d889240bc83db61	HEAD
+-2d931da782e7292a79408b7ca473397a1e50d207	refs/heads/copilot/translate-run-artifacts
++3846f55a19a53e37c675b18229add12682ef394f	refs/heads/copilot/translate-run-artifacts
+-03b4338f92027c87278b5b614d43ccf7ccf4b150	refs/heads/main
++11310a59d0675fbbc965f06a6d889240bc83db61	refs/heads/main
+-2d931da782e7292a79408b7ca473397a1e50d207	refs/pull/13/head
++3846f55a19a53e37c675b18229add12682ef394f	refs/pull/13/head
+[julia3claude] CHANGED:
+-a4e200b109b5cf743ca47dd607575c915c6823bc	HEAD
+-a4e200b109b5cf743ca47dd607575c915c6823bc	refs/heads/claude/julia-lean-setup-6uiqo3
++56a86fecc888205864c8969ae0f4abfef6d92122	HEAD
++56a86fecc888205864c8969ae0f4abfef6d92122	refs/heads/claude/julia-lean-setup-6uiqo3
+```

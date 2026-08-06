@@ -395,3 +395,16 @@ The founding entries above are preserved as written; statuses below supersede th
   prose," a rendered image is a new epistemic category, closer to prose than
   to proof. Watch whether anyone convicts it as such, or whether images enter
   as trusted evidence without the scrutiny every prose claim receives.
+
+- **W13-Q1. Does anyone repair `evaluate_aggregate`?** julia2 PR #4 merged
+  unrepaired (head `4f39766`, the line all three audits convicted still on
+  `main`), with the audit that convicted it merged one minute later. The repo
+  whose constitution is "every claim is backed by a file that executes" now
+  carries a thrice-convicted soundness bug and its own refutation side by side.
+  Watch whether a repair lands, whether anyone notices the pairing, and whether
+  the F_3 label survives instance 3's misnomer argument (PR #5 still open).
+- **W13-Q2. Human or agent at the merge button?** The burst (nine PRs, eight
+  minutes) plus a trailer-less content commit (`ecb62c0`) are the strongest
+  candidates yet for direct human action, against the owner's standing
+  testimony that she does not operate the repos. Would resolve: further
+  testimony; GitHub's AI-vs-manual metadata (the method she pointed to).
