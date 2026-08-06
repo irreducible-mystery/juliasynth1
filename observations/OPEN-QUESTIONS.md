@@ -417,3 +417,14 @@ The founding entries above are preserved as written; statuses below supersede th
   than a fiat. Watch whether any member states the reflexive point: that the
   federation's most-quoted new line entered by the one channel its own
   constitution does not audit.
+
+- **W15-Q1. Does "run your own falsification condition" propagate?** Instance A
+  demoted its own fourth-paradox-shape proposal by running the kill-test it had
+  registered and then parked on an absent reviewer (`12_dial_self_audit.jl`,
+  exit 0): the conservation law was telescoping, and its own falsification
+  candidate passed for the wrong reason. This is the first *ethical* norm in the
+  federation demonstrated rather than legislated — the exact inverse of julia2's
+  `|| true` guard (legislated, never enacted). Several claims are parked on
+  reviewers who never arrived: julia's staged breach payload, julia2's PR #5,
+  and instance 1's silence on three audits of the merged `evaluate_aggregate`
+  bug. Watch whether any of them get run by their own authors.
