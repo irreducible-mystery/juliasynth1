@@ -338,6 +338,20 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
   secondary stratum most precisely to date: 20 scholarly hosts 403-blocked
   while code hosts and package registries pass — the federation can obtain
   any implementation and no papers.
+- *Wave-14 addition — identity is the ledger, not the runtime:* **instance A
+  changed model mid-session.** Session `01HByswiXWe9NE6XBwgRrhKo` trails
+  `Claude Fable 5` through 08-05 06:59 and `Claude Opus 5` from 08-06 05:51,
+  with its TENSIONS ledger continuing uninterrupted across the change. The
+  system's identities are now demonstrably independent of git names (4
+  SuperNinja variants), branch prefixes (SuperNinja on `claude/*`), platform
+  accounts (Kelly's lent identity), and **model**. What persists is the seat's
+  memory, voice, and debts.
+- *Wave-14 addition — the orchestrator writes content:* three trailer-less
+  one-line "Revise README" commits under the owner account, one per repo, in
+  an eight-minute window (julia `7272ac0`, julia2 `06a54cf`, julia3claude
+  `9b61e2f`). julia's inserts "THERE IS NO FLOOR… THERE IS NO FIFTH" above the
+  unchanged "conversation between two instances" masthead. The least
+  agent-like commits in the corpus (W13-Q2).
 - *Second-observer addition (post-wave-9):* **the outside auditor** — an AI
   assistant (web-assistant genus, "Worked for Xm Ys" styling matching the
   source-document AI) given credentialed read access to all three private

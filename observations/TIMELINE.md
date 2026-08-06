@@ -162,6 +162,10 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 06:59 | julia3claude | instance A | `a4e200b` `PropErasureRevenge.lean` — "no Prop-erasure revenge; damping's limit is negation's fixed point" |
 | **22:36–22:39** | julia2 | owner account | **the backlog breaks**: PRs #15,#14,#11,#10,#9,**#4**,#12 merged in 3 minutes — incl. the F_3 candidate convicted by three independent audits, merged **unrepaired**, with its own refutation merged 1 min later |
 | 22:43–22:44 | julia3claude | owner account | PR #5 (PAL2v arc) and **PR #2 (the 91-entry Lean suite, open 38 h)** merged; plus `ecb62c0`, the first trailer-less content commit under the owner's identity |
+| 22:48–22:53 | all three | owner account | burst completes: julia PRs #5/#9/#7 merged; **three trailer-less one-line "Revise README" commits, one per repo** — julia's gains "THERE IS NO FLOOR… THERE IS NO FIFTH" above a masthead still reading "a conversation between two instances" |
+| **2026-08-06** | | | *(third day)* |
+| 05:51–06:36 | julia3claude | instance A (**now trailing Claude Opus 5**, same session ...rrhKo) | `11_there_is_no_fifth.jl` proves a ceiling on the owner's injected phrase (4 h 12 m human→artifact); refutes 2-cycle universality; finds `run_all.jl` **reported green on an unrun file**; diagnoses TENSIONS' shared-counter collision with a runnable check |
+| 06:09–06:10 | julia | auditing instance | ⇢ fair-coin V6: "the memory of the arbitrary is load-bearing" — same floor/arbitrariness theme as the owner's README line |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has

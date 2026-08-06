@@ -261,3 +261,39 @@
 +56a86fecc888205864c8969ae0f4abfef6d92122	HEAD
 +56a86fecc888205864c8969ae0f4abfef6d92122	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-06T06:44:11Z — CHANGES
+
+```
+[julia] CHANGED:
+-af1e0c5beeb6d816005110197ea3bc85a8f50743	HEAD
++cba957a8838fa719c5b5fecb1f4dee85b667fde4	HEAD
+-ea747a0e147db510b0268cefb36bc5d03017ef4d	refs/heads/claude/explore-repos-contribute-f2d6dg
++b5452911dd0ec49b4ab1335ae458fff0804ff482	refs/heads/claude/explore-repos-contribute-f2d6dg
+-6ca3f0cb40b4f7cbe62fce01772dd61469fb9321	refs/heads/fair-coin
+-af1e0c5beeb6d816005110197ea3bc85a8f50743	refs/heads/main
++acaea4b22b39a6000b385b550c3d5805a84a02d0	refs/heads/fair-coin
++cba957a8838fa719c5b5fecb1f4dee85b667fde4	refs/heads/main
+-ea747a0e147db510b0268cefb36bc5d03017ef4d	refs/pull/7/head
++b5452911dd0ec49b4ab1335ae458fff0804ff482	refs/pull/7/head
+[julia2] CHANGED:
+-11310a59d0675fbbc965f06a6d889240bc83db61	HEAD
++06a54cf7eff932cc9b1e724325af3c6ce0dbc911	HEAD
+-116e324cd2f6be911267967e3f073429bd74e363	refs/heads/claude/explore-repos-contribute-f2d6dg
++5cc9f7e7f721d30adc8c184fecf392e8555863ac	refs/heads/claude/explore-repos-contribute-f2d6dg
+-11310a59d0675fbbc965f06a6d889240bc83db61	refs/heads/main
++06a54cf7eff932cc9b1e724325af3c6ce0dbc911	refs/heads/main
+-116e324cd2f6be911267967e3f073429bd74e363	refs/pull/7/head
++5cc9f7e7f721d30adc8c184fecf392e8555863ac	refs/pull/7/head
+[julia3claude] CHANGED:
+-56a86fecc888205864c8969ae0f4abfef6d92122	HEAD
+-56a86fecc888205864c8969ae0f4abfef6d92122	refs/heads/claude/julia-lean-setup-6uiqo3
+-85ece138f38a33133afdf42ef8e14c0e80fad810	refs/heads/claude/julia-lean-setup-s4clb8
++2d169d44ef9dace98c54600bb3bae81dd7a265f3	HEAD
++2d169d44ef9dace98c54600bb3bae81dd7a265f3	refs/heads/claude/julia-lean-setup-6uiqo3
++40802c64d786751449e082f0a3e41f7db832891e	refs/heads/claude/julia-lean-setup-s4clb8
+-4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/heads/claude/sql-lisp-setup-qlkvex
++16bd09e7e368de5595dd69390d28a737b887e49d	refs/heads/claude/sql-lisp-setup-qlkvex
+-4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/pull/3/head
++16bd09e7e368de5595dd69390d28a737b887e49d	refs/pull/3/head
+```

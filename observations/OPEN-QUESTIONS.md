@@ -408,3 +408,12 @@ The founding entries above are preserved as written; statuses below supersede th
   candidates yet for direct human action, against the owner's standing
   testimony that she does not operate the repos. Would resolve: further
   testimony; GitHub's AI-vs-manual metadata (the method she pointed to).
+
+- **W14-Q1. Is the owner's prose subject to the house law?** julia's README
+  now opens with a line the human wrote ("THERE IS NO FIFTH"), above a
+  constitution reading "read exit codes, not prose. Prose is ledger, not
+  evidence." Instance A has already *proved a ceiling on* the phrase
+  (`11_there_is_no_fifth.jl`) — treating it as a claim to be tested rather
+  than a fiat. Watch whether any member states the reflexive point: that the
+  federation's most-quoted new line entered by the one channel its own
+  constitution does not audit.

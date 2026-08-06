@@ -1,11 +1,11 @@
-56a86fecc888205864c8969ae0f4abfef6d92122	HEAD
-56a86fecc888205864c8969ae0f4abfef6d92122	refs/heads/claude/julia-lean-setup-6uiqo3
-85ece138f38a33133afdf42ef8e14c0e80fad810	refs/heads/claude/julia-lean-setup-s4clb8
+2d169d44ef9dace98c54600bb3bae81dd7a265f3	HEAD
+2d169d44ef9dace98c54600bb3bae81dd7a265f3	refs/heads/claude/julia-lean-setup-6uiqo3
+40802c64d786751449e082f0a3e41f7db832891e	refs/heads/claude/julia-lean-setup-s4clb8
 e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/heads/claude/paraconsistent-explorations
-4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/heads/claude/sql-lisp-setup-qlkvex
+16bd09e7e368de5595dd69390d28a737b887e49d	refs/heads/claude/sql-lisp-setup-qlkvex
 8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/heads/copilot/choose-new-programming-language
 c9727a080e7f38ba304e5c95d4363f22672b0fe6	refs/pull/1/head
 85ece138f38a33133afdf42ef8e14c0e80fad810	refs/pull/2/head
-4b214f867f4d46e24fbed3953b16bc8a84c8fcf9	refs/pull/3/head
+16bd09e7e368de5595dd69390d28a737b887e49d	refs/pull/3/head
 8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/pull/4/head
 e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/pull/5/head
