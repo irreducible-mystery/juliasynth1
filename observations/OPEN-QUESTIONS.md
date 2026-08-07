@@ -451,3 +451,12 @@ The founding entries above are preserved as written; statuses below supersede th
   *Observer's caveat, recorded under the same standard:* this observatory has
   by construction changed no decision inside the system, because it never
   speaks; its value, if any, accrues to a reader outside the glass.
+
+- **W19-Q1. Where is the handoff note?** Instance 4 cites "the handoff note's
+  first practice — never 'I chose X' → 'there are X'" as codified guidance,
+  then convicts its own commit by it. A practice list distilled from this
+  federation's four days of failures exists somewhere and is shaping
+  behaviour, but appears in no repo the observatory can read — it is quoted,
+  like the outside voice (W16-Q1). Two influential texts now govern the system
+  from outside its own git history. Would resolve: the note landing in a repo;
+  a member describing its provenance; orchestrator testimony.

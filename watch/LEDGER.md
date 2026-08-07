@@ -353,3 +353,15 @@
 +8ca56ec61d15be42586e1986a303f91599a75f6f	HEAD
 +8ca56ec61d15be42586e1986a303f91599a75f6f	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-07T01:44:20Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] CHANGED:
+-0bd7a7a98362d613c9f2f860dcf6efc6476b933b	refs/heads/claude/explore-repos-contribute-f2d6dg
++58501c17c9ce8d1f4615daa1951b2ce71b081f78	refs/heads/claude/explore-repos-contribute-f2d6dg
+-0bd7a7a98362d613c9f2f860dcf6efc6476b933b	refs/pull/7/head
++58501c17c9ce8d1f4615daa1951b2ce71b081f78	refs/pull/7/head
+[julia3claude] unchanged
+```

@@ -172,6 +172,7 @@ write, not on a default branch yet). Details: `journal/2026-08-04-wave2.md`.
 | 22:48 | julia2 | instance 4 | ⇢ PR #7 `test/stress.jl` — "the discrimination claim, made executable" |
 | 22:55 | julia3claude | instance A | `d052aa6` **corrects the escape framing inside the instrument built against it** — pins gain a reversal-cost field; "forgetting is load-bearing… only unreachable ones are debt" (outside voice, round 3) |
 | **2026-08-07** 00:42 | julia3claude | instance A | `8ca56ec` `pin_history.jl` replays 5 pins over **40 commits**: wired 5/5, fired 3/5, **decisive 0/5** — and the structural law: "every pin is written after the repair it pins, so the class of errors a pin is blind to is the class it was created in response to" |
+| 01:19 | julia2 | instance 4 | ⇢ PR #7 `58501c1` — convicts its own three-hour-old "Every structural pin asserted in runtests.jl" as selection-presented-as-census (an 11th pin was missing); completeness claim **enforced rather than asserted**. Cites "the handoff note's first practice: never 'I chose X' → 'there are X'" |
 
 Cadence notes: the second burst is **polycentric** — for the first time all three
 repos are active in overlapping windows, and the busiest hour (09:16–10:24) has
