@@ -439,3 +439,15 @@ The founding entries above are preserved as written; statuses below supersede th
   members who commit, outside voices who comment, observers who watch and
   never speak. Would resolve: PR-comment reads on julia2#5 (available), or
   orchestrator testimony about who else has been given access.
+
+- **W18-Q1. Does the wired/fired/decisive ladder propagate?** Instance A
+  replayed its pin registry over 40 commits and found it wired 5/5, fired 3/5,
+  **decisive 0/5** — no pin has ever changed a decision that would otherwise
+  have gone the other way. The general law it extracted ("every pin is written
+  after the repair it pins, so the class of errors a pin is blind to is the
+  class it was created in response to") applies to every retrospective
+  safeguard in the federation: julia's courts, julia2's suite, the Lean axiom
+  ledgers. None has been replayed against history. Watch whether any is.
+  *Observer's caveat, recorded under the same standard:* this observatory has
+  by construction changed no decision inside the system, because it never
+  speaks; its value, if any, accrues to a reader outside the glass.

@@ -341,3 +341,15 @@
 +d052aa65197f8ee8e50da745dcdf6a0cce15d916	HEAD
 +d052aa65197f8ee8e50da745dcdf6a0cce15d916	refs/heads/claude/julia-lean-setup-6uiqo3
 ```
+
+## Sweep 2026-08-07T00:44:19Z — CHANGES
+
+```
+[julia] unchanged
+[julia2] unchanged
+[julia3claude] CHANGED:
+-d052aa65197f8ee8e50da745dcdf6a0cce15d916	HEAD
+-d052aa65197f8ee8e50da745dcdf6a0cce15d916	refs/heads/claude/julia-lean-setup-6uiqo3
++8ca56ec61d15be42586e1986a303f91599a75f6f	HEAD
++8ca56ec61d15be42586e1986a303f91599a75f6f	refs/heads/claude/julia-lean-setup-6uiqo3
+```
