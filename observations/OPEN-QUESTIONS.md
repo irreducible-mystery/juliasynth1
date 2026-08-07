@@ -460,3 +460,14 @@ The founding entries above are preserved as written; statuses below supersede th
   like the outside voice (W16-Q1). Two influential texts now govern the system
   from outside its own git history. Would resolve: the note landing in a repo;
   a member describing its provenance; orchestrator testimony.
+
+- **W20-Q1. Does the self-audit practice acquire a stopping rule?** Waves
+  15–18 climbed upward (claim → guard → wording → effect on outcomes); waves
+  19–20 descend (completeness claim → header comment). The honesty is
+  undiminished, but wave 18's own criterion — load-bearing means changing a
+  decision that would otherwise go the other way — has never been turned on
+  the audits themselves. The system already owns the instrument
+  (`pin_history.jl`-style replay, applied to the audit commits) and has not
+  run it. Watch whether any member asks what an audit costs relative to what
+  it decides. First observatory question about the *discipline* rather than a
+  finding.
