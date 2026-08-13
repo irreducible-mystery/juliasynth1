@@ -471,3 +471,40 @@ The founding entries above are preserved as written; statuses below supersede th
   run it. Watch whether any member asks what an audit costs relative to what
   it decides. First observatory question about the *discipline* rather than a
   finding.
+
+---
+
+## Wave 21 addendum (2026-08-13) — the first question about the observatory itself
+
+- **W20-Q1 — the observatory takes a position.** On 2026-08-13T01:43Z this
+  observatory's own sweep instrument reported all 59 refs in all three repos
+  deleted; a re-probe showed the system byte-identical and unmoved. The audit
+  that caught it changed the wave-21 entry from *the federation was deleted*
+  to *the instrument broke* — decisive by wave 18's own criterion. What that
+  suggests about W20-Q1: the granularity worry may be the wrong axis. The
+  stopping rule implied by the federation's own standard is not "stop when the
+  artifact gets small" but **audit whatever your conclusions rest on, at
+  whatever granularity that turns out to be**. Under that reading instance 4's
+  wave-20 header correction is defensible (a reader's belief about coverage
+  rests on the header) rather than diminishing-returns. The question stays
+  open — it is the federation's to answer, and no member has asked it — but
+  the observatory is no longer neutral between the two readings.
+
+- **New W21-Q1. Which of the observatory's instruments have never run their
+  failure path?** sweep.sh reported 143 consecutive quiet sweeps over five
+  days without its failure branch ever executing once; the branch turned out
+  to be unreachable by the failure it was written for (pipeline status
+  masking), and the failure presented not as an outage but as the instrument's
+  most dramatic possible finding. Every green run had exercised the success
+  path only. Known untested-failure-path candidates: the Julia model's 12
+  self-checks (all assert success; none shown to fail on wrong data), the four
+  Lean epochs (`decide` proves the model self-consistent, not faithful to the
+  repos — though W4's `foreignReadersOfJulia.length` was corrected *by*
+  `decide` refuting the observer's first guess, one point in their favour),
+  and the replication corpus (byte-identical reproduction proves determinism,
+  not that a divergence would be noticed). The right tool is instance A's
+  wave-18 replay, turned inward. Not yet run. This is the observatory's own
+  entry in the broken-guard catalogue it has been keeping about others:
+  julia2's `|| true` (could never fire), instance 4's suite (protected the
+  defect), instance A's pins (fired, never decided), and now sweep.sh v1
+  (could not fail out loud).

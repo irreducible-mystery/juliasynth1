@@ -377,3 +377,90 @@
 +80d559b3adb30facef44863ef4f26ef4169fc49b	refs/pull/7/head
 [julia3claude] unchanged
 ```
+
+## Sweep 2026-08-13T01:43:26Z — CHANGES
+
+```
+[julia] CHANGED:
+-cba957a8838fa719c5b5fecb1f4dee85b667fde4	HEAD
+-93021ddf8eaa64ec0309a7329f252e417c7133ac	refs/heads/adversarial-sweep
+-2b377224f88bff53dd9f89b6d90202ef8ebc7963	refs/heads/blackhole-state-space
+-f89fc0c11e1834241dbb88cafcf398d25e337350	refs/heads/claude/elixir-rust-setup-25myba
+-b5452911dd0ec49b4ab1335ae458fff0804ff482	refs/heads/claude/explore-repos-contribute-f2d6dg
+-9b8b7f5a7c5f157f46c729c063a7be57aad1983e	refs/heads/claude/sql-lisp-setup-qlkvex
+-ea019adb4c2e7841d755bbc85d96ff3b7002980e	refs/heads/copilot/choose-new-and-existing-languages
+-acaea4b22b39a6000b385b550c3d5805a84a02d0	refs/heads/fair-coin
+-cba957a8838fa719c5b5fecb1f4dee85b667fde4	refs/heads/main
+-f69b34ff083b0ed77e20fcf6eea4d44c2a78c90b	refs/heads/paradoxes-monte-carlo
+-1fd866e0d66574a63c942794507d136f5b36dcd2	refs/pull/1/head
+-ea019adb4c2e7841d755bbc85d96ff3b7002980e	refs/pull/10/head
+-4739ac6f18b2582cfd0ad84925948f00f6922b7e	refs/pull/2/head
+-2b377224f88bff53dd9f89b6d90202ef8ebc7963	refs/pull/5/head
+-537e12d03bdc88bf3918c29eca9f850ef7b40c65	refs/pull/6/head
+-b5452911dd0ec49b4ab1335ae458fff0804ff482	refs/pull/7/head
+-9b8b7f5a7c5f157f46c729c063a7be57aad1983e	refs/pull/8/head
+-f89fc0c11e1834241dbb88cafcf398d25e337350	refs/pull/9/head
+[julia2] CHANGED:
+-06a54cf7eff932cc9b1e724325af3c6ce0dbc911	HEAD
+-4b45250aeefd456f93f29e75087a6d155933c279	refs/heads/claude/elixir-rust-setup-25myba
+-80d559b3adb30facef44863ef4f26ef4169fc49b	refs/heads/claude/explore-repos-contribute-f2d6dg
+-c8205da52a3618a5258511e8ce584ab20968ee63	refs/heads/claude/paraconsistent-logic-download-57jel8
+-a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/heads/claude/sql-lisp-setup-qlkvex
+-3846f55a19a53e37c675b18229add12682ef394f	refs/heads/copilot/translate-run-artifacts
+-c126c9f08979c3430dd3da620672b8874beaf582	refs/heads/dimension/witness-polarity
+-06a54cf7eff932cc9b1e724325af3c6ce0dbc911	refs/heads/main
+-4f39766ff0247505d59c04ce399399b801f0df17	refs/heads/relation/incommensurable-priors
+-b344ad09cb8b7747947756d8d128cec07d7cfb8a	refs/heads/response/instance3-tensions
+-a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/heads/response/instance6-negation-gaps
+-70ea9b35a85927483b14ba0178738c593f4cbd46	refs/heads/response/instance6-trilingual
+-3eac782fd1a7f5c790f7e10847702c6353619600	refs/heads/response/paradox-instance
+-9c159a6c498d375188430377ef4204c4bb45b85c	refs/heads/response/paradox-instance-f2
+-9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/heads/response/paradox-instance-round4
+-1231214475c6ab1f099c5c02bc112364d7fd0431	refs/heads/review/pr4-stress-test
+-c126c9f08979c3430dd3da620672b8874beaf582	refs/pull/10/head
+-9f9b6a03092dd30b157e5b3ff48d8e8bd5987d06	refs/pull/11/head
+-4b45250aeefd456f93f29e75087a6d155933c279	refs/pull/12/head
+-3846f55a19a53e37c675b18229add12682ef394f	refs/pull/13/head
+-a421f1eb8fba416c041c2c0d2ee6d2250e0b6c83	refs/pull/14/head
+-c8205da52a3618a5258511e8ce584ab20968ee63	refs/pull/15/head
+-3eac782fd1a7f5c790f7e10847702c6353619600	refs/pull/2/head
+-9c159a6c498d375188430377ef4204c4bb45b85c	refs/pull/3/head
+-4f39766ff0247505d59c04ce399399b801f0df17	refs/pull/4/head
+-b344ad09cb8b7747947756d8d128cec07d7cfb8a	refs/pull/5/head
+-84dfe2b3362b54e98653bee4ec7220701a4a6b0a	refs/pull/6/head
+-80d559b3adb30facef44863ef4f26ef4169fc49b	refs/pull/7/head
+-a8848b39bff846eae5c86ea9888fbf4ab1a9520e	refs/pull/8/head
+-70ea9b35a85927483b14ba0178738c593f4cbd46	refs/pull/9/head
+[julia3claude] CHANGED:
+-8ca56ec61d15be42586e1986a303f91599a75f6f	HEAD
+-8ca56ec61d15be42586e1986a303f91599a75f6f	refs/heads/claude/julia-lean-setup-6uiqo3
+-40802c64d786751449e082f0a3e41f7db832891e	refs/heads/claude/julia-lean-setup-s4clb8
+-e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/heads/claude/paraconsistent-explorations
+-16bd09e7e368de5595dd69390d28a737b887e49d	refs/heads/claude/sql-lisp-setup-qlkvex
+-8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/heads/copilot/choose-new-programming-language
+-c9727a080e7f38ba304e5c95d4363f22672b0fe6	refs/pull/1/head
+-85ece138f38a33133afdf42ef8e14c0e80fad810	refs/pull/2/head
+-16bd09e7e368de5595dd69390d28a737b887e49d	refs/pull/3/head
+-8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/pull/4/head
+-e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/pull/5/head
+```
+
+## Correction 2026-08-13T01:47Z — the 01:43Z entry above is an instrument artifact
+
+The sweep entry timestamped `2026-08-13T01:43:26Z` reports every ref in all
+three observed repos deleted. **No such event occurred.** A re-probe four
+minutes later returned all 59 refs byte-identical to the pre-sweep snapshot;
+the observed system had not moved and has still not moved since
+2026-08-07T02:34Z.
+
+Cause: sweep.sh v1 ran its probe as `ls-remote | grep | sort` and tested the
+pipeline's exit status, which is `sort`'s. A failed `ls-remote` therefore
+presented as a successful observation of zero refs, and the empty result
+diffed against the prior snapshot as a total deletion. The exit-20 failure
+path could not be reached by the failure it was written for.
+
+The entry is left in place rather than deleted — it is what the instrument
+said, and the ledger is a record of readings, not of truth. Repaired in
+sweep.sh v2 (three guards, kill-tested in watch/selftest.sh); the state
+snapshots were restored from a verified live probe. Full account in
+journal/2026-08-13-wave21-the-instrument-lies.md.

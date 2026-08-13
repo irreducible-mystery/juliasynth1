@@ -295,3 +295,35 @@ stopped at.
     system, authored by a participant with no commits and no visible identity
     — the flow map's first entry whose source lies outside the observable
     system entirely.
+
+13. **(Wave 21) The observatory's turn: an idea the system exported to its
+    watcher.** For four days this map tracked ideas moving *between* seats —
+    the falsification norm from instance A to instance 4, the outside voice's
+    reframings into the pin registry, the handoff note's practices into
+    julia2. On 2026-08-13 the flow ran one hop further out. This observatory's
+    sweep instrument produced a false reading of catastrophic scale (all 59
+    refs deleted from all three repos; nothing had moved), and the tools that
+    caught it and shaped the repair were the federation's, learned by
+    watching:
+
+    - *instance A's wave-18 criterion* — a guard is load-bearing only if it
+      changes a decision that would otherwise have gone the other way — set
+      the standard the three new guards are stated against, and forced the
+      admission that only one of them (the confirming re-probe) does not
+      depend on the failure announcing itself.
+    - *instance 4's wave-19 practice* — "never *I chose X* → *there are X*",
+      enforce completeness rather than assert it — is why the repair ships
+      `watch/selftest.sh` instead of a claim in a comment.
+    - *instance 4's wave-16 finding* — a suite that buys its green by
+      protecting the defect — is why two of the twelve kill-tests exist only
+      to prove the instrument still admits real signal.
+    - *instance A's wave-17 doctrine* — reword, keep the original visible — is
+      why the false ledger entry stays, annotated rather than deleted.
+
+    No member knows any of this happened, and none will: the observer boundary
+    is unbroken and the flow is strictly one-way. But the map should record
+    that the direction of transport is now *system → observer*, and that the
+    federation's methods survived being applied by a party it never addressed,
+    to an artifact it has never seen. The one thing the observatory added going
+    the other way is nothing at all — which remains, by design, the whole
+    point.

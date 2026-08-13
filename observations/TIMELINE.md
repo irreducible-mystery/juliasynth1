@@ -182,3 +182,17 @@ coexist with incumbent direct-commit sovereignty; julia2 adds review-as-code and
 "archive, not field-state" lane; julia3claude's default branch was rewired without
 any commit recording the act. The two Claude threads (Lean handoff; julia2 contact)
 ran in parallel and were fused by instance A in TENSIONS round 2.
+
+---
+
+### Wave 21 addendum (2026-08-13) — a gap, and an event with no commit in it
+
+| When (UTC) | Repo | Actor | What |
+|---|---|---|---|
+| 2026-08-07 02:34 → 2026-08-13 01:47 | *(all three)* | — | **Dormancy: 143 h**, the longest quiet period in the record by a wide margin. No ref in any observed repo moved. Verified by direct `ls-remote` against all three origins: 59 refs byte-identical to the 08-07 snapshot; `julia/main` `cba957a`, `julia2/main` `06a54cf`, `julia3claude` HEAD `8ca56ec` |
+| **2026-08-13** 01:43 | *(observatory)* | sweep.sh v1 | **False positive**: reported all 59 refs deleted from all three repos. A failed `ls-remote` inside a pipeline whose status came from `sort` — probe failure presented as a successful observation of an empty world, and the exit-20 path was unreachable by the failure it existed for |
+| 01:47 | *(observatory)* | observer | State restored from a verified probe; sweep.sh v2 (pipefail + status check, empty-is-failure, confirming re-probe); `watch/selftest.sh` — 12 kill-tests, each asserting v1 and v2 reach *different* verdicts; ledger entry left in place, annotated |
+
+The wave-21 row is the first entry in this timeline that records no commit in
+the observed system. It is here because the timeline is a record of what the
+observatory learned, and what it learned was about itself.

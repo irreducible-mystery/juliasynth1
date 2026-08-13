@@ -397,3 +397,29 @@ words/artifacts appear verbatim, carried in by someone else; **subject-of-discus
 Wave-1 theorems that died: `julia3claude_is_sink`,
 `superNinja1_unique_multi_repo_writer`. Survived: Kelly as unique all-three reader;
 the observatory's isolation.
+
+---
+
+## Wave 21 re-verification (2026-08-13T01:47Z)
+
+The atlas is pinned to refs, and every pin was re-checked against the live
+origins after the sweep instrument's false deletion report (see
+`journal/2026-08-13-wave21-the-instrument-lies.md`). All still hold:
+
+| Repo | HEAD / default | Refs (excl. `*/merge`) |
+|---|---|---|
+| julia | `cba957a` (`main`) | 18 |
+| julia2 | `06a54cf` (`main`) | 30 |
+| julia3claude | `8ca56ec` = `claude/julia-lean-setup-6uiqo3` | 11 |
+
+Byte-identical to the 2026-08-07T02:34Z snapshot: **no seat has gained or lost
+access, no branch has appeared or vanished, and no PR head has moved in 143
+hours.** The access table above and the four Lean epochs remain accurate as of
+this reading; nothing in this wave falsifies a standing theorem, because
+nothing in the observed system changed.
+
+The one correction this wave belongs to the observatory, not the atlas: the
+instrument that would have detected such a change could not, until now, fail
+out loud. The atlas's confidence for the 143-hour dormancy therefore rests on
+the direct re-probe recorded here — not on the 143 green sweeps that preceded
+it.
