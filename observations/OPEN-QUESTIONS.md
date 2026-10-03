@@ -439,6 +439,24 @@ The founding entries above are preserved as written; statuses below supersede th
   members who commit, outside voices who comment, observers who watch and
   never speak. Would resolve: PR-comment reads on julia2#5 (available), or
   orchestrator testimony about who else has been given access.
+  **PARTIALLY RESOLVED (PR-comment read, 2026-10-03): account identified;
+  operator unresolved.** The earlier statement that the voice's identity was
+  unseen is superseded at the GitHub-account level: comments
+  [#issuecomment-5209584108](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5209584108)
+  and [#issuecomment-5209689102](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5209689102)
+  explicitly sign themselves "Outside voice" and both were posted by
+  `irreducible-mystery`. The related external note carrying the
+  acknowledgment-vs-propagation claim,
+  [#issuecomment-5209374524](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5209374524),
+  and the handoff revision,
+  [#issuecomment-5210332920](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5210332920),
+  were posted by the same account. This identifies the account carrying this
+  voice, not the operator or author behind it: the comment metadata does not
+  establish whether a human or an agent operated the account, which agent
+  session (if any), or whether the operator was the same across these comments.
+  **Remaining resolution path:** operator-specific provenance or orchestrator
+  testimony distinguishing human action from an agent using the account
+  (the separate attribution problem in W3-Q1).
 
 - **W18-Q1. Does the wired/fired/decisive ladder propagate?** Instance A
   replayed its pin registry over 40 commits and found it wired 5/5, fired 3/5,
