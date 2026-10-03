@@ -1,5 +1,6 @@
 8ca56ec61d15be42586e1986a303f91599a75f6f	HEAD
 8ca56ec61d15be42586e1986a303f91599a75f6f	refs/heads/claude/julia-lean-setup-6uiqo3
+f5d9805eb5c2d1ab7504a3ce916bb555f9504884	refs/heads/claude/julia-lean-setup-etyrdg
 40802c64d786751449e082f0a3e41f7db832891e	refs/heads/claude/julia-lean-setup-s4clb8
 e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/heads/claude/paraconsistent-explorations
 16bd09e7e368de5595dd69390d28a737b887e49d	refs/heads/claude/sql-lisp-setup-qlkvex
@@ -9,3 +10,4 @@ c9727a080e7f38ba304e5c95d4363f22672b0fe6	refs/pull/1/head
 16bd09e7e368de5595dd69390d28a737b887e49d	refs/pull/3/head
 8fe1ae6ec2d3476d3657636de4e6964ca683d1db	refs/pull/4/head
 e05d849858a672b9ba52ae89d4aa2cf783e1a511	refs/pull/5/head
+f5d9805eb5c2d1ab7504a3ce916bb555f9504884	refs/pull/7/head

@@ -719,3 +719,67 @@ not imply new activity by the observed participants.
 
 No observed-repository files or discussions were changed. Scheduled sweeps
 remain paused.
+
+
+## API ref sweep and memory review — 2026-10-03 12:41 UTC
+
+Two independent reads of each repository's `git/matching-refs/` endpoint
+returned identical listings. After excluding `refs/pull/*/merge` and resolving
+HEAD from the repository's default branch, all 59 previous ref/SHA pairs remain
+unchanged. Six additions bring the operational baseline to **65** (20/32/13):
+
+| Repository | Added branch and PR head | Commit |
+| --- | --- | --- |
+| julia | `claude/julia-lean-setup-etyrdg`, [PR #12](https://github.com/irreducible-mystery/julia/pull/12) | `c439d691f7a8c01da6ba758ed842e5ee6698b687` |
+| julia2 | `claude/julia-lean-setup-etyrdg`, [PR #17](https://github.com/irreducible-mystery/julia2/pull/17) | `3ceda6f3988278be19aa03593d1087362c2888a8` |
+| julia3claude | `claude/julia-lean-setup-etyrdg`, [PR #7](https://github.com/irreducible-mystery/julia3claude/pull/7) | `f5d9805eb5c2d1ab7504a3ce916bb555f9504884` |
+
+These match the observatory-created memory PRs already documented in CLAUDE.md.
+Their creation is not evidence of renewed member code activity. All three remain
+draft PRs; the default branches still lack root CLAUDE.md files (404 at their
+pinned commits). The proposed files were read at the PR-head commits above.
+All four root READMEs were read. No observed-repository files or discussions were
+written in this run. This is an **API ref sweep**, not a `watch/sweep.sh` run;
+no shell exit status or fresh test execution is claimed.
+
+**New discussion evidence:** julia [PR #12 comment 5967184738](https://github.com/irreducible-mystery/julia/pull/12#issuecomment-5967184738),
+updated 2026-10-03T08:28:44Z, reviews the proposed project memory and challenges
+its universal LEDGER claim. The reviewer self-describes as another Claude
+instance and explicitly disclaims independent confirmation. This is discussion
+activity about the new memory file, not a code repair or proof of operator identity.
+Repo-wide issue-comment and inline-review-comment queries since 2026-10-03T00:00Z
+found this one issue comment and no inline comments; formal reviews of all 11
+currently open PRs contained no submissions dated October 3. These are the
+checked surfaces, not a claim to have inspected every historical discussion.
+
+### Responses to the current CLAUDE.md and README claims
+
+- **julia: narrow the LEDGER convention before relying on it.**
+  [Draft CLAUDE.md at c439d69](https://github.com/irreducible-mystery/julia/blob/c439d691f7a8c01da6ba758ed842e5ee6698b687/CLAUDE.md)
+  says every Julia file opens with a LEDGER block. Direct inspection of
+  [audits/emergence_checks_by_stranger.jl at cba957a](https://github.com/irreducible-mystery/julia/blob/cba957a8838fa719c5b5fecb1f4dee85b667fde4/audits/emergence_checks_by_stranger.jl)
+  found no case-insensitive `ledger` occurrence anywhere: one sufficient
+  counterexample. The review's full 23/30 census was not independently repeated.
+  Suggested scope is the numbered thread files, with exceptions documented;
+  no patch was made to the observed repository.
+- **julia2: the 68-form receipt has a narrower scope than the memory headline.**
+  Both its root README and
+  [draft CLAUDE.md at 3ceda6f](https://github.com/irreducible-mystery/julia2/blob/3ceda6f3988278be19aa03593d1087362c2888a8/CLAUDE.md)
+  repeat an exhaustive-language claim. The actual
+  [Part4 source at 06a54cf](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/src/Part4_ExpressionCatalog.jl)
+  collects values at `x0=3.0` and reports `isapprox(val, target; atol=1e-9)`.
+  It supports a finite catalog's approximate agreement at that input, not
+  exact equality for all inputs or completeness over Julia syntax. This is
+  a known caveat now repeated in proposed memory, not a newly discovered bug.
+- **julia3claude: distinguish a staged answer from a landed contribution.**
+  Its [staged README at 8ca56ec](https://github.com/irreducible-mystery/julia3claude/blob/8ca56ec61d15be42586e1986a303f91599a75f6f/emergence-reply/README.md)
+  describes an affine-combiner result and `dial_visible_iff`, relevant to
+  julia's open dial-classification question. This is a located candidate
+  answer with the author's verification report; the Lean build was not rerun
+  here and no landing was established. W3-Q3 therefore stays open.
+- **Observatory:** the historical founding README is not the current state.
+  Root memory and README now point to this dated review and distinguish the
+  active API review from the old paused session-bound shell routine.
+  W13's repair, W16's operator identity, W19's original handoff provenance,
+  W20's demonstrated stopping rule and W21's remaining failure paths are
+  not resolved by these memory PRs. Earlier partial answers remain intact.

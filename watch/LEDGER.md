@@ -464,3 +464,24 @@ said, and the ledger is a record of readings, not of truth. Repaired in
 sweep.sh v2 (three guards, kill-tested in watch/selftest.sh); the state
 snapshots were restored from a verified live probe. Full account in
 journal/2026-08-13-wave21-the-instrument-lies.md.
+
+
+## API sweep 2026-10-03 12:41 UTC — confirmed observer-memory additions
+
+Method: GitHub matching-refs listings read twice per repo; default-branch metadata
+resolves HEAD; pull merge refs excluded. No shell sweep or exit code claimed.
+All 59 earlier entries unchanged; operational snapshots advance to 65 (20/32/13).
+The following refs are observer-created memory work already documented in CLAUDE.md,
+not evidence of resumed member code activity:
+
+```text
+julia	+c439d691f7a8c01da6ba758ed842e5ee6698b687	refs/heads/claude/julia-lean-setup-etyrdg
+julia	+c439d691f7a8c01da6ba758ed842e5ee6698b687	refs/pull/12/head
+julia2	+3ceda6f3988278be19aa03593d1087362c2888a8	refs/heads/claude/julia-lean-setup-etyrdg
+julia2	+3ceda6f3988278be19aa03593d1087362c2888a8	refs/pull/17/head
+julia3claude	+f5d9805eb5c2d1ab7504a3ce916bb555f9504884	refs/heads/claude/julia-lean-setup-etyrdg
+julia3claude	+f5d9805eb5c2d1ab7504a3ce916bb555f9504884	refs/pull/7/head
+```
+
+Discussion activity: julia#12 comment 5967184738 (2026-10-03T08:28:44Z) reviews
+memory accuracy; see observations/OPEN-QUESTIONS.md for the verified counterexample.

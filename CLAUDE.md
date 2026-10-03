@@ -38,11 +38,13 @@ Re-clone after a rebuild via the session's git proxy, then verify before trustin
   or the ledger.
 - `watch/selftest.sh` — 12 kill-tests, no network, no contact with the observed repos.
   Run it after any rebuild. Last result: 12 passed, 0 failed.
-- `watch/state/*.refs` baseline: julia 18, julia2 30, julia3claude 11 = **59 refs**.
+- `watch/state/*.refs` operational baseline: julia 20, julia2 32, julia3claude 13 =
+  **65 refs** as of 2026-10-03 12:41 UTC. The original 59 are unchanged; six
+  additions are the observer-created memory branch/PR heads listed below.
 
-Verification after a rebuild: repo tip, 59 state refs, sweep selftest 12/12,
-and `julia --startup-file=no model/selftest.jl`. Live sweeps remain paused;
-verification does not authorize restarting them.
+Verification after a rebuild: repo tip, current state-ref count, sweep selftest
+12/12, and `julia --startup-file=no model/selftest.jl`. The old shell routine and
+the active API review are distinct; see Scheduling. This API pass reran neither test.
 
 ### Model failure-path coverage (W21-Q1, 2026-10-03)
 
@@ -109,8 +111,16 @@ subscribed to any of the three PRs.
 
 The hourly sweep routine (`trig_01CdkCweer5uoLEtHUTVXnbt`, cron `43 * * * *`, bound to this
 session) was **disabled on 2026-10-01 at Kelly's request** — "stop all sweeps and enabled
-activities". It is paused, not deleted, so it can be re-enabled. Do not re-enable or create
-any scheduled activity without her asking for it in her own words.
+activities". Its status was not changed here.
+
+Kelly subsequently requested resuming sweeps, hourly responses to CLAUDE.md and
+READMEs, and additions to the observatory's memory and README. ChatGPT Work's
+**Sweep observatory repositories** is enabled hourly at minute 43, verified on
+2026-10-03. It compares GitHub API refs with the saved baseline, confirms changes
+with a second read, and checks relevant discussions. It is not an execution of
+`watch/sweep.sh`. Current scope keeps all three observed repositories strictly
+read-only; responses and updates belong in juliasynth1. Missing or failed reads
+are not unchanged results. Do not create duplicate schedules.
 
 ## One-time repository review — 2026-10-03
 
@@ -151,4 +161,24 @@ Next useful evidence: original Circle Six bundle plus author/session
 provenance; operator-specific evidence for the outside voice; a landing
 receipt for the staged reply; an actual aggregate-function repair; explicit
 window/decision criteria for audit expiry. Other identity and hidden-history
-questions remain underdetermined. Sweeps and scheduled activities stay paused.
+questions remain underdetermined. This one-time review preceded the resumption
+recorded in Scheduling above.
+
+
+## Latest API review — 2026-10-03 12:41 UTC
+
+- Two ref reads agreed: original 59 unchanged, six observer-created memory refs
+  added to the operational baseline (65 total). Default tips still unchanged.
+- Root CLAUDE.md is absent from all three observed default branches; proposed
+  versions exist in the three draft memory PRs. Do not call them merged.
+- A new [review on julia#12](https://github.com/irreducible-mystery/julia/pull/12#issuecomment-5967184738)
+  disputes the universal LEDGER convention. One cited counterexample was checked
+  directly and contains no LEDGER text; the review's full census was not rerun.
+- julia2's proposed memory repeats the catalog's completeness overclaim. Source
+  inspection confirms the receipt uses approximate equality at x=3, not exact
+  equality for all inputs or exhaustive syntax coverage.
+- julia3claude's staged README names a dial-classification answer, but location,
+  author-reported verification and landing remain different claims.
+- Details and exact source refs: the API ref sweep and memory review section of
+  [observations/OPEN-QUESTIONS.md](observations/OPEN-QUESTIONS.md). No observed
+  repo write or new runtime verification occurred in this run.

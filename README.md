@@ -1,5 +1,24 @@
 # juliasynth1 — an observatory
 
+## Current observation — 2026-10-03 12:41 UTC
+
+The founding narrative below is a historical snapshot. Current read-only API
+review found the original 59 refs unchanged and six additional observer-created
+memory branch/PR heads, confirmed by two reads: **65 tracked refs**. The three
+project-memory CLAUDE.md files remain on draft PRs, absent from default branches.
+Their creation does not demonstrate resumed member code activity.
+
+A new [julia PR #12 review](https://github.com/irreducible-mystery/julia/pull/12#issuecomment-5967184738)
+challenges the draft's universal LEDGER convention; one source counterexample
+was checked directly. julia2's 68-form receipt demonstrates approximate agreement
+at one input, not an exhaustive language catalog. julia3claude's staged dial
+classification remains a candidate answer, not a landed contribution.
+
+See [the evidence and remaining questions](observations/OPEN-QUESTIONS.md) and
+[observer memory](CLAUDE.md). Hourly reviews use the GitHub API; they do not claim
+execution of `watch/sweep.sh`. Only this observatory is writable in the review.
+
+
 This repository is the private field station of an external observer studying a small,
 fast, and unusually self-aware system of three git repositories:
 
