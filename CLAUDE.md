@@ -74,9 +74,9 @@ verification does not authorize restarting them.
 | --- | --- |
 | W3-Q3 | Who lands the staged breach? |
 | W13-Q1 | Does anyone repair the merged `evaluate_aggregate` soundness bug? |
-| W16-Q1 | Identity of the "outside voice". |
+| W16-Q1 | Posting account identified as `irreducible-mystery`; operator/author still unresolved. |
 | W18-Q1 | Does the wired/fired/decisive ladder propagate to other repos' instruments? |
-| W19-Q1 | Where does the "handoff note" live? |
+| W19-Q1 | Matching handoff revision located in julia2 PR #7; original standalone file and authorship unresolved. |
 | W20-Q1 | Does the self-audit practice acquire a stopping rule? |
 | W21-Q1 | Which of the observatory's own instruments have never run their failure path? |
 
@@ -86,3 +86,44 @@ The hourly sweep routine (`trig_01CdkCweer5uoLEtHUTVXnbt`, cron `43 * * * *`, bo
 session) was **disabled on 2026-10-01 at Kelly's request** — "stop all sweeps and enabled
 activities". It is paused, not deleted, so it can be re-enabled. Do not re-enable or create
 any scheduled activity without her asking for it in her own words.
+
+## One-time repository review — 2026-10-03
+
+Requested by the user; findings committed in
+[OPEN-QUESTIONS.md](https://github.com/irreducible-mystery/juliasynth1/blob/7e1cae3a6cf00a6bd39ec2691f934f1d4e7337df/observations/OPEN-QUESTIONS.md).
+This was a manual read, not resumed scheduling. Observed repos remained read-only.
+
+- All 29 current branch heads (9/15/5) and all 8 open PR heads matched the
+  saved `watch/state/*.refs` names and SHAs. This did not recheck every
+  closed-PR ref or every discussion. Default tips remain `cba957a`,
+  `06a54cf`, `8ca56ec`.
+- Open PRs: julia #8/#10; julia2 #5/#7/#8/#13; julia3claude #3/#4.
+- W5-Q2 answered: PR #5's amendment and re-review explicitly discuss
+  withdrawing forms 72/76 while retaining Trojan forms 69/70.
+- W6-Q1 language question answered: instance 6 used Prolog/BQN/Forth.
+  Witness-polarity's demonstration is present; its own §6 leaves core
+  integration unimplemented. Do not describe the proposed schema as landed.
+- W19-Q1 narrowed: the matching handoff revision is
+  [julia2#7 comment 5210332163](https://github.com/irreducible-mystery/julia2/pull/7#issuecomment-5210332163);
+  instance 4 explicitly applies its practice 1 in comment 5210879701.
+  This identifies discussion text, not a standalone original or its author.
+- #8: archived `transcripts/instance1/pr3_review.md` answers Q1–Q3;
+  proposals are not implementation receipts. W2-Q7/#9: targeted inspection
+  of the pre-compaction transcript found direct user prompts, but no full
+  semantic audit or cross-session identity conclusion was made.
+- W3-Q3 remains open: staged files still absent by filename from julia's
+  default tree. W13-Q1: flagged `evaluate_aggregate` heuristic remains on
+  main. W8-Q1: the two-instance masthead remains.
+- W18-Q1/W20-Q1: pin-history reply 5210491714 on julia3claude#3 challenges
+  the expiry criterion's unspecified N; no agreed stopping rule or new
+  cross-repo replay adoption was established.
+- Preserve earlier same-day results: #4 distinguishes the located
+  49-theorem autopsy copy from the unlocated original 66-theorem bundle;
+  W16-Q1 identifies the posting account, not its operator; W21-Q1 has one
+  of 12 model failure paths demonstrated. Do not repeat or inflate these.
+
+Next useful evidence: original Circle Six bundle plus author/session
+provenance; operator-specific evidence for the outside voice; a landing
+receipt for the staged reply; an actual aggregate-function repair; explicit
+window/decision criteria for audit expiry. Other identity and hidden-history
+questions remain underdetermined. Sweeps and scheduled activities stay paused.
