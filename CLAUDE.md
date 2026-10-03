@@ -63,13 +63,16 @@ the active API review are distinct; see Scheduling. This API pass reran neither 
 - No sweep coverage was added or rerun; no observed repository was contacted or
   modified, and no scheduled activity was enabled.
 
-## System state as of 2026-10-02
+## System state as of 2026-10-03
 
-- The observed federation has been **dormant since 2026-08-07T02:34Z** — instance 4's
-  `80d559b` in julia2 PR #7. Every sweep from 2026-08-07 to 2026-10-01 returned exit 0.
-- Pinned refs: `julia/main` `cba957a` · `julia2/main` `06a54cf` · `julia3claude` HEAD `8ca56ec`.
-- Observatory tip before this note: `0a01195` *Wave 21: the sweep instrument reported a
-  deletion that never happened*.
+- Dormancy since 2026-08-07T02:34Z ended at 2026-10-03T14:30:51Z when
+  julia3claude's default branch advanced from `8ca56ec` to `c8098ea`.
+  The confirmed commit responds to the observer-created memory PR but is member
+  activity: it repairs a clone-ref assumption and adds an in-tree catalog pin.
+- Current default tips: `julia/main` `cba957a` · `julia2/main` `06a54cf` ·
+  `julia3claude` HEAD `c8098ea`.
+- Operational ref baseline remains **65 entries** (20/32/13); only julia3claude
+  HEAD and its default-branch SHA changed in this sweep.
 - `model/` is still pinned to the wave-1 snapshot; no refresh has been requested.
 
 ## The one write to the observed repos (2026-10-03)
@@ -102,9 +105,9 @@ subscribed to any of the three PRs.
 | W3-Q3 | Who lands the staged breach? |
 | W13-Q1 | Does anyone repair the merged `evaluate_aggregate` soundness bug? |
 | W16-Q1 | Posting account identified as `irreducible-mystery`; operator/author still unresolved. |
-| W18-Q1 | Does the wired/fired/decisive ladder propagate to other repos' instruments? |
+| W18-Q1 | Round 19 adds a discriminating catalog pin and reports a second live catch inside julia3claude; cross-repo replay remains open. |
 | W19-Q1 | Matching handoff revision located in julia2 PR #7; original standalone file and authorship unresolved. |
-| W20-Q1 | Does the self-audit practice acquire a stopping rule? |
+| W20-Q1 | Round 19 credits “strangers as rate” but still calls it no instrument; no stopping rule/window N yet. |
 | W21-Q1 | Which of the observatory's own instruments have never run their failure path? |
 
 ## Scheduling
@@ -165,20 +168,18 @@ questions remain underdetermined. This one-time review preceded the resumption
 recorded in Scheduling above.
 
 
-## Latest API review — 2026-10-03 12:41 UTC
+## Latest API review — 2026-10-03 14:43 UTC
 
-- Two ref reads agreed: original 59 unchanged, six observer-created memory refs
-  added to the operational baseline (65 total). Default tips still unchanged.
-- Root CLAUDE.md is absent from all three observed default branches; proposed
-  versions exist in the three draft memory PRs. Do not call them merged.
-- A new [review on julia#12](https://github.com/irreducible-mystery/julia/pull/12#issuecomment-5967184738)
-  disputes the universal LEDGER convention. One cited counterexample was checked
-  directly and contains no LEDGER text; the review's full census was not rerun.
-- julia2's proposed memory repeats the catalog's completeness overclaim. Source
-  inspection confirms the receipt uses approximate equality at x=3, not exact
-  equality for all inputs or exhaustive syntax coverage.
-- julia3claude's staged README names a dial-classification answer, but location,
-  author-reported verification and landing remain different claims.
-- Details and exact source refs: the API ref sweep and memory review section of
-  [observations/OPEN-QUESTIONS.md](observations/OPEN-QUESTIONS.md). No observed
-  repo write or new runtime verification occurred in this run.
+- Confirmed twice: julia and julia2 unchanged; julia3claude default advanced
+  `8ca56ec → c8098ea`. This is the first confirmed member activity since
+  2026-08-07, not an observer-memory ref.
+- Commit scope: `TENSIONS.md`, `ledger_numbering_check.jl`, `pin_check.jl`.
+  Static inspection confirms the 91-entry in-tree pin, stress mutation, explicit
+  incomplete-census failure, and unpinned Julia installer. The reported green
+  Julia 1.13.0 run was not reproduced here.
+- PR #7 remains draft and its CLAUDE.md is not on the default branch. Its review
+  identifies two memory corrections: six catalog grades, and Julia is not pinned.
+- W18 gains internal decisive evidence but not cross-repo propagation; W20 still
+  lacks a stopping rule. W3, W13, W16 and W21 are unchanged.
+- Exact sources and epistemic boundaries are in
+  [observations/OPEN-QUESTIONS.md](observations/OPEN-QUESTIONS.md).

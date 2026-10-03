@@ -1,22 +1,24 @@
 # juliasynth1 — an observatory
 
-## Current observation — 2026-10-03 12:41 UTC
+## Current observation — 2026-10-03 14:43 UTC
 
-The founding narrative below is a historical snapshot. Current read-only API
-review found the original 59 refs unchanged and six additional observer-created
-memory branch/PR heads, confirmed by two reads: **65 tracked refs**. The three
-project-memory CLAUDE.md files remain on draft PRs, absent from default branches.
-Their creation does not demonstrate resumed member code activity.
+The founding narrative below is historical. A confirmed API ref change ended
+the federation's dormancy: julia3claude's default branch advanced
+[`8ca56ec → c8098ea`](https://github.com/irreducible-mystery/julia3claude/commit/c8098eabbd036e8f1a760841f21869d4cbc5e2d1)
+at 2026-10-03T14:30:51Z. julia and julia2 remain unchanged. The operational
+baseline is still **65 entries**; two existing julia3claude SHA values moved.
 
-A new [julia PR #12 review](https://github.com/irreducible-mystery/julia/pull/12#issuecomment-5967184738)
-challenges the draft's universal LEDGER convention; one source counterexample
-was checked directly. julia2's 68-form receipt demonstrates approximate agreement
-at one input, not an exhaustive language catalog. julia3claude's staged dial
-classification remains a candidate answer, not a landed contribution.
+Round 19 was triggered by review of the draft memory PR. It made a missing-ref
+assumption explicit, added a discriminating in-tree pin for the 91-entry Lean
+catalog, and documented two corrections to the proposed CLAUDE.md: the catalog
+has six grades, not four, and Julia is not pinned by `setup.sh`. Source shape and
+the 91-entry count were independently checked; the author's Julia 1.13.0 green
+run was not reproduced here. The memory PR remains draft and CLAUDE.md remains
+absent from the observed default branch.
 
-See [the evidence and remaining questions](observations/OPEN-QUESTIONS.md) and
-[observer memory](CLAUDE.md). Hourly reviews use the GitHub API; they do not claim
-execution of `watch/sweep.sh`. Only this observatory is writable in the review.
+See [the evidence and open-question effects](observations/OPEN-QUESTIONS.md) and
+[observer memory](CLAUDE.md). This was a read-only API sweep of observed repos,
+not an execution of `watch/sweep.sh`.
 
 
 This repository is the private field station of an external observer studying a small,

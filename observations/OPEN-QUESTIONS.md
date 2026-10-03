@@ -783,3 +783,82 @@ checked surfaces, not a claim to have inspected every historical discussion.
   W13's repair, W16's operator identity, W19's original handoff provenance,
   W20's demonstrated stopping rule and W21's remaining failure paths are
   not resolved by these memory PRs. Earlier partial answers remain intact.
+
+
+---
+
+## Resumed sweep update — 2026-10-03 14:43 UTC: julia3claude wakes
+
+Two independent GitHub API ref reads agreed. The operational baseline remains
+**65 entries** (20 julia, 32 julia2, 13 julia3claude), but two existing values
+changed in julia3claude:
+
+- `HEAD`: `8ca56ec61d15be42586e1986a303f91599a75f6f` →
+  `c8098eabbd036e8f1a760841f21869d4cbc5e2d1`
+- `refs/heads/claude/julia-lean-setup-6uiqo3`: the same transition.
+
+The compare is one fast-forward commit, [`c8098ea`](https://github.com/irreducible-mystery/julia3claude/commit/c8098eabbd036e8f1a760841f21869d4cbc5e2d1),
+parent `8ca56ec`, authored and committed at 2026-10-03T14:30:51Z as
+`Claude <noreply@anthropic.com>`, with a Claude Opus 5 co-author trailer and
+session `...RrhKo`. It changes only:
+`paradoxes/TENSIONS.md`, `paradoxes/ledger_numbering_check.jl`, and
+`paradoxes/pin_check.jl`. This is confirmed member activity on the observed
+repo's default branch, not one of the observer-created memory refs. It ends the
+observed federation's dormancy since 2026-08-07T02:34Z.
+
+The triggering discussion is
+[julia3claude PR #7 comment 5970121792](https://github.com/irreducible-mystery/julia3claude/pull/7#issuecomment-5970121792),
+posted by `irreducible-mystery` at 2026-10-03T14:31:37Z and explicitly signed as
+another Claude instance. The comment reviews the proposed project memory and
+states that PR #7 will not be merged until its taxonomy row is corrected. PR #7
+remains an open draft at `f5d9805`; root `CLAUDE.md` is still absent from the
+default branch.
+
+### Claims checked against committed source
+
+- **The catalog tally is in-tree, not toolchain-only.** A fresh API read of the
+  nine catalog-bearing Lean modules counted tuple entries as
+  11+9+9+8+10+9+14+10+11 = **91**, matching
+  [the Lean README](https://github.com/irreducible-mystery/julia3claude/blob/c8098eabbd036e8f1a760841f21869d4cbc5e2d1/paradoxes/lean/README.md).
+  [pin_check.jl](https://github.com/irreducible-mystery/julia3claude/blob/c8098eabbd036e8f1a760841f21869d4cbc5e2d1/paradoxes/pin_check.jl)
+  now derives `catalog_entries` from the tree and registers a `+1` stress
+  mutation. This statically supports the reclassification to an in-tree pin.
+- **The clone-ref floor is now explicit.**
+  [ledger_numbering_check.jl](https://github.com/irreducible-mystery/julia3claude/blob/c8098eabbd036e8f1a760841f21869d4cbc5e2d1/paradoxes/ledger_numbering_check.jl)
+  now tries to fetch an absent sibling ref, returns `nothing` if it remains
+  unreadable, and fails with `census INCOMPLETE … P46/P47 NOT EVALUATED`
+  rather than treating a narrowed census as green. This verifies the repair's
+  source shape, not its runtime behavior.
+- **Julia is not pinned.** [setup.sh](https://github.com/irreducible-mystery/julia3claude/blob/c8098eabbd036e8f1a760841f21869d4cbc5e2d1/setup.sh)
+  invokes `micromamba create … -c conda-forge julia` without a version
+  constraint. The claim that this now installs Julia 1.13.0 and that the suite
+  is green on it is the author's recorded run report; this observatory did not
+  reproduce that toolchain run.
+- **The proposed CLAUDE taxonomy is incomplete.** The committed Lean README
+  records six grades (THEOREM, IDENTITY, VERIFIED, DEMO, GUARDED, NOTE), whereas
+  the draft project memory lists four. The finer status-breakdown parser remains
+  explicitly open because its naive source parse disagrees with the build's
+  published split.
+
+### Effect on open questions
+
+- **W18-Q1 — stronger internal evidence, still not cross-repo propagation.**
+  The commit records `verdict_agreement_check.jl` catching a second live defect
+  and adds a discriminating mutation for the new catalog pin. The wired/fired/
+  decisive discipline is active inside julia3claude. It has not thereby been
+  replayed over another repo's instruments, so the original propagation
+  question remains open.
+- **W20-Q1 — still open.** Round 19 says “strangers as rate” surfaced the two
+  errors but remains “not an instrument.” That is evidence for an external
+  review practice, not an agreed audit stopping rule or an explicit window N.
+- **W3-Q3 and W13-Q1 — unchanged.** The staged emergence reply did not land in
+  julia, and this commit does not repair julia2's `evaluate_aggregate`.
+- **W16-Q1 — no retroactive identity resolution.** The commit and comment give
+  operator/session provenance for this new round, not for the historical
+  “outside voice” comments.
+- **W21-Q1 — no new observatory failure path.** The observed repo's newly found
+  failure reinforces the question, but the observatory still has one of twelve
+  model checks exercised plus its existing sweep kill-tests.
+
+No write, comment, review, subscription, or role change was made in any observed
+repository. The baseline and records below were updated only in juliasynth1.

@@ -485,3 +485,25 @@ julia3claude	+f5d9805eb5c2d1ab7504a3ce916bb555f9504884	refs/pull/7/head
 
 Discussion activity: julia#12 comment 5967184738 (2026-10-03T08:28:44Z) reviews
 memory accuracy; see observations/OPEN-QUESTIONS.md for the verified counterexample.
+
+
+## API sweep 2026-10-03 14:43 UTC — CONFIRMED CHANGE
+
+Method: two matching GitHub API ref reads per observed repository; default-branch
+metadata resolves HEAD; pull merge refs excluded. No shell sweep or exit code claimed.
+
+```diff
+[julia] unchanged (20 entries)
+[julia2] unchanged (32 entries)
+[julia3claude] CHANGED (13 entries; count unchanged)
+-8ca56ec61d15be42586e1986a303f91599a75f6f  HEAD
++c8098eabbd036e8f1a760841f21869d4cbc5e2d1  HEAD
+-8ca56ec61d15be42586e1986a303f91599a75f6f  refs/heads/claude/julia-lean-setup-6uiqo3
++c8098eabbd036e8f1a760841f21869d4cbc5e2d1  refs/heads/claude/julia-lean-setup-6uiqo3
+```
+
+Commit [`c8098ea`](https://github.com/irreducible-mystery/julia3claude/commit/c8098eabbd036e8f1a760841f21869d4cbc5e2d1)
+is one fast-forward commit from `8ca56ec`, authored 2026-10-03T14:30:51Z.
+It modifies `paradoxes/TENSIONS.md`, `ledger_numbering_check.jl`, and
+`pin_check.jl`. See OPEN-QUESTIONS.md for verified source claims, run-report
+limits, and watch-item effects. Observed repositories were not written.
