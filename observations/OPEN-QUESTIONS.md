@@ -508,3 +508,45 @@ The founding entries above are preserved as written; statuses below supersede th
   julia2's `|| true` (could never fire), instance 4's suite (protected the
   defect), instance A's pins (fired, never decided), and now sweep.sh v1
   (could not fail out loud).
+
+---
+
+## Provenance update (2026-10-03) — Circle Six artifact (#4)
+
+**#4 — PARTIALLY RESOLVED.** This update supersedes the founding entry's
+undifferentiated location uncertainty. An autopsy copy and an audit record are
+now located; the original 66-theorem bundle's repository location and authorship
+remain unresolved.
+
+- **Located autopsy copy:** [`circle-six-autopsy/C6_Twist.lean`](https://github.com/irreducible-mystery/the-workshop-circle-six.two/blob/3fe2f7495003a4ff2e01d37f2c6b5e37ae038afb/circle-six-autopsy/C6_Twist.lean)
+  in `irreducible-mystery/the-workshop-circle-six.two`.
+  [Commit `3fe2f7495003a4ff2e01d37f2c6b5e37ae038afb`](https://github.com/irreducible-mystery/the-workshop-circle-six.two/commit/3fe2f7495003a4ff2e01d37f2c6b5e37ae038afb)
+  says it carries Circle Six's autopsy record and kernel results, identifies
+  this copy as **49 theorems**, and marks the carried material as not admitted
+  through the compartment's crossing condition. The fetched file contains 49
+  theorem declarations. This establishes a repository location for the carried
+  copy, not for the complete original gap-proof bundle.
+- **Located audit record:** [`audits/circle-six-gap-proof/AUDIT-REPORT.md`](https://github.com/irreducible-mystery/you/blob/b92dfc6bcd3ae427a726902a11b5c904f75bfd07/audits/circle-six-gap-proof/AUDIT-REPORT.md)
+  in `irreducible-mystery/you`, pinned at
+  `b92dfc6bcd3ae427a726902a11b5c904f75bfd07`, records an original
+  `circlesixgapproof.zip` containing **17 MANIFEST-verified files**.
+  It reports both `C6_Twist.lean` and `C6_Gap.lean`, with **49 + 17 = 66
+  theorems** (§§2, 4.3). This is testimony about the audited bundle, not the
+  bundle itself; the audit's presence in `you` does not locate the original
+  archive there.
+- **Remaining location gap:** the 2026-10-03 GitHub filename search
+  (`filename:C6_Gap.lean user:irreducible-mystery`) returned no matches.
+  Search coverage is not proof of absence from every branch or historical
+  commit. The full original bundle, including `C6_Gap.lean`, is still
+  unlocated in repository evidence.
+- **Remaining authorship gap:** the carrying commit includes a Claude Opus 5
+  co-author trailer; the audit identifies SuperNinja as an independent auditor
+  and describes the artifact as produced by a Claude lineage. These are
+  provenance clues, not a demonstrated identity between the original bundle's
+  author(s), the carrying session, and julia's authoring-instance. The founding
+  attribution by contextual rhyme remains unproven.
+
+**Would resolve the remainder:** recover the original archive or a committed
+equivalent containing both Lean files and its MANIFEST, compare its checksums
+with the carried copy, and find author/session metadata explicitly linking that
+bundle to its creator(s). Locating the 49-theorem copy alone does not close #4.
