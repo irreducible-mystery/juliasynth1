@@ -38,7 +38,26 @@ Re-clone after a rebuild via the session's git proxy, then verify before trustin
   Run it after any rebuild. Last result: 12 passed, 0 failed.
 - `watch/state/*.refs` baseline: julia 18, julia2 30, julia3claude 11 = **59 refs**.
 
-Verification after a rebuild: repo tip, 59 state refs, selftest 12/12 — then sweep.
+Verification after a rebuild: repo tip, 59 state refs, sweep selftest 12/12,
+and `julia --startup-file=no model/selftest.jl`. Live sweeps remain paused;
+verification does not authorize restarting them.
+
+### Model failure-path coverage (W21-Q1, 2026-10-03)
+
+- `model/selftest.jl` copies the model into a temporary directory, verifies the
+  unchanged control, then changes only the first event's `seq` from 1 to 2.
+  The in-range duplicate reaches the check instead of crashing during reporting.
+- Observed on Julia 1.11.7 against the model at `b824035`: control exit 0,
+  12 checks passed; mutation exit 1, exactly one named failure:
+  `event seq numbers equal chronological order 1..17`; 11 other checks passed.
+  The harness exits 0 only when both outcomes match. Temporary copies are removed.
+- This exercises one of 12 model check failure paths and the shared failure exit.
+  The other 11 checks have not been individually failure-tested. The four Lean
+  epochs still lack systematic negative tests (W4's `decide` refutation remains
+  one historical counterexample), and replication divergence detection remains
+  untested. W21-Q1 stays open.
+- No sweep coverage was added or rerun; no observed repository was contacted or
+  modified, and no scheduled activity was enabled.
 
 ## System state as of 2026-10-02
 

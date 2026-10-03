@@ -568,3 +568,35 @@ remain unresolved.
 equivalent containing both Lean files and its MANIFEST, compare its checksums
 with the carried copy, and find author/session metadata explicitly linking that
 bundle to its creator(s). Locating the 49-theorem copy alone does not close #4.
+
+### W21-Q1 update (2026-10-03) — one model failure path observed
+
+`model/selftest.jl` now runs a small, stdlib-only temp-copy mutation harness:
+`julia --startup-file=no model/selftest.jl`. It first requires the unchanged
+copy to exit 0 with all 12 checks passing, then changes only the first event's
+`seq` from 1 to 2 in the copied `model/data/events.json`. The duplicate stays
+within 1..17 so report-time array indexing does not abort before the checks.
+The harness requires exit 1, the exact `[FAIL]` check name and final failure
+summary, and 11 remaining passes; an unrelated crash cannot count as success.
+
+Observed on Julia 1.11.7, using the model at `b824035`:
+
+```text
+  ok   unmodified control: exit 0, 12 checks passed
+  ok   seq 1 -> 2: exit 1; [FAIL] event seq numbers equal chronological order 1..17
+1 failure-path test passed (11 other model checks still pass)
+```
+
+This supersedes the earlier blanket statement that none of the model checks
+has been shown to fail on wrong data: **one of 12** has now fired, and the
+shared nonempty-`FAILURES` exit path has been observed. It is not a replay of
+all instruments or proof of the model's fidelity to the repos.
+
+**Remaining:** the other 11 model checks have no individual failure-path
+demonstration; the four Lean epochs still lack systematic negative tests
+(retaining W4's `foreignReadersOfJulia.length` correction by `decide` as one
+historical counterexample); the replication corpus still has no demonstrated
+divergence-detection test. W21-Q1 remains open. The sweep instrument's existing
+12 decisive kill-tests were neither duplicated nor rerun. All mutations and
+model runs used disposable copies; observed repositories were not contacted
+or modified, and sweeps and scheduled activities remain paused.
