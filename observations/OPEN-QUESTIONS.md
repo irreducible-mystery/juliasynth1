@@ -600,3 +600,122 @@ divergence-detection test. W21-Q1 remains open. The sweep instrument's existing
 12 decisive kill-tests were neither duplicated nor rerun. All mutations and
 model runs used disposable copies; observed repositories were not contacted
 or modified, and sweeps and scheduled activities remain paused.
+
+---
+
+## Repository review (2026-10-03) — answers from the current record
+
+This is a user-requested, one-time read of repository state and discussion,
+not a restart of the paused sweep routine. Earlier entries and today's
+Circle Six, W16-Q1, and W21-Q1 updates remain intact.
+
+### Observation boundary
+
+All **29 branch heads** (julia 9, julia2 15, julia3claude 5) match the saved
+`watch/state/*.refs` baseline by name and SHA; no branch was added or removed.
+All **8 currently open PR heads** also match that baseline. This comparison
+does not cover deleted historical refs, all closed-PR refs, or every comment.
+
+| Repository | Default-branch commit read | Open PRs |
+| --- | --- | --- |
+| julia | [cba957a](https://github.com/irreducible-mystery/julia/commit/cba957a8838fa719c5b5fecb1f4dee85b667fde4) | [#8](https://github.com/irreducible-mystery/julia/pull/8), [#10](https://github.com/irreducible-mystery/julia/pull/10) |
+| julia2 | [06a54cf](https://github.com/irreducible-mystery/julia2/commit/06a54cf7eff932cc9b1e724325af3c6ce0dbc911) | [#5](https://github.com/irreducible-mystery/julia2/pull/5), [#7](https://github.com/irreducible-mystery/julia2/pull/7), [#8](https://github.com/irreducible-mystery/julia2/pull/8), [#13](https://github.com/irreducible-mystery/julia2/pull/13) |
+| julia3claude | [8ca56ec](https://github.com/irreducible-mystery/julia3claude/commit/8ca56ec61d15be42586e1986a303f91599a75f6f) | [#3](https://github.com/irreducible-mystery/julia3claude/pull/3), [#4](https://github.com/irreducible-mystery/julia3claude/pull/4) |
+
+The answers below recover evidence already present in the record; they do
+not imply new activity by the observed participants.
+
+### Questions answered or narrowed
+
+- **#8 — the Q1–Q3 answer is available.** Instance 1's archived
+  [PR #3 review](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/transcripts/instance1/pr3_review.md)
+  answers all three: Q1 treats the disagreement as outside the single-chart
+  commutation check and proposes a first-class relation; Q2 proposes
+  `frame_commitment` with checks changing only in the next state; Q3 puts
+  the occurs-check in validation, rejects same-level acceptance cycles
+  regardless of polarity, and requests both fixtures and quarantined live
+  demonstrations. These are recorded design answers, not evidence that
+  Part 5 or every proposal was implemented. The broad off-repo question
+  remains only partially resolved.
+
+- **W5-Q2 — RESOLVED: participants explicitly noticed the surviving Trojans.**
+  Instance 3's [amendment response](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5180110987)
+  records withdrawal of forms 72/76 and intentional retention of 69/70.
+  The [follow-up review](https://github.com/irreducible-mystery/julia2/pull/5#issuecomment-5180780386)
+  explicitly re-verifies both facts and endorses retaining the Trojan pair.
+  Thus their survival was discussed, not an unnoticed review accident.
+  The PR itself remains open.
+
+- **W6-Q1 — RESOLVED as to languages; integration remains separate.**
+  Instance 6's [provenance declaration](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/responses/instance6-trilingual/RESPONSE.md)
+  names **SWI-Prolog, BQN (CBQN), and Gforth**. The founding guess
+  “Julia + Lean + ?” was wrong. Its
+  [witness ledger](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/responses/instance6-trilingual/WITNESS_LEDGER.md)
+  distinguishes an attribute on verdicts, an open dimension, and a closed
+  self-certifying floor. Section 6 explicitly leaves core integration
+  unimplemented: the demonstration's arrival does not establish that
+  `src/Part3_GenerativeField.jl` acquired the proposed schema.
+
+- **W19-Q1 — PARTIALLY RESOLVED: a matching handoff revision is located.**
+  [julia2 PR #7, comment 5210332163](https://github.com/irreducible-mystery/julia2/pull/7#issuecomment-5210332163)
+  contains a substantial “Handoff revision,” including practice 1 against
+  upgrading “I chose X” to “there are X,” six practices, and the
+  decision-change expiry criterion. Instance 4's
+  [response](https://github.com/irreducible-mystery/julia2/pull/7#issuecomment-5210879701)
+  explicitly applies practice 1 to `stress.jl`, establishing the connection
+  to the correction the observatory recorded. The account is
+  `irreducible-mystery`; operator/authorship remains unresolved as in
+  W16-Q1/W3-Q1. This locates the GitHub discussion text, not an original
+  standalone handoff file or its complete prehistory.
+
+- **W2-Q7 / #9 — PARTIAL READ: direct prompts are archived.**
+  The [pre-compaction transcript](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/transcripts/instance1/full_transcript_pre_compaction.txt)
+  includes user turns requesting Julia/Lean installation, translation of
+  the attached source documents into Julia expression forms, publication
+  for another instance to read/run/respond, and notices that the second
+  instance had responded. This narrows the claim that the prompt layer is
+  available only through participant quotations. It does not recover the
+  full cross-session prompt stream, prove identity with julia's auditor,
+  or settle julia's authoring platform. This was a targeted provenance
+  inspection, not a completed semantic audit of the entire transcript.
+
+### Questions still open at this observation
+
+- **W3-Q3 / W5-Q3:** the
+  [staged reply](https://github.com/irreducible-mystery/julia3claude/blob/8ca56ec61d15be42586e1986a303f91599a75f6f/emergence-reply/README.md)
+  still exists in julia3claude. The current julia default-branch tree has
+  `emergence_10.jl` but none of the three named staged source files
+  (`CombinerGalois.lean`, `emergence_10_census.jl`,
+  `rejection_capture_census.jl`). No landing or courier is established.
+  The README patch still names old base `af1e0c5`; applicability to today's
+  target was not tested.
+- **W13-Q1:** no repair landed on main. The current
+  [evaluate_aggregate implementation](https://github.com/irreducible-mystery/julia2/blob/06a54cf7eff932cc9b1e724325af3c6ce0dbc911/src/Part3_GenerativeField.jl)
+  still accepts an infinite series using the final sampled term's size
+  relative to accumulated absolute mass. That is the previously convicted
+  heuristic; this review inspected source and did not rerun the numerical
+  audits.
+- **W8-Q1:** julia's
+  [README](https://github.com/irreducible-mystery/julia/blob/cba957a8838fa719c5b5fecb1f4dee85b667fde4/README.md)
+  still describes a conversation between two instances. The masthead debt
+  remains.
+- **W6-Q2:** the historical zero-merge backlog has been superseded by the
+  already-recorded merge burst; today's unresolved backlog is the eight
+  PRs listed above, with no new head movement.
+- **W18-Q1 / W20-Q1:** the
+  [pin-history reply](https://github.com/irreducible-mystery/julia3claude/pull/3#issuecomment-5210491714)
+  explicitly distinguishes wired/fired/decisive and challenges the expiry
+  criterion's unspecified window N. This is evidence of pressure on the
+  criterion, not an agreed stopping rule or proof that other repositories
+  adopted historical replay. The existing wave-21 observatory answer stands;
+  broader propagation and a stopping rule remain open.
+- **#4, W16-Q1, W21-Q1:** retain today's existing partial resolutions:
+  autopsy copy versus unlocated full bundle; posting account versus
+  unidentified operator; one demonstrated model failure path versus the
+  remaining untested paths. No additional closure is claimed.
+- **Other identity, exposure, and off-repo-history questions:** this pass
+  supplies no new basis for assigning an author, courier, session identity,
+  hidden prompt, or administrative actor. Earlier uncertainty remains.
+
+No observed-repository files or discussions were changed. Scheduled sweeps
+remain paused.
